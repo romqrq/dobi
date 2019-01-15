@@ -1,0 +1,54 @@
+/*-------------------------------------------------Button Trigger*/
+
+.cn-button {
+    border: none;
+    background: none;
+    color: white;
+    text-align: Center;
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    height: 3.5em;
+    width: 3.5em;
+    background-color: #111;
+    position: fixed;
+    left: 50%;
+    margin-left: -1.75em;
+    bottom: -1.75em;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 11
+}
+
+.cn-button:hover,
+.cn-button:active,
+.cn-button:focus {
+    background-color: #222;
+}
+
+
+/*-------------------------------------------------NAV wrapper*/
+
+
+.csstransforms .cn-wrapper {
+    font-size: 1em;
+    width: 26em;
+    height: 26em;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10;
+    bottom: -13em;
+    left: 50%;
+    border-radius: 50%;
+    margin-left: -13em;
+    transform: scale(0.1);
+    transition: all .3s ease;
+}
+
+/* class applied to the container via JavaScript that will scale the navigation up */
+
+.csstransforms .opened-nav {
+    border-radius: 50%;
+    transform: scale(1);
+}
+
+/*-------------------------------------------------Page overlay menu*/
