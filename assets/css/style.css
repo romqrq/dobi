@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,300,400,500,600,700|Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    float: none;
+    background: url(../images/livingroom.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+/*------------------------------------------------Colors*/
+
+.ul-menu-color {
+    background-color: rgba(157, 205, 232, 0.4);
+    color: #fafafa;
+}
+
+
+/*------------------------------------------------Heading*/
+
+.header-box {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(157, 205, 232, 0.24);
+    height: 65px;
+}
+
+.heading-logo {
+    display: inline-block;
+    font-size: 65px;
+    font-family: "Righteous", sans-serif;
+    margin-top: -19px;
+    padding: 0;
+}
+
+.logo-text {
+    color: #365bce;
+}
+
+.logo-link {
+    margin: 0;
+    padding-left: 7px;
+}
+
+.hvr-bob:hover {
+    color: #5e80e8;
+}
+
+
+.heading-text-box {
+    font-family: "Roboto", sans-serif;
+}
+
+.heading-text-and-menu {
+    display: inline-block;
+    padding: 0;
+}
+
+.navbar {
+    padding: 3px 8px;
+    border: 1px solid transparent;
+}
+
+.heading-text {
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 20px;
+    display: block;
+    margin-top: 16px;
+}
+
+.heading-sub-text {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+
+}
+
+
+/*------------------------------------Navigation bar*/
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle {
+    position: relative;
+    padding: 9px 10px;
+    margin-top: 0;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: rgba(157, 205, 232, 0.24);
+    box-shadow: -1px 0px 14px 4px rgba(255, 255, 255, 0.28);
+    background-image: none;
+    border-radius: 4px;
+}
+
+.list-inline {
+    margin-left: -20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.list-inline li {
+    width: 19%;
+    min-width: 100px;
+    min-height: 25px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 27px;
+    height: 5px;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.navbar-collapse.in {
+    overflow-y: auto;
+    float: right;
+    margin-right: 22px;
+    margin-top: 87px;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    box-shadow: -1px 0px 14px 4px rgba(255, 255, 255, 0.28);
+    float: right;
+    margin-right: 22px;
+    margin-top: 87px;
+    border-radius: 5px;
+}
+
+.navbar-nav .list-inline a:hover {
+    background-color: #e611114;
+    color: lightgreen;
+}
+
+#navigationbar {
+    margin-right: 10px;
+    margin-top: 88px;
+    display: inline-block;
+    float: right;
+}
+
+
+/*-------------------------------------Media*/
+/*
+@media(min-width:641px) {
+    .main-site-nav li a {
+        padding-left: 15;
+    }
+}
+
+@media(min-width:768px) {
+    .main-site-nav li a {
+        padding-left: 15;
+    }
+}
+
+@media (min-width: 420px) {
+    .navbar-nav {
+    float: left;
+    margin: 0;
+}
+}
+*/
+
+@media (max-width: 420px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
