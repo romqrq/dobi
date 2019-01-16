@@ -48,6 +48,7 @@ body {
 
 .logo-text {
     color: #365bce;
+    text-shadow: -2px 3px 7px #00000078;
 }
 
 .logo-link {
@@ -62,6 +63,7 @@ body {
 
 .heading-text-box {
     font-family: "Roboto", sans-serif;
+    text-shadow: -2px 3px 7px #00000078;
 }
 
 .heading-text-and-menu {
@@ -176,4 +178,24 @@ body {
     margin-top: 88px;
     display: block;
     float: right;
+}
+
+
+/*-------------------------------------- Media*/
+
+@media (max-width: 768px){
+    .ls-navbar, #lsnavbar { 
+        display: none; 
+        
+    }
+}
+
+@media (min-width: 768px){
+    #signup-right {
+    display: none;
+    }
+
+    #navbar, #test2 {
+    display: none;
+    }
 }
