@@ -14,7 +14,7 @@
 
 <body class="container-fluid">
     <!--------------------------Header--------------------------------->
-    <header class="d-flex-row">
+    <header class="d-flex-row" id="main-header">
         <div class="row d-flex align-items-start header-box col-xs-12">
             <!--------------------------Dobi Logo--------------------------------->
             <div class="heading heading-logo col-xs-1">
@@ -92,6 +92,7 @@
         </div>
     </header>
     <!--------------------------/Header--------------------------------->
+    <div class="take-space col-xs-12"></div>
     <!--------------------------Content--------------------------------->
     <section class="d-flex-row promotion-content col-xs-12">
         <!--------------------------Sale--------------------------------->
@@ -100,11 +101,59 @@
             <a href="#" class="btn-invite-friend hvr-glow">Get your 20% discount!</a>
             <p>Each friend you refer and becomes our customer, you get 20% off your Bodi Membership for 3 whole months! It is cummulative, so more friends means more discount!</p>
         </div>
-        <!--------------------------Sale--------------------------------->
-        <div class="row quotes-box">
+        <!--------------------------Quotes--------------------------------->
+    </section>
+    <section class="quotes-box">
+        <div class="row quotes-header">
             <div class="col-xs-12">
                 <div class="quotes-header">
                     <h3>I Recommend Dobi!</h3>
+                </div>
+            </div>
+            <div class="row quotes-content">
+                <!--------------------------Quote 1--------------------------------->   
+                <div class="quote-item col-xs-3">
+                    <div class="media">
+                        <div class="picture-modal">
+                            <a data-toggle="modal" data-target="#quote-joejane"><img src="../assets/images/family.jpg" class="img-circle media-object" height=100 width=100></img></a>
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="quote">
+                                <p>It allowed us to monitor the internet usage by our children. When it comes bed-time, we just flick the switch on the app! That simple! We also feel they are safer as We can always check if they are using safe websites.</p>
+                                <p>John and Jane Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------Quote 2--------------------------------->   
+                <div class="quote-item col-xs-3">
+                    <div class="media">
+                        <div class="picture-modal">
+                            <a data-toggle="modal" data-target="#quote-robert"><img src="../assets/images/busy-man.jpg" class="img-circle media-object" height=100 width=100></img></a>
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="quote">
+                                <p>The convenience is incredible! They come to your house, ask what you need and there you have it! The app has incredible functionality yet it is brilliantly simple! You're literally two or three taps away from whatever you
+                                    need! </p>
+                                <p>Robert Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------Quote 3--------------------------------->    
+                <div class="quote-item col-xs-3">
+                    <div class="media">
+                        <div class="picture-modal">
+                            <a data-toggle="modal" data-target="#quote-janice"><img src="../assets/images/young-woman.jpg" class="img-circle media-object" height=100 width=100></img></a>
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="quote">
+                                <p>We got the guys from Dobi to automate my grannys house so we can take better care of her. Now we can check on her even during work and when we are away! And now she's much more independet and she can eve turn on and off
+                                    her appliances from the simplified app. </p>
+                                <p>Janice Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -131,6 +180,54 @@
         </div>
     </footer>
     <!--------------------------/Footer--------------------------------->
+    <!--------------------------Modals--------------------------------->
+    <div class="modal fade" id="quote-joejane" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Joe and Jane Doe</h4>
+                </div>
+                <div class="modal-body">
+                    <p>It allowed us to monitor the internet usage by our children. When it comes bed-time, we just flick the switch on the app! 
+                    That simple! We also feel they are safer as We can always check if they are using safe websites.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------Quote janice-->
+    <div class="modal fade" id="quote-robert" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Robert Doe</h4>
+                </div>
+                <div class="modal-body">
+                    <p>The convenience is incredible! They come to your house, ask what you need and there you have it! 
+                    The app has incredible functionality yet it is brilliantly simple! You're literally two or three taps away from whatever you need!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------Quote janice-->
+    <div class="modal fade" id="quote-janice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Janice Doe</h4>
+                </div>
+                <div class="modal-body">
+                    <p>We got the guys from Dobi to automate my grannys house so we can take better care of her. 
+                    Now we can check on her even during work and when we are away! And now she's much more independet 
+                    and she can eve turn on and off her appliances from the simplified app. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>

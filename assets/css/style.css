@@ -15,6 +15,14 @@ body {
     background-size: cover;
 }
 
+#main-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
 a {
     color: inherit;
 }
@@ -259,10 +267,14 @@ a {
 
 /*-------------------------------------- Main Content*/
 
+.take-space {
+    height: 90px;
+}
+
 .promotion-content {
     display: inline-block;
     padding: 0;
-    margin: 0;
+    margin-left: 1em;
 }
 
 .promotion-box {
@@ -274,23 +286,14 @@ a {
     font-family: "Righteous", sans-serif;
 }
 
-.container .jumbotron,
-.container-fluid .jumbotron {
-    padding-right: 15px;
-    padding-left: 15px;
-    border-radius: 6px;
-    max-width: 85vw;
-}
 
 .jumbotron {
     display: inline-block;
     background-color: rgba(45, 44, 44, 0.74)
 }
 
-
 .container-fluid .jumbotron {
-    margin-top: 7vh;
-    /*margin-left: 2vw;*/
+    margin-top: 3em;
     margin-bottom: 2vw;
     border-radius: 68px;
     max-width: 60vw;
@@ -322,6 +325,26 @@ a {
     text-decoration: none;
 }
 
+/*-------------------------------------- Quotes*/
+
+.quotes-box {
+    width: 100vw;
+}
+
+.quotes-header {
+    text-align: center;
+}
+
+.quotes-content{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.quote-item {
+    min-width: 30vw;
+    padding: 0px;
+}
 
 
 /*-------------------------------------- Footer*/
@@ -395,6 +418,8 @@ a {
 
     .promotion-content {
         text-align: center;
+        margin-top: 7vh;
+        margin-left: 0;
     }
     .container-fluid .jumbotron {
         margin-top: 0;
@@ -415,6 +440,9 @@ a {
         line-height: 1;
         max-width: 90vw;
     }
+        .media-body {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
@@ -426,4 +454,5 @@ a {
     #test2 {
         display: none;
     }
+    
 }
