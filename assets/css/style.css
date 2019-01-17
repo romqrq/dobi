@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,300,400,500,600,700|Roboto:100,300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 
+/*------------------------------------------------General*/
 
 body {
     font-family: "Roboto", sans-serif;
@@ -26,6 +27,11 @@ a {
 .hvr-back-pulse:hover {
     background-color: rgba(45, 187, 255, 0.46);
 }
+
+.uppercase {
+    text-transform: capitalize;
+}
+
 
 /*------------------------------------------------Colors*/
 
@@ -250,6 +256,52 @@ a {
 
 
 
+/*-------------------------------------- Footer*/
+
+#footer-details {
+    background-color: rgba(0, 0, 0, 0.85);
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(221, 232, 238);
+}
+
+.about-footer {
+    margin: 0 10px;
+}
+
+.follow-us-footer {
+    float: right;
+    padding: 0;
+    min-width: 200px;
+    margin-left: 26px;
+}
+
+.general-sub {
+    font-weight: 900;
+    font-size: 19px;
+    color: #fafafa;
+    margin-bottom: 0;
+}
+
+#social-links-footer {
+    margin: 0;
+    text-align: left;
+}
+
+
+#social-links-footer li {
+    width: 20%;
+    font-size: 31px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: rgb(216, 227, 233);
+    border: none;
+    background-color: transparent;
+}
+
+
+
 /*-------------------------------------- Media*/
 
 @media (max-width: 767px){
@@ -281,7 +333,11 @@ a {
     }
 }
 
-
-
+@media (max-width: 767px){
+    .follow-us-footer {
+    float: none;
+    display: inline-block;
+    }
+}
 
 
