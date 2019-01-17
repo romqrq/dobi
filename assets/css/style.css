@@ -14,10 +14,17 @@ body {
     background-size: cover;
 }
 
+a {
+    color: inherit;
+}
 
 .container-fluid {
     padding: 0;
     margin: 0;
+}
+
+.hvr-back-pulse:hover {
+    background-color: rgba(45, 187, 255, 0.46);
 }
 
 /*------------------------------------------------Colors*/
@@ -44,6 +51,7 @@ body {
     font-family: "Righteous", sans-serif;
     margin-top: -19px;
     padding: 0;
+    min-width: 145px;
 }
 
 .logo-text {
@@ -69,6 +77,7 @@ body {
 .heading-text-and-menu {
     display: inline-block;
     padding: 0;
+    min-width: 205px;
 }
 
 .navbar {
@@ -93,11 +102,33 @@ body {
 
 }
 
-.btn-signup {
+.btn-login {
     height: 50px;
     width: 100px;
 }
 
+.login-button-xs {
+    min-width: 81px;
+    height: 45px;
+    padding: 0;
+    float: right;
+    margin-right: 12px;
+    margin-top: 9px;
+    border: solid 2px;
+    border-color: rgba(0, 127, 197, 0.56);
+    border-radius: 35px;
+    text-align: center;
+    background-color: rgba(223, 243, 255, 0.55);
+}
+
+#button-xs {
+    padding: 0px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: rgb(25, 47, 115);
+}
 
 /*------------------------------------Navigation bar*/
 
@@ -117,27 +148,34 @@ body {
     margin-top: 0;
     margin-right: 15px;
     margin-bottom: 8px;
-    background-color: rgba(157, 205, 232, 0.24);
+    background-color: rgba(223, 243, 255, 0.55);
     box-shadow: -1px 0px 14px 4px rgba(255, 255, 255, 0.28);
     background-image: none;
-    border-radius: 4px;
+    border-radius: 10px;
+    border-width: 1.5px;
+    border-color: rgba(0, 127, 197, 0.56);
 }
 
 .list-inline {
-    margin-left: -20px;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    
+    margin-top: -14px;
+    width: 100%;
 }
+    
+
 
 .list-inline li {
-    width: 19%;
-    min-width: 100px;
-    min-height: 25px;
-    padding: 0;
+    width: 16.6666%;
+    padding: 0px;
     margin: 0;
-    border: 0;
+    border: solid 1px;
+    border-color: rgba(160, 160, 160, 0.56);
+    background-color: rgba(223, 243, 255, 0.72);
+    border-radius: 8px;
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(25, 47, 115);
 }
 
 .navbar-toggle .icon-bar {
@@ -168,9 +206,10 @@ body {
     border-radius: 5px;
 }
 
-.navbar-nav .list-inline a:hover {
-    background-color: #e611114;
-    color: lightgreen;
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgba(45, 187, 255, 0.46);
+    border-radius: inherit;
 }
 
 #navigationbar {
@@ -180,11 +219,41 @@ body {
     float: right;
 }
 
+#navbar-bigger {
+    width: 100vw;
+    margin-top: 65px;
+}
+
+#navbar {
+    margin-right: 15px;
+    margin-top: 88px;
+    padding: 0px;
+}
+
+#navbar>.list-inline {
+    text-align: center;
+    margin: 0;
+    width: 100%
+}
+
+#navbar>.list-inline li {
+    width: 100%;
+    border: solid 1px;
+    border-color: rgba(160, 160, 160, 0.56);
+    background-color: rgba(223, 243, 255, 0.72);
+    border-radius: 8px;
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(25, 47, 115);
+}
+
+
 
 /*-------------------------------------- Media*/
 
-@media (max-width: 768px){
-    .ls-navbar, #lsnavbar { 
+@media (max-width: 767px){
+    .navbar-bigger, #navbar-bigger { 
         display: none; 
         
     }
@@ -195,7 +264,24 @@ body {
     display: none;
     }
 
-    #navbar, #test2 {
+    #test2 {
     display: none;
     }
 }
+
+@media (max-width: 450px), (min-width: 768px) {
+    #login-button-xs {
+        display: none;
+    }
+}
+
+@media (min-width: 450px){
+    #hidden-signin {
+        display: none;
+    }
+}
+
+
+
+
+
