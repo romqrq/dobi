@@ -40,14 +40,25 @@ a {
     text-transform: capitalize;
 }
 
+.general-text {
+    font-family: "Roboto", sans-serif;
+}
+
+.general-button {
+    padding: 0;
+    border: solid 2px;
+    border-color: rgba(0, 127, 197, 0.56);
+    border-radius: 35px;
+    text-align: center;
+    background-color: rgba(223, 243, 255, 0.55);
+}
 
 /*------------------------------------------------Colors*/
 
-.ul-menu-color {
+/*.ul-menu-color {
     background-color: rgba(157, 205, 232, 0.4);
     color: #fafafa;
-}
-
+}*/
 
 /*------------------------------------------------Heading*/
 
@@ -359,6 +370,33 @@ a {
     text-align: center;
     margin: 30% auto;
 }*/
+
+/*-------------------------------------- Products*/
+
+/*.card-box {
+    width: 100%;
+    border: solid 1px;
+    margin: 2vw;
+}*/
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+
+.container {
+    padding: 2px 16px;
+}
+
 
 /*-------------------------------------- Footer*/
 
