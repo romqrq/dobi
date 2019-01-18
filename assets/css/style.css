@@ -400,71 +400,85 @@ a {
 /*-------------------------------------- Services*/
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */  
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
+
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
 /* Add a background color and some padding around the form */
+
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 /*-------------------------------------- Support*/
 
+.faqHeader {
+    font-size: 27px;
+    margin: 20px;
+}
 
-   .faqHeader {
-        font-size: 27px;
-        margin: 20px;
-    }
+.panel-heading [data-toggle="collapse"]:after {
+    font-family: 'Glyphicons Halflings';
+    content: ">";
+    /* "play" icon */
+    float: right;
+    color: #F58723;
+    font-size: 18px;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
 
-    .panel-heading [data-toggle="collapse"]:after {
-        font-family: 'Glyphicons Halflings';
-        content: "e072"; /* "play" icon */
-        float: right;
-        color: #F58723;
-        font-size: 18px;
-        line-height: 22px;
-        /* rotate "play" icon from > (right arrow) to down arrow */
-        -webkit-transform: rotate(-90deg);
-        -moz-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-        -o-transform: rotate(-90deg);
-        transform: rotate(-90deg);
-    }
+.panel-heading [data-toggle="collapse"].collapsed:after {
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #454444;
+}
 
-    .panel-heading [data-toggle="collapse"].collapsed:after {
-        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        transform: rotate(90deg);
-        color: #454444;
-    }
 /*-------------------------------------- Footer*/
 
 #footer-details {
