@@ -254,9 +254,9 @@ a {
 
 #navbar>.list-inline li {
     width: 100%;
-    border: solid 1px;
-    border-color: rgba(160, 160, 160, 0.56);
-    background-color: rgba(223, 243, 255, 0.72);
+    border: solid 2px;
+    border-color: rgb(125, 175, 207);
+    background-color: rgba(223, 243, 255, 0.94);
     border-radius: 8px;
     font-size: 21px;
     font-family: "Roboto", sans-serif;
@@ -272,9 +272,9 @@ a {
 }
 
 .promotion-content {
-    display: inline-block;
+    display: block;
     padding: 0;
-    margin-left: 1em;
+    text-align: center;
 }
 
 .promotion-box {
@@ -333,9 +333,11 @@ a {
 
 .quotes-header {
     text-align: center;
+    color: rgb(221, 232, 238);
+    text-shadow: -1px 2px 7px #000000;
 }
 
-.quotes-content{
+.quotes-content {
     margin: 0;
     padding: 0;
     display: inline-block;
@@ -346,6 +348,17 @@ a {
     padding: 0px;
 }
 
+/*.modal-dialog {
+    display: inline-block;
+    max-width: 85vw;
+    margin-top: 30vh;
+    margin-left: 1.2em;
+}*/
+
+/*.modal-box {
+    text-align: center;
+    margin: 30% auto;
+}*/
 
 /*-------------------------------------- Footer*/
 
@@ -400,6 +413,7 @@ a {
     #login-button-xs {
         display: none;
     }
+
 }
 
 @media (min-width: 450px) {
@@ -417,14 +431,9 @@ a {
     }
 
     .promotion-content {
-        text-align: center;
-        margin-top: 7vh;
-        margin-left: 0;
+        margin-top: 15vh;
     }
-    .container-fluid .jumbotron {
-        margin-top: 0;
-        max-width: 90vw;
-    }
+
     .follow-us-footer {
         float: none;
         display: inline-block;
@@ -440,12 +449,19 @@ a {
         line-height: 1;
         max-width: 90vw;
     }
-        .media-body {
+    .media-body {
         display: none;
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+    .container-fluid .jumbotron {
+        margin-top: 7vh;
+        max-width: 90vw;
+    }
+}
+
+@media (min-width: 767px) {
     .media-medium {}
     #signup-right {
         display: none;
@@ -454,5 +470,5 @@ a {
     #test2 {
         display: none;
     }
-    
+
 }

@@ -14,7 +14,7 @@
 
 <body class="container-fluid">
     <!--------------------------Header--------------------------------->
-    <header class="d-flex-row" id="main-header">
+    <header class="container-fluid" id="main-header">
         <div class="row d-flex align-items-start header-box col-xs-12">
             <!--------------------------Dobi Logo--------------------------------->
             <div class="heading heading-logo col-xs-1">
@@ -92,16 +92,20 @@
         </div>
     </header>
     <!--------------------------/Header--------------------------------->
-    <div class="take-space col-xs-12"></div>
     <!--------------------------Content--------------------------------->
-    <section class="d-flex-row promotion-content col-xs-12">
+    <div class="container-fluid promotion-content col-xs-12">
         <!--------------------------Sale--------------------------------->
-        <div class="row promotion-box jumbotron text-center">
-            <h1>+1 Friend = 20% LESS on your <a href="#" target="_blank">Bodi Membership!</a></h1>
-            <a href="#" class="btn-invite-friend hvr-glow">Get your 20% discount!</a>
-            <p>Each friend you refer and becomes our customer, you get 20% off your Bodi Membership for 3 whole months! It is cummulative, so more friends means more discount!</p>
+        <div class="row">
+            <div class="col-xs-12">
+                <section class="promotion-box jumbotron text-center">
+                    <h1>+1 Friend = 20% LESS on your <a href="#" target="_blank">Bodi Membership!</a></h1>
+                    <a href="#" class="btn-invite-friend hvr-glow">Get your 20% discount!</a>
+                    <p>Each friend you refer and becomes our customer, you get 20% off your Bodi Membership for 3 whole months! It is cummulative, so more friends means more discount!</p>
+                </section>
+            </div>
         </div>
-        <!--------------------------Quotes--------------------------------->
+    </div>
+    <!--------------------------Quotes--------------------------------->
     </section>
     <section class="quotes-box">
         <div class="row quotes-header">
@@ -111,7 +115,7 @@
                 </div>
             </div>
             <div class="row quotes-content">
-                <!--------------------------Quote 1--------------------------------->   
+                <!--------------------------Quote 1--------------------------------->
                 <div class="quote-item col-xs-3">
                     <div class="media">
                         <div class="picture-modal">
@@ -125,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-                <!--------------------------Quote 2--------------------------------->   
+                <!--------------------------Quote 2--------------------------------->
                 <div class="quote-item col-xs-3">
                     <div class="media">
                         <div class="picture-modal">
@@ -140,7 +144,7 @@
                         </div>
                     </div>
                 </div>
-                <!--------------------------Quote 3--------------------------------->    
+                <!--------------------------Quote 3--------------------------------->
                 <div class="quote-item col-xs-3">
                     <div class="media">
                         <div class="picture-modal">
@@ -181,47 +185,46 @@
     </footer>
     <!--------------------------/Footer--------------------------------->
     <!--------------------------Modals--------------------------------->
-    <div class="modal fade" id="quote-joejane" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Joe and Jane Doe</h4>
-                </div>
-                <div class="modal-body">
-                    <p>It allowed us to monitor the internet usage by our children. When it comes bed-time, we just flick the switch on the app! 
-                    That simple! We also feel they are safer as We can always check if they are using safe websites.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!------------------------------------Quote janice-->
-    <div class="modal fade" id="quote-robert" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Robert Doe</h4>
-                </div>
-                <div class="modal-body">
-                    <p>The convenience is incredible! They come to your house, ask what you need and there you have it! 
-                    The app has incredible functionality yet it is brilliantly simple! You're literally two or three taps away from whatever you need!</p>
+    <div class="modal-box">
+        <div class="modal fade" id="quote-joejane" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Joe and Jane Doe</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>It allowed us to monitor the internet usage by our children. When it comes bed-time, we just flick the switch on the app! That simple! We also feel they are safer as We can always check if they are using safe websites.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!------------------------------------Quote janice-->
-    <div class="modal fade" id="quote-janice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Janice Doe</h4>
+        <!------------------------------------Quote janice-->
+        <div class="modal fade" id="quote-robert" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Robert Doe</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>The convenience is incredible! They come to your house, ask what you need and there you have it! The app has incredible functionality yet it is brilliantly simple! You're literally two or three taps away from whatever you need!</p>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <p>We got the guys from Dobi to automate my grannys house so we can take better care of her. 
-                    Now we can check on her even during work and when we are away! And now she's much more independet 
-                    and she can eve turn on and off her appliances from the simplified app. </p>
+            </div>
+        </div>
+        <!------------------------------------Quote janice-->
+        <div class="modal fade" id="quote-janice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Janice Doe</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>We got the guys from Dobi to automate my grannys house so we can take better care of her. Now we can check on her even during work and when we are away! And now she's much more independet and she can eve turn on and off her appliances
+                            from the simplified app. </p>
+                    </div>
                 </div>
             </div>
         </div>
