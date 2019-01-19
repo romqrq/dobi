@@ -16,7 +16,7 @@ body {
 }
 
 #main-header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -44,13 +44,13 @@ a {
     font-family: "Roboto", sans-serif;
 }
 
-.general-button {
-    padding: 0;
+.button {
     border: solid 2px;
     border-color: rgba(0, 127, 197, 0.56);
     border-radius: 35px;
     text-align: center;
     background-color: rgba(223, 243, 255, 0.55);
+    color: rgb(25, 47, 115)
 }
 
 /*------------------------------------------------Colors*/
@@ -63,18 +63,16 @@ a {
 /*------------------------------------------------Heading*/
 
 .header-box {
-    position: absolute;
     padding: 0;
     margin: 0;
     background-color: rgba(157, 205, 232, 0.24);
-    height: 65px;
 }
 
 .heading-logo {
     display: inline-block;
     font-size: 65px;
     font-family: "Righteous", sans-serif;
-    margin-top: -19px;
+    margin-top: -7px;
     padding: 0;
     min-width: 145px;
 }
@@ -103,6 +101,8 @@ a {
     display: inline-block;
     padding: 0;
     min-width: 205px;
+    margin-top: 18px;
+    position: absolute;
 }
 
 .navbar {
@@ -138,12 +138,7 @@ a {
     padding: 0;
     float: right;
     margin-right: 12px;
-    margin-top: 9px;
-    border: solid 2px;
-    border-color: rgba(0, 127, 197, 0.56);
-    border-radius: 35px;
-    text-align: center;
-    background-color: rgba(223, 243, 255, 0.55);
+    margin-top: 15px;
 }
 
 #button-xs {
@@ -152,7 +147,6 @@ a {
     font-size: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
-    color: rgb(25, 47, 115);
 }
 
 /*------------------------------------Navigation bar*/
@@ -171,7 +165,7 @@ a {
     position: relative;
     padding: 9px 10px;
     margin-top: 0;
-    margin-right: 15px;
+    margin-right: 10px;
     margin-bottom: 8px;
     background-color: rgba(223, 243, 255, 0.55);
     box-shadow: -1px 0px 14px 4px rgba(255, 255, 255, 0.28);
@@ -183,7 +177,6 @@ a {
 
 .list-inline {
     text-align: center;
-    margin-top: -14px;
     width: 100%;
 }
 
@@ -240,8 +233,7 @@ a {
 
 #navigationbar {
     margin-right: 10px;
-    margin-top: 88px;
-    display: block;
+    margin-top: 14px;
     float: right;
 }
 
@@ -251,10 +243,10 @@ a {
 }
 
 #navbar {
-    margin-right: 26px;
-    margin-top: 88px;
+    margin-right: 24px;
+    margin-top: 67px;
     padding: 0px;
-    max-width: 73vw;
+    max-width: 96vw;
 }
 
 #navbar>.list-inline {
@@ -278,37 +270,28 @@ a {
 
 /*-------------------------------------- Main Content*/
 
-.take-space {
-    height: 90px;
-}
-
-.promotion-content {
-    display: block;
+.promotion-wrap {
     padding: 0;
     text-align: center;
 }
 
+.promotion-content {
+    margin-top: 14vh;
+}
+
 .promotion-box {
     display: inline-block;
-    margin: auto;
 }
 
 .promotion-box-header {
     font-family: "Righteous", sans-serif;
 }
 
-
-.jumbotron {
-    display: inline-block;
-    background-color: rgba(45, 44, 44, 0.74)
-}
-
 .container-fluid .jumbotron {
-    margin-top: 3em;
-    margin-bottom: 2vw;
+    margin: 0 7vw 2vh;
+    text-align: center;
     border-radius: 68px;
-    max-width: 60vw;
-    display: inline-block;
+    max-width: 85vw;
     color: rgb(221, 232, 238);
     background-color: rgba(45, 44, 44, 0.74);
 }
@@ -340,12 +323,22 @@ a {
 
 .quotes-box {
     width: 100vw;
+    display: inline-block;
+    background-color: rgba(37, 37, 37, 0.74);
+    padding: 2vh 0vw 2vw 6vw;
+    color: rgb(221, 232, 238);
+    text-shadow: -1px 2px 7px #000000;
 }
 
 .quotes-header {
-    text-align: center;
-    color: rgb(221, 232, 238);
     text-shadow: -1px 2px 7px #000000;
+    margin-bottom: 4vh;
+}
+
+.quote-image {
+    height: 20vw;
+    width: 20vw;
+    margin: 0 auto
 }
 
 .quotes-content {
@@ -484,6 +477,10 @@ input[type=submit]:hover {
 #footer-details {
     background-color: rgba(0, 0, 0, 0.85);
     display: inline-block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: rgb(221, 232, 238);
@@ -527,30 +524,48 @@ input[type=submit]:hover {
 
 /*-------------------------------------- Media*/
 
-@media (max-width: 450px),
+/*@media (max-width: 450px),
 (min-width: 768px) {
     #login-button-xs {
         display: none;
     }
 
-}
+}*/
 
-@media (min-width: 450px) {
+/*@media (min-width: 450px) {
     #hidden-signin {
         display: none;
     }
-}
+}*/
 
 @media (max-width: 767px) {
-    .media-small {}
+
     .navbar-bigger,
     #navbar-bigger {
         display: none;
-
     }
 
     .promotion-content {
         margin-top: 15vh;
+    }
+
+    .login-button-xs {
+        width: 47vw;
+        height: 45px;
+        position: fixed;
+        margin-left: -137px;
+        /*margin-top: 17vh;*/
+        margin-top: 109px;
+        border-radius: 10px;
+    }
+
+    .navbar-toggle {
+        /*margin-top: 15vh;*/
+        margin-top: 96px;
+        width: 47vw;
+        position: fixed;
+        margin-right: 25px;
+        right: 0;
     }
 
     .follow-us-footer {
@@ -571,17 +586,32 @@ input[type=submit]:hover {
     .media-body {
         display: none;
     }
+
+    .quote-image {
+        height: 27vw;
+        width: 27vw;
+    }
+
+    #footer-details {
+        position: static;
+    }
 }
 
 @media (max-width: 768px) {
     .container-fluid .jumbotron {
-        margin-top: 7vh;
+        margin-top: 4vh;
+        max-width: 90vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .container-fluid .jumbotron {
+        margin-top: 78px;
         max-width: 90vw;
     }
 }
 
 @media (min-width: 767px) {
-    .media-medium {}
     #signup-right {
         display: none;
     }
@@ -589,5 +619,13 @@ input[type=submit]:hover {
     #test2 {
         display: none;
     }
+    .promotion-wrap {
+        padding: 0;
+        text-align: left;
+    }
 
+    .small-devices {
+        display: none;
+    }
+    
 }

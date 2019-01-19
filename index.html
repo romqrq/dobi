@@ -15,7 +15,7 @@
 <body class="container-fluid">
     <!--------------------------Header--------------------------------->
     <header class="container-fluid" id="main-header">
-        <div class="row d-flex align-items-start header-box col-xs-12">
+        <div class="row header-box col-xs-12">
             <!--------------------------Dobi Logo--------------------------------->
             <div class="heading heading-logo col-xs-1">
                 <a class="logo-link" href="index.html">
@@ -29,8 +29,8 @@
                     <h4 class="heading-sub-text col-xs-12">Bespoke solutions in automation</h4>
                 </div>
             </div>
-            <!--------------------------Sign in button 450-768px--------------------------------->
-            <div class="login-button-xs col-xs-1 hvr-back-pulse" id="login-button-xs">
+            <!--------------------------Sign in button 768px--------------------------------->
+            <div class="login-button-xs  small-devices button col-xs-1 hvr-back-pulse" id="login-button-xs">
                 <a data-toggle="modal" data-target="#signUpModal" class="btn" id="button-xs">Sign In</a>
             </div>
             <!--------------------------Navbar +767px --------------------------------->
@@ -85,77 +85,76 @@
                 <li class="ul-menu-color menu-item">
                     <a href="aboutus.html" class="hvr-back-pulse"><span>About Us</span></a>
                 </li>
-                <li class="ul-menu-color menu-item" id="hidden-signin">
+                <!--<li class="ul-menu-color menu-item" id="hidden-signin">
                     <a data-toggle="modal" data-target="#signUpModal" class="hvr-back-pulse"><span>Sign In</span></a>
-                </li>
+                </li>-->
             </ul>
         </div>
     </header>
     <!--------------------------/Header--------------------------------->
     <!--------------------------Content--------------------------------->
-    <div class="container-fluid promotion-content col-xs-12">
+    <section class="container-fluid promotion-content col-xs-12">
         <!--------------------------Sale--------------------------------->
-        <div class="row">
-            <div class="col-xs-12">
-                <section class="promotion-box jumbotron text-center">
-                    <h1>+1 Friend = 20% LESS on your <a href="#" target="_blank">Bodi Membership!</a></h1>
-                    <a href="#" class="btn-invite-friend hvr-glow">Get your 20% discount!</a>
-                    <p>Each friend you refer and becomes our customer, you get 20% off your Bodi Membership for 3 whole months! It is cummulative, so more friends means more discount!</p>
-                </section>
+        <div class="col-xs-12 promotion-wrap">
+            <div class="promotion-box jumbotron">
+                <h1>+1 Friend = 20% LESS on your <a href="#" target="_blank">Bodi Membership!</a></h1>
+                <a href="#" class="btn-invite-friend hvr-glow">Get your 20% discount!</a>
+                <p>Each friend you refer and becomes our customer, you get 20% off your Bodi Membership for 3 whole months! It is cummulative, so more friends means more discount!</p>
             </div>
         </div>
-    </div>
+
+    </section>
     <!--------------------------Quotes--------------------------------->
     <section class="quotes-box">
-        <div class="row quotes-header">
-            <div class="col-xs-12">
-                <div class="quotes-header">
-                    <h3>I Recommend Dobi!</h3>
+
+        <div class="col-xs-12">
+            <div class="quotes-header">
+                <h1>I Recommend Dobi!</h1>
+                <h3 class="small-devices">Tap on the pictures and find out how we at Dobi improved their lives!</h3>
+            </div>
+        </div>
+        <div class="row quotes-content">
+            <!--------------------------Quote 1--------------------------------->
+            <div class="quote-item col-xs-3">
+                <div class="media">
+                    <div class="picture-modal">
+                        <a data-toggle="modal" data-target="#quote-joejane"><img src="../assets/images/family.jpg" class="quote-image img-circle media-object"></img></a>
+                    </div>
+                    <div class="media-body">
+                        <blockquote class="quote">
+                            <p>It allowed us to monitor the internet usage by our children. When it comes bed-time, we just flick the switch on the app! That simple! We also feel they are safer as We can always check if they are using safe websites.</p>
+                            <p>John and Jane Doe</p>
+                        </blockquote>
+                    </div>
                 </div>
             </div>
-            <div class="row quotes-content">
-                <!--------------------------Quote 1--------------------------------->
-                <div class="quote-item col-xs-3">
-                    <div class="media">
-                        <div class="picture-modal">
-                            <a data-toggle="modal" data-target="#quote-joejane"><img src="../assets/images/family.jpg" class="img-circle media-object" height=100 width=100></img></a>
-                        </div>
-                        <div class="media-body">
-                            <blockquote class="quote">
-                                <p>It allowed us to monitor the internet usage by our children. When it comes bed-time, we just flick the switch on the app! That simple! We also feel they are safer as We can always check if they are using safe websites.</p>
-                                <p>John and Jane Doe</p>
-                            </blockquote>
-                        </div>
+            <!--------------------------Quote 2--------------------------------->
+            <div class="quote-item col-xs-3">
+                <div class="media">
+                    <div class="picture-modal">
+                        <a data-toggle="modal" data-target="#quote-robert"><img src="../assets/images/busy-man.jpg" class="quote-image img-circle media-object"></img></a>
+                    </div>
+                    <div class="media-body">
+                        <blockquote class="quote">
+                            <p>The convenience is incredible! They come to your house, ask what you need and there you have it! The app has incredible functionality yet it is brilliantly simple! You're literally two or three taps away from whatever you need!
+                                </p>
+                            <p>Robert Doe</p>
+                        </blockquote>
                     </div>
                 </div>
-                <!--------------------------Quote 2--------------------------------->
-                <div class="quote-item col-xs-3">
-                    <div class="media">
-                        <div class="picture-modal">
-                            <a data-toggle="modal" data-target="#quote-robert"><img src="../assets/images/busy-man.jpg" class="img-circle media-object" height=100 width=100></img></a>
-                        </div>
-                        <div class="media-body">
-                            <blockquote class="quote">
-                                <p>The convenience is incredible! They come to your house, ask what you need and there you have it! The app has incredible functionality yet it is brilliantly simple! You're literally two or three taps away from whatever you
-                                    need! </p>
-                                <p>Robert Doe</p>
-                            </blockquote>
-                        </div>
+            </div>
+            <!--------------------------Quote 3--------------------------------->
+            <div class="quote-item col-xs-3">
+                <div class="media">
+                    <div class="picture-modal">
+                        <a data-toggle="modal" data-target="#quote-janice"><img src="../assets/images/young-woman.jpg" class="quote-image img-circle media-object"></img></a>
                     </div>
-                </div>
-                <!--------------------------Quote 3--------------------------------->
-                <div class="quote-item col-xs-3">
-                    <div class="media">
-                        <div class="picture-modal">
-                            <a data-toggle="modal" data-target="#quote-janice"><img src="../assets/images/young-woman.jpg" class="img-circle media-object" height=100 width=100></img></a>
-                        </div>
-                        <div class="media-body">
-                            <blockquote class="quote">
-                                <p>We got the guys from Dobi to automate my grannys house so we can take better care of her. Now we can check on her even during work and when we are away! And now she's much more independet and she can eve turn on and off
-                                    her appliances from the simplified app. </p>
-                                <p>Janice Doe</p>
-                            </blockquote>
-                        </div>
+                    <div class="media-body">
+                        <blockquote class="quote">
+                            <p>We got the guys from Dobi to automate my grannys house so we can take better care of her. Now we can check on her even during work and when we are away! And now she's much more independet and she can eve turn on and off her
+                                appliances from the simplified app. </p>
+                            <p>Janice Doe</p>
+                        </blockquote>
                     </div>
                 </div>
             </div>
