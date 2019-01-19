@@ -15,7 +15,7 @@
 <body class="container-fluid">
     <!--------------------------Header--------------------------------->
     <header class="container-fluid" id="main-header">
-        <div class="row d-flex align-items-start header-box col-xs-12">
+        <div class="row header-box col-xs-12">
             <!--------------------------Dobi Logo--------------------------------->
             <div class="heading heading-logo col-xs-1">
                 <a class="logo-link" href="index.html">
@@ -29,30 +29,30 @@
                     <h4 class="heading-sub-text col-xs-12">Bespoke solutions in automation</h4>
                 </div>
             </div>
-            <!--------------------------Sign in button 450-768px--------------------------------->
-            <div class="login-button-xs col-xs-1 hvr-back-pulse" id="login-button-xs">
-                <a data-toggle="modal" data-target="#signUpModal" class="btn" id="button-xs">Sign In</a>
+            <!--------------------------Sign UP button 768px--------------------------------->
+            <div class="btn button signup-button-xs col-xs-1 hvr-back-pulse" id="signup-button-xs">
+                <a data-toggle="modal" data-target="#signUpModal" id="button-xs">Sign Up!</a>
             </div>
             <!--------------------------Navbar +767px --------------------------------->
             <div class="navbar-bigger" id="navbar-bigger">
                 <ul class="nav navbar-nav list-inline">
-                    <li class="ul-menu-color menu-item">
+                    <li class="button btn menu-item">
                         <a href="index.html" class="hvr-back-pulse"><span>Home</span></a>
                     </li>
-                    <li class="ul-menu-color menu-item">
+                    <li class="button btn menu-item">
                         <a href="products.html" class="hvr-back-pulse"><span>Products</span></a>
                     </li>
-                    <li class="ul-menu-color menu-item">
+                    <li class="button btn menu-item">
                         <a href="services.html" class="hvr-back-pulse"><span>Services</span></a>
                     </li>
-                    <li class="ul-menu-color menu-item">
+                    <li class="button btn menu-item">
                         <a href="support.html" class="hvr-back-pulse"><span>Support</span></a>
                     </li>
-                    <li class="ul-menu-color menu-item">
+                    <li class="button btn menu-item">
                         <a href="aboutus.html" class="hvr-back-pulse"><span>About Us</span></a>
                     </li>
-                    <li class="ul-menu-color menu-item">
-                        <a data-toggle="modal" data-target="#signUpModal" class="hvr-back-pulse"><span>Sign In</span></a>
+                    <li class="button btn menu-item">
+                        <a data-toggle="modal" data-target="#signInModal" class="hvr-back-pulse"><span>Sign In</span></a>
                     </li>
                 </ul>
             </div>
@@ -60,33 +60,35 @@
         <!--------------------------Collapsible button + menu --------------------------------->
         <div class="row flex-row" id="navigationbar">
             <div class="collapsed-button back-pulse">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-                    <span class="sr-only"></span>
+                <button type="button" class="btn button navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                    <span>Menu</span>
+                    <!--<span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>-->
+                    
                 </button>
             </div>
         </div>
         <div class="navbar-collapse collapse" id="navbar">
             <ul class="nav navbar-nav list-inline clearfix" id="test2">
-                <li class="ul-menu-color menu-item">
+                <li class="button btn menu-item">
                     <a href="index.html" class="hvr-back-pulse"><span>Home</span></a>
                 </li>
-                <li class="ul-menu-color menu-item">
+                <li class="button btn menu-item">
                     <a href="products.html" class="hvr-back-pulse"><span>Products</span></a>
                 </li>
-                <li class="ul-menu-color menu-item">
+                <li class="button btn menu-item">
                     <a href="services.html" class="hvr-back-pulse"><span>Services</span></a>
                 </li>
-                <li class="ul-menu-color menu-item">
+                <li class="button btn menu-item">
                     <a href="support.html" class="hvr-back-pulse"><span>Support</span></a>
                 </li>
-                <li class="ul-menu-color menu-item">
+                <li class="button btn menu-item">
                     <a href="aboutus.html" class="hvr-back-pulse"><span>About Us</span></a>
                 </li>
-                <li class="ul-menu-color menu-item" id="hidden-signin">
-                    <a data-toggle="modal" data-target="#signUpModal" class="hvr-back-pulse"><span>Sign In</span></a>
+                <li class="button btn menu-item" id="hidden-signin">
+                    <a data-toggle="modal" data-target="#signInModal" class="hvr-back-pulse"><span>Sign In</span></a>
                 </li>
             </ul>
         </div>
@@ -124,17 +126,56 @@
     </footer>
     <!--------------------------/Footer--------------------------------->
     <!--------------------------Modals--------------------------------->
-    <div class="modal-box">
-        <div class="modal fade" id="quote-joejane" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Joe and Jane Doe</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>It allowed us to monitor the internet usage by our children. When it comes bed-time, we just flick the switch on the app! That simple! We also feel they are safer as We can always check if they are using safe websites.</p>
-                    </div>
+        <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-signin" id="myModalLabel">Welcome back! Please Sign in</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn button">Sign in</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Sign in or Sign up!</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="password-check">Repeat Password</label>
+                            <input type="password" class="form-control" id="password-check" placeholder="Repeat Your Password">
+                        </div>
+                        <button type="submit" class="btn button">Sign Up!</button>
+                    </form>
                 </div>
             </div>
         </div>
