@@ -398,6 +398,19 @@ a {
 
 /*-------------------------------------- Services*/
 
+.pricing-form {
+    width: 80%;
+    margin: 20vh 5vh 12vh;
+}
+
+.form-services {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.73);
+    padding: 20px 37px;
+    width: 50vh;
+    color: #ffffff;
+}
+
 /* Style inputs with type="text", select elements and textareas */
 
 input[type=text],
