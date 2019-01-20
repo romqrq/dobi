@@ -59,8 +59,6 @@ a {
     width: 100vw;
 }
 
-/*------------------------------------------------Colors*/
-
 /*------------------------------------------------Heading*/
 
 .header-box {
@@ -330,7 +328,6 @@ a {
 }
 
 .card {
-    /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     display: inline-block;
@@ -386,17 +383,12 @@ a {
     width: 20vh;
     float: right;
     background-color: rgba(208, 240, 255, 0.86);
-    font-size: 40px;
+    font-size: 35px;
 }
-
-
-/* On mouse-over, add a deeper shadow */
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-
-/* Add some padding inside the card container */
 
 .container {
     padding: 2px 16px;
@@ -454,20 +446,14 @@ input[type=text],
 select,
 textarea {
     width: 100%;
-    /* Full width */
     padding: 12px;
-    /* Some padding */
     border: 1px solid #ccc;
-    /* Gray border */
     border-radius: 10px;
-    /* Rounded borders */
     box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
     margin-top: -5px;
-    /* Add a top margin */
     margin-bottom: 3px;
-    /* Bottom margin */
-    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 .col-75 select {
@@ -508,12 +494,13 @@ textarea {
 }
 
 .panel-heading [data-toggle="collapse"]:after {
-    font-family: 'Glyphicons Halflings';
+    font-family: 'Roboto';
+    font-weight: 900;
     content: ">";
     /* "play" icon */
     float: right;
     color: #F58723;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 22px;
     /* rotate "play" icon from > (right arrow) to down arrow */
     -webkit-transform: rotate(-90deg);
@@ -532,6 +519,28 @@ textarea {
     transform: rotate(90deg);
     color: #454444;
 }
+
+/*-------------------------------------- About us*/
+
+.aboutus-founder {
+    margin: 15vh 0 7vh;
+}
+
+.founder-text {
+    color: rgb(221, 232, 238);
+    background-color: rgba(0, 0, 0, 0.73);
+    padding: 5vh 2vh;
+}
+
+.founder-text img {
+    float: left;
+    width: 20vh;
+    margin: 10px;
+}
+
+
+
+
 
 /*-------------------------------------- Footer*/
 
@@ -717,11 +726,22 @@ textarea {
         height: 35vh;
         min-height: 229px;
         background-color: rgba(250, 250, 250, 0.9);
+        color: rgb(2, 36, 80);
     }
+
+    .alert-warning {
+        margin: 24vh 0 3vh;
+    }
+
+    .aboutus-founder {
+        margin: 44vw 0 7vh;
+    }
+
 
     #footer-details {
         position: static;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -765,6 +785,3 @@ textarea {
         display: none;
     }
 }
-
-
-/*-------------------------------------- Media DESKTOP*/
