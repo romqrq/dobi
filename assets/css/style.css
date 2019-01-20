@@ -326,7 +326,7 @@ a {
 /*-------------------------------------- Products*/
 
 .products-content {
-    margin: 5vh auto;
+    margin: 5vh 0 12vh;
 }
 
 .card {
@@ -406,6 +406,7 @@ a {
 
 .services-video-box {
     padding: 0;
+    margin-top: 17vh;
 }
 
 .video-demo {
@@ -413,10 +414,21 @@ a {
     margin: 3vh auto;
 }
 
+.services-form-box {
+    background-color: rgba(0, 0, 0, 0.73);
+    padding: 0 0 5vh;
+    margin: 7vh 0 10vh;
+}
+
+.support-form-box {
+    background-color: rgba(0, 0, 0, 0.73);
+    padding: 0 0 8vh;
+    margin: 7vh 0 0;
+}
 
 .form-services {
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.73);
+
     padding: 20px 37px;
     width: 50vh;
     margin: 3vh auto;
@@ -425,8 +437,10 @@ a {
 }
 
 .form-services .form-title {
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin: 1vh 0 4vh;
 }
 
 .form-services label {
@@ -467,15 +481,30 @@ textarea {
 
 /*-------------------------------------- Support*/
 
-.faq-box {
-    width: 100%;
-    color: rgb(221, 232, 238);
-    background-color: rgba(0, 0, 0, 0.73);
+.faq-alert-box {
+    width: 90vw;
+    margin: 0 auto;
 }
 
-.faqHeader {
-    font-size: 27px;
-    margin: 20px;
+.alert-warning {
+    margin: 15vh 0 3vh;
+}
+
+.faq-box {
+    width: 100%;
+    margin-bottom: 2vh;
+    background-color: rgba(0, 0, 0, 0.73);
+    border-radius: 10px;
+    padding: 2vh;
+
+}
+
+.faq-header {
+    font-size: 50px;
+    margin: 5px 0 30px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
 }
 
 .panel-heading [data-toggle="collapse"]:after {
@@ -711,6 +740,11 @@ textarea {
 }
 
 @media (min-width: 767px) {
+
+    #main-header {
+        height: 140px;
+    }
+
     #signup-right {
         display: none;
     }
