@@ -369,7 +369,7 @@ a {
 .price {
     display: block;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: -5px
 }
 
@@ -378,9 +378,11 @@ a {
 }
 
 .product-button {
-    margin: 45px 18px;
-    height: 113px;
-    width: 156px;
+    margin-top: 2.5vh;
+    margin-right: 2vh;
+    height: 15vh;
+    width: 20vh;
+    float: right;
 }
 
 
@@ -398,20 +400,42 @@ a {
 
 /*-------------------------------------- Services*/
 
-.pricing-form {
-    width: 80%;
-    margin: 20vh 5vh 12vh;
+.spacetaker-header {
+    width: 100vw;
+    height: 15vh;
 }
+
+.services-video-box {
+    padding: 0;
+}
+
+.video-demo {
+    width: 90%;
+    margin: 3vh auto;
+}
+
 
 .form-services {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.73);
     padding: 20px 37px;
     width: 50vh;
+    margin: 3vh auto;
     color: #ffffff;
+    text-align: left;
 }
 
-/* Style inputs with type="text", select elements and textareas */
+.form-services .form-title {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.form-services label {
+    font-size: 18px;
+}
+
+
+
 
 input[type=text],
 select,
@@ -422,41 +446,25 @@ textarea {
     /* Some padding */
     border: 1px solid #ccc;
     /* Gray border */
-    border-radius: 4px;
+    border-radius: 10px;
     /* Rounded borders */
     box-sizing: border-box;
     /* Make sure that padding and width stays in place */
-    margin-top: 6px;
+    margin-top: -5px;
     /* Add a top margin */
-    margin-bottom: 16px;
+    margin-bottom: 3px;
     /* Bottom margin */
     resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
-
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+.col-75 select {
+    color: black;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-
-input[type=submit]:hover {
-    background-color: #45a049;
+.submit-btn input {
+    background-color: rgba(208, 240, 255, 0.86);
 }
 
-/* Add a background color and some padding around the form */
-
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
 
 /*-------------------------------------- Support*/
 
@@ -560,6 +568,7 @@ input[type=submit]:hover {
         margin-top: 15vh;
     }
 
+
     .signup-button-xs {
         width: 47vw;
         height: 42px;
@@ -616,6 +625,7 @@ input[type=submit]:hover {
 
     .product-image img {
         height: 15vh;
+        border-bottom-left-radius: 0px;
         border-top-left-radius: 10px;
     }
 
@@ -624,6 +634,7 @@ input[type=submit]:hover {
         padding-right: 0;
         padding-bottom: 0;
         width: 55%;
+        max-height: 139px;
     }
 
     .product-description h1 {
@@ -640,7 +651,6 @@ input[type=submit]:hover {
     .product-description .price {
         font-weight: 500;
         font-size: 14px;
-        margin: 8px 0;
     }
 
     .button-small-devices {
