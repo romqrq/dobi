@@ -258,7 +258,7 @@ a:hover {
 }
 
 #navbar {
-    margin: 67px 7px;
+    margin: 67px 4px;
     padding: 0px;
 }
 
@@ -367,7 +367,6 @@ a:hover {
 
 .products-content {
     margin: 5vh 0 12vh;
-    text-align: center;
 }
 
 .support-image {
@@ -465,7 +464,6 @@ a:hover {
 
 .services-form-box {
     background-color: rgba(0, 0, 0, 0.73);
-    padding: 0 0 5vh;
     margin: 7vh 0 10vh;
 }
 
@@ -476,12 +474,9 @@ a:hover {
 
 .form-services {
     border-radius: 10px;
-
     padding: 20px 37px;
-    width: 85vw;
-    margin: 3vh auto;
+    margin: 3vh 0;
     color: #ffffff;
-    text-align: left;
 }
 
 .form-services .form-title {
@@ -742,12 +737,6 @@ textarea {
     .button-small-devices button {
         height: 70px;
         width: 100%;
-    }
-
-    .form-services {
-        border-radius: 10px;
-        padding: 20px 4px;
-        margin: 0 auto;
     }
 
     .form-services .form-title {
