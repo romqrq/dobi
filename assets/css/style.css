@@ -272,10 +272,6 @@ a:hover {
     text-align: center;
 }
 
-.promotion-content {
-    margin-top: 170px;
-}
-
 .promotion-box {
     display: inline-block;
 }
@@ -562,7 +558,8 @@ textarea {
 .founder-text {
     color: rgb(221, 232, 238);
     background-color: rgba(0, 0, 0, 0.73);
-    padding: 5vh 2vh;
+    padding: 5vh;
+    text-align: justify;
 }
 
 .founder-text img {
@@ -641,7 +638,7 @@ textarea {
     }
 
     .promotion-content {
-        margin-top: 15vh;
+        margin: 9vh auto;
     }
 
 
