@@ -466,6 +466,7 @@ a:hover {
 .services-form-box {
     background-color: rgba(0, 0, 0, 0.73);
     margin: 7vh 0 10vh;
+    padding: 0;
 }
 
 .support-form-box {
@@ -475,7 +476,7 @@ a:hover {
 
 .form-services {
     border-radius: 10px;
-    padding: 20px 37px;
+    padding: 20px 0;
     margin: 3vh 0;
     color: #ffffff;
 }
@@ -820,6 +821,10 @@ textarea {
         font-size: 22px
     }
 
+    .form-services {
+        border-radius: 10px;
+        padding: 2vh 5vh 5vh;
+    }
 }
 
 @media (min-width: 1000px) {
