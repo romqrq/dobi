@@ -67,7 +67,12 @@ a:hover {
 }
 
 .general-text {
-    font-family: "Roboto", sans-serif;
+    color: rgb(221, 232, 238);
+    background-color: rgba(0, 0, 0, 0.73);
+    padding: 5vh;
+    text-align: justify;
+    margin: 5vh 0;
+
 }
 
 .button {
@@ -88,6 +93,9 @@ a:hover {
     height: 140px;
     width: 100vw;
 }
+
+
+
 
 /*------------------------------------------------Heading*/
 
@@ -361,6 +369,11 @@ a:hover {
     text-align: center;
 }
 
+.support-image {
+    float: right;
+    width: 20vh;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -439,6 +452,14 @@ a:hover {
 .video-demo {
     width: 90%;
     margin: 3vh auto;
+}
+
+.services-text {
+    background-color: transparent;
+    margin: 3vh 0 0;
+    color: rgb(221, 232, 238);
+    padding: 5vh;
+    text-align: justify;
 }
 
 .services-form-box {
@@ -563,12 +584,9 @@ textarea {
     margin: 8vh 0;
 }
 
-.aboutus-text {
-    color: rgb(221, 232, 238);
-    background-color: rgba(0, 0, 0, 0.73);
-    padding: 10vh 5vh;
-    text-align: justify;
-    margin: 5vh 0;
+#tesla {
+    padding-bottom: 15vh;
+    margin-bottom: 0;
 }
 
 .aboutus-text img {
@@ -694,8 +712,8 @@ textarea {
         padding-top: 0px;
         padding-right: 0;
         padding-bottom: 0;
-        width: 55%;
-        max-height: 139px;
+        width: 60%;
+        max-height: 56%;
     }
 
     .product-description h1 {
@@ -764,10 +782,6 @@ textarea {
 }
 
 @media (min-width: 767px) {
-
-    .button {
-        background-color: rgba(208, 240, 255, 0.54);
-    }
 
     #main-header {
         height: 140px;
