@@ -269,8 +269,9 @@ a:hover {
 }
 
 #navbar>.list-inline li {
-    width: 100%;
-    display: inline-block;
+    display: block;
+    width: 45vw;
+    margin-right: 2vw;
 }
 
 /*-------------------------------------- Main Content*/
@@ -660,7 +661,7 @@ textarea {
     }
 
     .signup-button-xs {
-        width: 46vw;
+        width: 45vw;
         height: 42px;
         position: fixed;
         margin: 0px;
@@ -670,7 +671,7 @@ textarea {
     }
 
     .navbar-toggle {
-        width: 46vw;
+        width: 45vw;
         position: fixed;
         top: 109px;
         margin: 0px;
@@ -794,11 +795,7 @@ textarea {
     #test2 {
         display: none;
     }
-    .promotion-wrap {
-        padding: 0;
-        text-align: left;
-    }
-
+    
     .small-devices {
         display: none;
     }
