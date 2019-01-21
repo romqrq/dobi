@@ -820,6 +820,13 @@ textarea {
     #navigationbar {
         display: none;
     }
+    
+    #quote-joejane,
+    #quote-robert,
+    #quote-janice {
+        display: none;
+    }
+
 }
 
 @media (min-width: 1000px) {
