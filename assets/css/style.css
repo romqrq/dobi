@@ -75,7 +75,7 @@ a:hover {
     border-color: rgb(0, 101, 156);
     border-radius: 5px;
     text-align: center;
-    background-color: rgba(208, 240, 255, 0.54);
+    background-color: rgba(208, 237, 251, 0.91);
     color: rgb(2, 36, 80);
     font-family: inherit;
     font-size: 21px;
@@ -332,7 +332,7 @@ a:hover {
     font-weight: 500;
 }
 
-.quotes-box{
+.quotes-box {
     padding: 0;
 }
 
@@ -467,14 +467,12 @@ a:hover {
     font-weight: 600;
     text-align: center;
     margin: 1vh 0 4vh;
+    color: rgb(221, 232, 238);
 }
 
 .form-services label {
     font-size: 18px;
 }
-
-
-
 
 input[type=text],
 select,
@@ -522,7 +520,7 @@ textarea {
 .faq-header {
     font-size: 50px;
     margin: 5px 0 30px;
-    color: #ffffff;
+    color: rgb(221, 232, 238);
     text-align: center;
     font-weight: 600;
 }
@@ -556,25 +554,28 @@ textarea {
 
 /*-------------------------------------- About us*/
 
-.aboutus-founder {
-    margin: 24vh 0 5vw;
+.home-automation {
+    float: right !important;
+    width: 40vw!important;
 }
 
-.founder-text {
+.aboutus-company {
+    margin: 8vh 0;
+}
+
+.aboutus-text {
     color: rgb(221, 232, 238);
     background-color: rgba(0, 0, 0, 0.73);
-    padding: 5vh;
+    padding: 10vh 5vh;
     text-align: justify;
+    margin: 5vh 0;
 }
 
-.founder-text img {
+.aboutus-text img {
     float: left;
-    width: 20vh;
+    width: 20vw;
     margin: 10px;
 }
-
-
-
 
 
 /*-------------------------------------- Footer*/
@@ -598,10 +599,11 @@ textarea {
 }
 
 .follow-us-footer {
-    float: right;
     padding: 0;
     min-width: 200px;
     margin-left: 26px;
+    float: none;
+    display: inline-block;
 }
 
 .general-sub {
@@ -633,9 +635,6 @@ textarea {
 
 @media (max-width: 767px) {
 
-    .button {
-        background-color: rgba(208, 237, 251, 0.91);
-    }
 
     .navbar-bigger,
     #navbar-bigger {
@@ -659,11 +658,6 @@ textarea {
         margin: 0px;
         padding: 4px;
         right: 3vw;
-    }
-
-    .follow-us-footer {
-        float: none;
-        display: inline-block;
     }
 
     .jumbotron h1 {
@@ -771,6 +765,10 @@ textarea {
 
 @media (min-width: 767px) {
 
+    .button {
+        background-color: rgba(208, 240, 255, 0.54);
+    }
+
     #main-header {
         height: 140px;
     }
@@ -814,33 +812,33 @@ textarea {
     }
 }
 
-    @media (min-width: 1000px) {
-        .product-button {
-            margin-top: 5vh;
-            margin-right: 4vh;
-            height: 15vh;
-            width: 20vw;
-            float: right;
-            font-size: 30px;
-        }
-
-        .product-card {
-            text-align: left;
-            width: 85%;
-        }
-
-        .product-description {
-            width: 30vw;
-        }
+@media (min-width: 1000px) {
+    .product-button {
+        margin-top: 5vh;
+        margin-right: 4vh;
+        height: 15vh;
+        width: 20vw;
+        float: right;
+        font-size: 30px;
     }
 
-
-    @media (min-width: 767) and (max-width: 1000px) {
-        .product-button {
-            margin-top: 5vh;
-            margin-right: 2vh;
-            height: 15vh;
-            width: 15vh;
-            font-size: 26px;
-        }
+    .product-card {
+        text-align: left;
+        width: 85%;
     }
+
+    .product-description {
+        width: 30vw;
+    }
+}
+
+
+@media (min-width: 767) and (max-width: 1000px) {
+    .product-button {
+        margin-top: 5vh;
+        margin-right: 2vh;
+        height: 15vh;
+        width: 15vh;
+        font-size: 26px;
+    }
+}
