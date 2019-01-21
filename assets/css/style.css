@@ -73,7 +73,7 @@ a:hover {
 .button {
     border: solid 2px;
     border-color: rgb(0, 101, 156);
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     background-color: rgba(208, 240, 255, 0.54);
     color: rgb(2, 36, 80);
@@ -355,6 +355,7 @@ a:hover {
 
 .products-content {
     margin: 5vh 0 12vh;
+    text-align: center;
 }
 
 .card {
@@ -366,9 +367,10 @@ a:hover {
 }
 
 .product-card {
+    text-align: left;
     width: 100%;
     padding: 0;
-    max-height: 20vh;
+    max-height: 25vh;
     color: rgb(221, 232, 238);
     background-color: rgba(0, 0, 0, 0.73);
 }
@@ -379,7 +381,7 @@ a:hover {
 }
 
 .product-image img {
-    height: 20vh;
+    height: 25vh;
     width: 100%;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -407,13 +409,13 @@ a:hover {
 }
 
 .product-button {
-    margin-top: 2.5vh;
+    margin-top: 5vh;
     margin-right: 2vh;
     height: 15vh;
     width: 20vh;
     float: right;
     background-color: rgba(208, 240, 255, 0.86);
-    font-size: 35px;
+    font-size: 28px;
 }
 
 .card:hover {
@@ -451,7 +453,7 @@ a:hover {
     border-radius: 10px;
 
     padding: 20px 37px;
-    width: 50vh;
+    width: 85vw;
     margin: 3vh auto;
     color: #ffffff;
     text-align: left;
@@ -817,5 +819,36 @@ textarea {
 
     #navigationbar {
         display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    .product-button {
+        margin-top: 5vh;
+        margin-right: 4vh;
+        height: 15vh;
+        width: 20vw;
+        float: right;
+        font-size: 30px;
+    }
+
+    .product-card {
+        text-align: left;
+        width: 85%;
+    }
+
+    .product-description {
+        width: 30vw;
+    }
+}
+
+
+@media (min-width: 767) and (max-width: 1000px) {
+    .product-button {
+        margin-top: 5vh;
+        margin-right: 2vh;
+        height: 15vh;
+        width: 15vh;
+        font-size: 26px;
     }
 }
