@@ -485,10 +485,10 @@ a:hover {
 }
 
 .form-services .form-title {
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
-    text-align: center;
-    margin: 1vh 0 4vh;
+    text-align: left;
+    margin: 1vh -36px 4vh;
     color: rgb(221, 232, 238);
 }
 
@@ -744,6 +744,16 @@ textarea {
         width: 100%;
     }
 
+    .form-services {
+        border-radius: 10px;
+        padding: 20px 4px;
+        margin: 0 auto;
+    }
+
+    .form-services .form-title {
+        margin: 1vh 0 4vh;
+    }
+
     .product-button {
         display: none;
     }
@@ -795,7 +805,7 @@ textarea {
     #test2 {
         display: none;
     }
-    
+
     .small-devices {
         display: none;
     }
