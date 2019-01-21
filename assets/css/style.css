@@ -572,6 +572,21 @@ textarea {
     color: #454444;
 }
 
+.form-support {
+    border-radius: 10px;
+    margin: 5vh;
+    color: #ffffff;
+}
+
+.form-support .form-title {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: left;
+    margin: 1vh 0 4vh;
+    color: rgb(221, 232, 238);
+}
+
+
 /*-------------------------------------- About us*/
 
 .home-automation {
@@ -821,6 +836,11 @@ textarea {
     }
 
     .form-services {
+        border-radius: 10px;
+        padding: 2vh 5vh 5vh;
+    }
+    
+    .form-support {
         border-radius: 10px;
         padding: 2vh 5vh 5vh;
     }
