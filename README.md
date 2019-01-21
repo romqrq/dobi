@@ -72,10 +72,11 @@ Romulo Albuquerque - Full Stack Development Student - CODE Institute
 
 
 
-Sources of informations/code:
+Sources of informations/code/tools:
 
+https://mockflow.com/ (initial wireframe)
 https://images.google.com/ (all the images in this project are from google images, with free to use/share license)
-https://fonts.google.com/
+https://fonts.google.com/ 
 https://cdnjs.com/
 http://ianlunn.github.io/Hover/
 https://css-tricks.com/perfect-full-page-background-image/
