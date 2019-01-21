@@ -367,6 +367,7 @@ a:hover {
 
 .products-content {
     margin: 5vh 0 12vh;
+    text-align: center;
 }
 
 .support-image {
@@ -818,6 +819,7 @@ textarea {
     .btn-invite-friend {
         font-size: 22px
     }
+
 }
 
 @media (min-width: 1000px) {
