@@ -299,7 +299,7 @@ a:hover {
 .btn-invite-friend {
     width: 85%;
     margin-bottom: 16px;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 600;
     border: solid 2.5px;
     border-radius: 11px;
@@ -314,24 +314,27 @@ a:hover {
 
 /*-------------------------------------- Quotes*/
 
-.quotes-box {
+.quotes-section {
     width: 100vw;
     padding: 5vh 1.5vw 15vh;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.73);
     color: rgb(221, 232, 238);
     text-shadow: -1px 2px 7px #000000;
+    text-align: center;
 }
 
 .quotes-header {
     text-shadow: -4px 1px 9px #000000;
     margin-bottom: 4vh;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 500;
 }
 
-
+.quotes-box{
+    padding: 0;
+}
 
 .quote-image {
     height: 20vw;
@@ -415,7 +418,7 @@ a:hover {
     width: 20vh;
     float: right;
     background-color: rgba(208, 240, 255, 0.86);
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .card:hover {
@@ -639,34 +642,23 @@ textarea {
         display: none;
     }
 
-    .promotion-content {
-        margin: 9vh auto;
-    }
-
-
     .signup-button-xs {
         width: 46vw;
         height: 42px;
         position: fixed;
-        margin-left: -137px;
-        margin-top: 109px;
-        border-radius: 10px;
-        font-size: 21px;
-        font-weight: 500;
-        font-family: inherit;
-        padding: 3px;
+        margin: 0px;
+        padding: 4px;
+        left: 3vw;
+        top: 109px;
     }
 
     .navbar-toggle {
-        margin-top: 95px;
-        width: 47vw;
+        width: 46vw;
         position: fixed;
-        margin-right: 8px;
+        top: 109px;
+        margin: 0px;
         padding: 4px;
-        right: 0;
-        font-size: 21px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
+        right: 3vw;
     }
 
     .follow-us-footer {
@@ -772,15 +764,7 @@ textarea {
 
 @media (max-width: 768px) {
     .container-fluid .jumbotron {
-        margin-top: 4vh;
-        margin-bottom: 6vh;
-        max-width: 90vw;
-    }
-}
-
-@media (max-width: 450px) {
-    .container-fluid .jumbotron {
-        margin-top: 78px;
+        margin: 4vh 0 6vh;
         max-width: 90vw;
     }
 }
@@ -818,42 +802,45 @@ textarea {
     #navigationbar {
         display: none;
     }
-    
+
     #quote-joejane,
     #quote-robert,
     #quote-janice {
         display: none;
     }
 
-}
-
-@media (min-width: 1000px) {
-    .product-button {
-        margin-top: 5vh;
-        margin-right: 4vh;
-        height: 15vh;
-        width: 20vw;
-        float: right;
-        font-size: 30px;
-    }
-
-    .product-card {
-        text-align: left;
-        width: 85%;
-    }
-
-    .product-description {
-        width: 30vw;
+    .btn-invite-friend {
+        font-size: 22px
     }
 }
 
+    @media (min-width: 1000px) {
+        .product-button {
+            margin-top: 5vh;
+            margin-right: 4vh;
+            height: 15vh;
+            width: 20vw;
+            float: right;
+            font-size: 30px;
+        }
 
-@media (min-width: 767) and (max-width: 1000px) {
-    .product-button {
-        margin-top: 5vh;
-        margin-right: 2vh;
-        height: 15vh;
-        width: 15vh;
-        font-size: 26px;
+        .product-card {
+            text-align: left;
+            width: 85%;
+        }
+
+        .product-description {
+            width: 30vw;
+        }
     }
-}
+
+
+    @media (min-width: 767) and (max-width: 1000px) {
+        .product-button {
+            margin-top: 5vh;
+            margin-right: 2vh;
+            height: 15vh;
+            width: 15vh;
+            font-size: 26px;
+        }
+    }
