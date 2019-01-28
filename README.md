@@ -1,86 +1,81 @@
-Dobi Automation Solutions
+# Your Project's Name
 
-This project is for a fictional company that offers automation services and products. The website has as main focus to invite new customers and show that the support service is easily accessible.
-The website is responsive, changing the layout according to the size of the screen. Some buttons are shown or hidden depending on the screen resolution.
+One or two paragraphs providing an overview of your project.
 
+Essentially, this part is your sales pitch.
+ 
+## UX
+ 
+Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-Getting Started
+In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+- As a user type, I want to perform an action, so that I can achieve a goal.
 
-Prerequisites
-You can run the deployed website from any computer with internet connection;
-No additional software installation is necessary.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+## Features
 
-Built With
-HTML 5 - For Structural Elements
-Bootstrap 3.3.7 - For styling
-JQuery 3.3.1 - Animations
+In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+ 
+### Existing Features
+- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- ...
 
+For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-Header/Menu:
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-The header displays the Dobi logo on the left hand side, which is also a link to index.html. The logo is sided by the slogan of the company and a sign up button
-on the right side of the line. 
-On smaller screens, the sign up button is positioned below the main header on the left. The menu/navigation bar is shown full width with a pulse effect on the background of the buttons upon hover. On smaller screens, the menu is collapsed to a single button positioned below the header on the right.
-This area is fixed on the top, staying visible all times even when the screen is scrolled.
+### Features Left to Implement
+- Another feature idea
 
+## Technologies Used
 
-Index/Home:
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-This page has a callout banner with a button that would bring the customer to the promotion. Bellow the banner, a section with quotes from customers and what they think of the product. On small resolutions, the text disappears and to read the quotes, as per instructions, the user has to tap the images and the text comes up on modals.
-
-
-Products:
-
-This page shows the support plans, prices and specificities of each one. Each product is presented by a card with a picture, description of the product and
-a button to add to cart. The layout changes depending on the resolution of the screen where, in this case, the "add to cart" button goes to the bottom and the picture+ description take the upper part of the card.
-We plan to have the "add to cart" feature fully implemented in the near future.
-
-
-Services:
-
-Page with services offered. The first item is an embedded demo video, followed by a form for the user to ask for a quote and at the very bottom, the support plans again as an extra place to push sales.
+- [JQuery](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
 
 
-Support: 
+## Testing
 
-Page headed by the FAQ section using an acordeon feature to hide/show the answers for the questions followed by a dismissible alert message encouraging the user to contact us if they haven't their qustion answered. The next item is a form for further questions.
-Live-chat is one of the features possible to be implemented to this section. Possibly with automated quick questionaire to narrow down the issue before it gets to the support agent.
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+1. Contact form:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
+In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+- Different values for environment variables (Heroku Config Vars)?
+- Different configuration files?
+- Separate git branch?
+
+In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
-About Us:
+## Credits
 
-Page showing the main goals for the company, our ethos and a brief text about the founder of the company.
+### Content
+- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
+### Media
+- The photos used in this site were obtained from ...
 
-Sign In:
-Button that opens a modal where the user can use the form to input the user details. Always visible for easy recognition and access.
+### Acknowledgements
 
-
-Footer:
-
-The footer is fixed at the bottom of the screen. It contains a brief description of the companys mission and links for the user to follow the
-company on social media. The icons are glyphicons with a "fade" animation on hover.
-
-
-
-
-
-Author
-Romulo Albuquerque - Full Stack Development Student - CODE Institute
-
-
-
-
-Sources of informations/code/tools:
-
-https://mockflow.com/ (initial wireframe)
-https://images.google.com/ (all the images in this project are from google images, with free to use/share license)
-https://fonts.google.com/ 
-https://cdnjs.com/
-http://ianlunn.github.io/Hover/
-https://css-tricks.com/perfect-full-page-background-image/
-https://code.jquery.com/
-https://getbootstrap.com/docs/3.3/
-http://www.prepbootstrap.com/bootstrap-template/faq-example
-https://www.w3schools.com/howto/howto_css_contact_form.asp
+- I received inspiration for this project from X
