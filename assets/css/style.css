@@ -168,11 +168,15 @@ a:hover {
 
 .signup-button-xs {
     width: 13vw;
-    min-width: 81px;
-    height: 45px;
+    height: 50px;
     float: right;
-    margin-right: 33px;
-    margin-top: 24px;
+    margin-right: 2vw;
+    margin-top: 2.5vw;
+    color: rgb(221, 232, 238);
+    text-shadow: 3px 2px 7px black;
+    border-radius: 30px;
+    background-color: rgba(22, 101, 156, 0.64);
+
 }
 
 .signup-button-xs a {
@@ -397,10 +401,10 @@ a:hover {
 .product-image {
     padding: 0;
     min-width: 20vh;
+    max-height: 20vh;
 }
 
 .product-image img {
-    height: 25vh;
     width: 100%;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -424,11 +428,11 @@ a:hover {
 }
 
 .product-description p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .product-button {
-    margin-top: 5vh;
+    margin-top: 2.5vh;
     margin-right: 2vh;
     height: 15vh;
     width: 20vh;
@@ -447,9 +451,18 @@ a:hover {
 
 /*-------------------------------------- Services*/
 
+.services-text {
+    background-color: rgba(0, 0, 0, 0.73);
+    margin: 10vh 0 0;
+    color: rgb(221, 232, 238);
+    padding: 5vh;
+    text-align: justify;
+}
+
 .services-video-box {
+    background-color: transparent;
+    margin-top: 5vh;
     padding: 0;
-    margin-top: 17vh;
 }
 
 .video-demo {
@@ -457,17 +470,8 @@ a:hover {
     margin: 3vh auto;
 }
 
-.services-text {
-    background-color: transparent;
-    margin: 3vh 0 0;
-    color: rgb(221, 232, 238);
-    padding: 5vh;
-    text-align: justify;
-}
-
 .services-form-box {
-    background-color: rgba(0, 0, 0, 0.73);
-    margin: 7vh 0 10vh;
+    margin: 7vh 0 0;
     padding: 0;
 }
 
@@ -477,9 +481,10 @@ a:hover {
 }
 
 .form-services {
-    border-radius: 10px;
-    margin: 5vh;
+    background-color: rgba(0, 0, 0, 0.73);
     color: #ffffff;
+    padding: 5vh 7vh 23vh;
+    margin-top: 5vh;
 }
 
 .form-services .form-title {
@@ -678,7 +683,7 @@ textarea {
     body {
         background: url(../images/livingroom2.jpg) no-repeat center center fixed;
     }
-    
+
     .navbar-bigger,
     #navbar-bigger {
         display: none;
@@ -692,6 +697,10 @@ textarea {
         padding: 4px;
         left: 3vw;
         top: 109px;
+        border-radius: 5px;
+        background-color: rgba(208, 237, 251, 0.91);
+
+
     }
 
     .navbar-toggle {
@@ -811,11 +820,10 @@ textarea {
     #main-header {
         height: 140px;
     }
-
+    /*
     #signup-right {
         display: none;
-    }
-
+    }*/
     #test2 {
         display: none;
     }
@@ -823,15 +831,14 @@ textarea {
     .small-devices {
         display: none;
     }
-
+    /*
     .button-small-devices {
         display: none;
-    }
-
+    }*/
+    /*
     .signup-button-xs {
         display: none;
-    }
-
+    }*/
     #navigationbar {
         display: none;
     }
@@ -846,17 +853,79 @@ textarea {
         font-size: 22px
     }
 
-    .form-services {
-        border-radius: 10px;
-        padding: 2vh 5vh 5vh;
+    .card-box {
+        height: 200px;
     }
 
+    .plan {
+        font-size: 30px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+    /*
+    .product-button {
+        margin: 0;
+        height: 80px;
+        width: 100%;
+        font-size: 30px;
+    }*/
+    /*
+    .product-image img {
+        height: 30px;
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0;
+    }*/
+    /*.form-services {
+        padding: 2vh 5vh 5vh;
+    }*/
     .form-support {
         border-radius: 10px;
         padding: 2vh 5vh 5vh;
     }
 }
 
+
+@media (min-width: 768px) {
+
+    .product-image img {
+        height: 30px;
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .product-button {
+        margin: 0;
+        height: 80px;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .product-button {
+        height: 60px;
+        font-size: 25px;
+    }
+
+    .product-card {
+        min-height: 310px;
+    }
+
+    .product-description {
+        width: 100%;
+        height: 200px
+    }
+
+    .products-content {
+        margin: 0 0 30vh;
+    }
+}
+
+/*
 @media (min-width: 1000px) {
     .product-button {
         margin-top: 5vh;
@@ -868,17 +937,17 @@ textarea {
     }
 
     .product-card {
-        text-align: left;
-        width: 85%;
+        min-height: 310px;
     }
 
     .product-description {
-        width: 30vw;
+        width: 100%;
+        height: 180px;
     }
 }
+*/
 
-
-@media (min-width: 767) and (max-width: 1000px) {
+/*@media (min-width: 767) and (max-width: 1000px) {
     .product-button {
         margin-top: 5vh;
         margin-right: 2vh;
@@ -887,3 +956,4 @@ textarea {
         font-size: 26px;
     }
 }
+*/
