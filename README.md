@@ -1,86 +1,105 @@
-Dobi Automation Solutions
+# Dobi - Automation Solutions
 
-This project is for a fictional company that offers automation services and products. The website has as main focus to invite new customers and show that the support service is easily accessible.
-The website is responsive, changing the layout according to the size of the screen. Some buttons are shown or hidden depending on the screen resolution.
+All the sections and functionalities are easily accessible from the navigation bar and most of them won't take more than 3 clicks/taps from the home page to the end of the process. 
 
+## UX
 
-Getting Started
+This project is for a fictional company that offers automation services and products for house and business. The main products are the service packages and secondarily automation hardware kits and individual products such as cameras, sensors and more.
 
-Prerequisites
-You can run the deployed website from any computer with internet connection;
-No additional software installation is necessary.
+As the products offered, the website orbitates the practicality and functionality of things and all features are intended to be easily accessible, intuitive and visible for the user. The design is responsive, changing the layout according to the size of the screen. Some buttons are shown or hidden depending on the screen resolution to make sure the user has the main actions always available on screen.
 
-
-Built With
-HTML 5 - For Structural Elements
-Bootstrap 3.3.7 - For styling
-JQuery 3.3.1 - Animations
-
-
-Header/Menu:
-
-The header displays the Dobi logo on the left hand side, which is also a link to index.html. The logo is sided by the slogan of the company and a sign up button
-on the right side of the line. 
-On smaller screens, the sign up button is positioned below the main header on the left. The menu/navigation bar is shown full width with a pulse effect on the background of the buttons upon hover. On smaller screens, the menu is collapsed to a single button positioned below the header on the right.
-This area is fixed on the top, staying visible all times even when the screen is scrolled.
+-Four main User Stories were used to structure the website:
+1 - I want to buy the product
+2 - I want to sign up for the service
+3 - I need support
+4 - I need to know more about this before I buy
+for these stories we considered both tech savvy and the average internet user that have an interest in automation but aren't sure of what they need.
 
 
-Index/Home:
+## Features
 
-This page has a callout banner with a button that would bring the customer to the promotion. Bellow the banner, a section with quotes from customers and what they think of the product. On small resolutions, the text disappears and to read the quotes, as per instructions, the user has to tap the images and the text comes up on modals.
-
-
-Products:
-
-This page shows the support plans, prices and specificities of each one. Each product is presented by a card with a picture, description of the product and
-a button to add to cart. The layout changes depending on the resolution of the screen where, in this case, the "add to cart" button goes to the bottom and the picture+ description take the upper part of the card.
-We plan to have the "add to cart" feature fully implemented in the near future.
-
-
-Services:
-
-Page with services offered. The first item is an embedded demo video, followed by a form for the user to ask for a quote and at the very bottom, the support plans again as an extra place to push sales.
-
-
-Support: 
-
-Page headed by the FAQ section using an acordeon feature to hide/show the answers for the questions followed by a dismissible alert message encouraging the user to contact us if they haven't their qustion answered. The next item is a form for further questions.
-Live-chat is one of the features possible to be implemented to this section. Possibly with automated quick questionaire to narrow down the issue before it gets to the support agent.
+In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+ 
+### Existing Features
+1 - Header - DOBI logo and when the customer clicks on it, it brings the customer to the home page.
+2 - Navigation Bar - screen wider than 768pixels - the bar has all the links to the main sections: Home, Products, Services, Support and About us. 
+2.1 - Navigation  Bar - Screen wider than 767pixels - the bar is collapsed to a single button that is expanded under click/tap.
+3- Footer - Gives access to a short description of the company mission and with the social media buttons its given access to users to the extensions of the company on social media.
+4 - Home - Banner on home screen with promotion and when the user clicks on the button, they can fill in the form with the information of the person they are inviting to join the service.
+5 - Home - Quotes - on screens under 767pixels - when the user clicks/taps on the picture, a popup opens with the text of the quote.
+6 - Products - Cards with product description and "add to cart" button that allows the customer to buy the product.
+7 - Services - Demo video that allows customer to see some ways of implementing automation.
+8 - Services - Form that, once filled, allows the company to offer a quotation to the user.
+9 - Support - FAQ - Accordion that allows customers to read commonly asked questions and their answers.
+10 - Support - Dismissible alert to encourage customers to look for further support in case their question hasn't been aswered yet.
+11 - Support - Form where the customer can fill with their question.
+12 - Sign in/Sign up buttons - Allow new and existent users to either sign in or new users to sign up for the service.
 
 
-About Us:
-
-Page showing the main goals for the company, our ethos and a brief text about the founder of the company.
-
-
-Sign In:
-Button that opens a modal where the user can use the form to input the user details. Always visible for easy recognition and access.
+### Features Left to Implement
+- Live chat
+- Shopping cart
+- Interactive animation where buttons can turn on and off appliances on the screen.
 
 
-Footer:
+## Technologies Used
 
-The footer is fixed at the bottom of the screen. It contains a brief description of the companys mission and links for the user to follow the
-company on social media. The icons are glyphicons with a "fade" animation on hover.
-
-
-
-
-
-Author
-Romulo Albuquerque - Full Stack Development Student - CODE Institute
+- Mockflow - https://mockflow.com/ - Used to create initial wireframe for the structure.
+- HTML 5 - https://en.wikipedia.org/wiki/HTML5 - HTML 5 is the latest version of the Hypertext Markup Language and it is  the standard programming language across the internet for structure and content.
+- CSS 3 - https://getbootstrap.com/docs/3.3/ - CSS 3 makes possible to implement responsiveness and style to the HTML document.
+- Font Awesome - https://origin.fontawesome.com/ - It allows the introduction of icons that behave as normal text and are hardwired to users mind across the internet making it more recognizable and requiring minimal effort in understanding.
+- Hover Library - http://ianlunn.github.io/Hover/ - Allows the utilization of pre-made hover effects, accelerating the development and styling process.
+- Google Fonts - https://fonts.google.com/ - Offers a wide variety of font styles.
+- JQuery 3 - https://jquery.com/ - Allowed the creation of animations such as the collapsed button.
 
 
+## Testing
+
+During development process, the main tool for tests was the Developer Tools from Google Chrome. 
+The website was deployed on GitHub and tested on different screen resolutions and manufacturers (mobile phones).
+The link was shared through whatsapp and facebook and we asked the users to fill a form with their feedback from January 28th to February 4th. 
+
+We asked the users doing the test to fulfill the four tasks from our User Stories and their feedback was given through the form.
+
+The website was also tested through Google Chrome Developer tools - Audits for performance, Progressive web app, best practices, accessibility and SEO, with a simulated fast 3g connection and 4x CPU slowdown.
+
+Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
 
-Sources of informations/code/tools:
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-https://mockflow.com/ (initial wireframe)
-https://images.google.com/ (all the images in this project are from google images, with free to use/share license)
-https://fonts.google.com/ 
-https://cdnjs.com/
-http://ianlunn.github.io/Hover/
-https://css-tricks.com/perfect-full-page-background-image/
-https://code.jquery.com/
-https://getbootstrap.com/docs/3.3/
-http://www.prepbootstrap.com/bootstrap-template/faq-example
-https://www.w3schools.com/howto/howto_css_contact_form.asp
+1. Contact form:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
+In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+- Different values for environment variables (Heroku Config Vars)?
+- Different configuration files?
+- Separate git branch?
+
+In addition, if it is not obvious, you should also describe how to run your code locally.
+
+
+## Credits
+
+### Content
+- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+### Media
+- The photos used in this site were obtained from ...
+
+### Acknowledgements
+
+- I received inspiration for this project from X
