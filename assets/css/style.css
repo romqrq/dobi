@@ -4,12 +4,13 @@
 /*------------------------------------------------General*/
 
 /* Used the last 5 lines from https://css-tricks.com/perfect-full-page-background-image/ to get the image to cover the whole background*/
+
 body {
     font-family: "Roboto", sans-serif;
     height: 100vh;
     width: 100vw;
     float: none;
-    background: url(../images/mobile-control.jpg) no-repeat center center fixed;
+    background: url(../images/livingroom.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -494,6 +495,7 @@ a:hover {
 }
 
 /* Code from https://www.w3schools.com/howto/howto_css_contact_form.asp to expand vertically the text area */
+
 input[type=text],
 select,
 textarea {
@@ -545,7 +547,9 @@ textarea {
     text-align: center;
     font-weight: 600;
 }
+
 /* Code used from http://www.prepbootstrap.com/bootstrap-template/faq-example to give the functionality to the accordion feature */
+
 .panel-heading [data-toggle="collapse"]:after {
     font-family: 'Roboto';
     font-weight: 900;
@@ -562,7 +566,9 @@ textarea {
     -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
+
 /* Code used from http://www.prepbootstrap.com/bootstrap-template/faq-example to give the functionality to the accordion feature */
+
 .panel-heading [data-toggle="collapse"].collapsed:after {
     /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
     -webkit-transform: rotate(90deg);
@@ -669,6 +675,10 @@ textarea {
 @media (max-width: 767px) {
 
 
+    body {
+        background: url(../images/livingroom2.jpg) no-repeat center center fixed;
+    }
+    
     .navbar-bigger,
     #navbar-bigger {
         display: none;
@@ -840,7 +850,7 @@ textarea {
         border-radius: 10px;
         padding: 2vh 5vh 5vh;
     }
-    
+
     .form-support {
         border-radius: 10px;
         padding: 2vh 5vh 5vh;
