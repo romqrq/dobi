@@ -1,46 +1,70 @@
-# Your Project's Name
+# Dobi - Automation Solutions
 
-One or two paragraphs providing an overview of your project.
+All the sections and functionalities are easily accessible from the navigation bar and most of them won't take more than 3 clicks/taps from the home page to the end of the process. 
 
-Essentially, this part is your sales pitch.
- 
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+This project is for a fictional company that offers automation services and products for house and business. The main products are the service packages and secondarily automation hardware kits and individual products such as cameras, sensors and more.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+As the products offered, the website orbitates the practicality and functionality of things and all features are intended to be easily accessible, intuitive and visible for the user. The design is responsive, changing the layout according to the size of the screen. Some buttons are shown or hidden depending on the screen resolution to make sure the user has the main actions always available on screen.
+
+-Four main User Stories were used to structure the website:
+1 - I want to buy the product
+2 - I want to sign up for the service
+3 - I need support
+4 - I need to know more about this before I buy
+for these stories we considered both tech savvy and the average internet user that have an interest in automation but aren't sure of what they need.
+
 
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+1 - Header - DOBI logo and when the customer clicks on it, it brings the customer to the home page.
+2 - Navigation Bar - screen wider than 768pixels - the bar has all the links to the main sections: Home, Products, Services, Support and About us. 
+2.1 - Navigation  Bar - Screen wider than 767pixels - the bar is collapsed to a single button that is expanded under click/tap.
+3- Footer - Gives access to a short description of the company mission and with the social media buttons its given access to users to the extensions of the company on social media.
+4 - Home - Banner on home screen with promotion and when the user clicks on the button, they can fill in the form with the information of the person they are inviting to join the service.
+5 - Home - Quotes - on screens under 767pixels - when the user clicks/taps on the picture, a popup opens with the text of the quote.
+6 - Products - Cards with product description and "add to cart" button that allows the customer to buy the product.
+7 - Services - Demo video that allows customer to see some ways of implementing automation.
+8 - Services - Form that, once filled, allows the company to offer a quotation to the user.
+9 - Support - FAQ - Accordion that allows customers to read commonly asked questions and their answers.
+10 - Support - Dismissible alert to encourage customers to look for further support in case their question hasn't been aswered yet.
+11 - Support - Form where the customer can fill with their question.
+12 - Sign in/Sign up buttons - Allow new and existent users to either sign in or new users to sign up for the service.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Live chat
+- Shopping cart
+- Interactive animation where buttons can turn on and off appliances on the screen.
+
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- Mockflow - https://mockflow.com/ - Used to create initial wireframe for the structure.
+- HTML 5 - https://en.wikipedia.org/wiki/HTML5 - HTML 5 is the latest version of the Hypertext Markup Language and it is  the standard programming language across the internet for structure and content.
+- CSS 3 - https://getbootstrap.com/docs/3.3/ - CSS 3 makes possible to implement responsiveness and style to the HTML document.
+- Font Awesome - https://origin.fontawesome.com/ - It allows the introduction of icons that behave as normal text and are hardwired to users mind across the internet making it more recognizable and requiring minimal effort in understanding.
+- Hover Library - http://ianlunn.github.io/Hover/ - Allows the utilization of pre-made hover effects, accelerating the development and styling process.
+- Google Fonts - https://fonts.google.com/ - Offers a wide variety of font styles.
+- JQuery 3 - https://jquery.com/ - Allowed the creation of animations such as the collapsed button.
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+During development process, the main tool for tests was the Developer Tools from Google Chrome. 
+The website was deployed on GitHub and tested on different screen resolutions and manufacturers (mobile phones).
+The link was shared through whatsapp and facebook and we asked the users to fill a form with their feedback from January 28th to February 4th. 
+
+We asked the users doing the test to fulfill the four tasks from our User Stories and their feedback was given through the form.
+
+The website was also tested through Google Chrome Developer tools - Audits for performance, Progressive web app, best practices, accessibility and SEO, with a simulated fast 3g connection and 4x CPU slowdown.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
