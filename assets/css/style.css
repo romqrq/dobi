@@ -3,6 +3,7 @@
 
 /*------------------------------------------------General*/
 
+/* Used the last 5 lines from https://css-tricks.com/perfect-full-page-background-image/ to get the image to cover the whole background*/
 body {
     font-family: "Roboto", sans-serif;
     height: 100vh;
@@ -274,7 +275,7 @@ a:hover {
     margin-right: 2vw;
 }
 
-/*-------------------------------------- Main Content*/
+/*-------------------------------------- Index*/
 
 .promotion-wrap {
     padding: 0;
@@ -492,6 +493,7 @@ a:hover {
     font-size: 18px;
 }
 
+/* Code from https://www.w3schools.com/howto/howto_css_contact_form.asp to expand vertically the text area */
 input[type=text],
 select,
 textarea {
@@ -503,7 +505,6 @@ textarea {
     margin-top: -5px;
     margin-bottom: 3px;
     resize: vertical
-    /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 .col-75 select {
@@ -544,7 +545,7 @@ textarea {
     text-align: center;
     font-weight: 600;
 }
-
+/* Code used from http://www.prepbootstrap.com/bootstrap-template/faq-example to give the functionality to the accordion feature */
 .panel-heading [data-toggle="collapse"]:after {
     font-family: 'Roboto';
     font-weight: 900;
@@ -561,7 +562,7 @@ textarea {
     -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
-
+/* Code used from http://www.prepbootstrap.com/bootstrap-template/faq-example to give the functionality to the accordion feature */
 .panel-heading [data-toggle="collapse"].collapsed:after {
     /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
     -webkit-transform: rotate(90deg);
