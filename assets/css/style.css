@@ -698,6 +698,8 @@ textarea {
         left: 3vw;
         top: 109px;
         border-radius: 5px;
+        color: rgb(2, 36, 80);
+        text-shadow: 3px 2px 7px white;
         background-color: rgba(208, 237, 251, 0.91);
 
 
