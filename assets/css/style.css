@@ -470,6 +470,11 @@ a:hover {
     margin: 3vh auto;
 }
 
+.video-demo iframe {
+    border: 0px;
+    width: 100%;
+}
+
 .services-form-box {
     margin: 7vh 0 0;
     padding: 0;
