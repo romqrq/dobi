@@ -13,44 +13,42 @@
 </head>
 
 <body class="container-fluid">
-    <div class="background-image"></div>
     <!--Header-->
     <header class="container-fluid">
-        <div class="row align-items-center">
-            <!--Menu Button-->
-            <div class="col-4">
-                <!--Code for the collapsible button from the bootstrap lesson in module 3 it was adapted to the context and use on this website -->
-                <div class="row flex-row" id="navigationbar">
-                    <div class="collapsed-button">
-                        <button type="button" class="btn hvr-back-pulse navbar-toggle collapsed menu-button" data-toggle="collapse" data-target="#navbar">
-                            <i class="fas fa-bars"></i>
-                            <span>Menu</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="navbar-collapse collapse" id="navbar">
-                    <ul class="nav navbar-nav list-inline clearfix" id="test2">
-                        <li class="button btn menu-item">
-                            <a href="index.html" class="hvr-back-pulse"><span>Home</span></a>
-                        </li>
-                        <li class="button btn menu-item">
-                            <a href="products.html" class="hvr-back-pulse"><span>Products</span></a>
-                        </li>
-                        <li class="button btn menu-item">
-                            <a href="services.html" class="hvr-back-pulse"><span>Services</span></a>
-                        </li>
-                        <li class="button btn menu-item">
-                            <a href="support.html" class="hvr-back-pulse"><span>Support</span></a>
-                        </li>
-                        <li class="button btn menu-item">
-                            <a href="aboutus.html" class="hvr-back-pulse"><span>About Us</span></a>
-                        </li>
-                        <li class="button btn menu-item" id="hidden-signin">
-                            <a data-toggle="modal" data-target="#signInModal" class="hvr-back-pulse"><span>Sign In</span></a>
-                        </li>
-                    </ul>
-                </div>
+        <!--Menu Button-->
+        <div class="menu-button">
+            <button type="button" class="navbar-toggle collapsed btn btn-link" data-toggle="collapse" data-target="#navbar">
+                <i class="fas fa-bars"></i>
+                <span>Menu</span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="btn btn-link"><a class="hvr-back-pulse" href="/">Home</a></li>
+                    <li class="btn btn-link"><a class="hvr-back-pulse" href="/">Services</a></li>
+                    <li class="btn btn-link"><a class="hvr-back-pulse" href="/">Support</a></li>
+                    <li class="btn btn-link"><a class="hvr-back-pulse" href="/">About</a></li>
+                </ul>
             </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-4"></div>
+
+            <!-- <div class="collapse" id="navbar">
+                <ul class="nav navbar-nav list-inline clearfix" id="test2">
+                    <li class="button btn menu-item">
+                        <a href="index.html" class="hvr-back-pulse"><span>Home</span></a>
+                    </li>
+                    <li class="button btn menu-item">
+                        <a href="services.html" class="hvr-back-pulse"><span>Services</span></a>
+                    </li>
+                    <li class="button btn menu-item">
+                        <a href="support.html" class="hvr-back-pulse"><span>Support</span></a>
+                    </li>
+                    <li class="button btn menu-item">
+                        <a href="aboutus.html" class="hvr-back-pulse"><span>About</span></a>
+                    </li>
+                </ul>
+            </div> -->
             <!--Dobi Logo-->
             <div class="col-4">
                 <a class="logo-link" href="index.html">
@@ -59,16 +57,20 @@
             </div>
             <!--Social Media Buttons-->
             <div class="col-4">
-                    <span><a target="_blank" href="#"><i class="fab fa-twitter hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
-                    <span><a target="_blank" href="#"><i class="fab fa-facebook-f hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
-                    <span><a target="_blank" href="#"><i class="fab fa-instagram hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
-                    <span><a target="_blank" href="#"><i class="fab fa-pinterest-p hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
+                <span><a target="_blank" href="#"><i class="fab fa-twitter hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
+                <span><a target="_blank" href="#"><i class="fab fa-facebook-f hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
+                <span><a target="_blank" href="#"><i class="fab fa-instagram hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
+                <span><a target="_blank" href="#"><i class="fab fa-pinterest-p hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
                 </ul>
             </div>
         </div>
     </header>
+
     <!--------------------------/Header--------------------------------->
     <main>
+        <!--Background-->
+        <div class="background-image">
+        </div>
         <!--------------------------/Content--------------------------------->
     </main>
     <!--------------------------Footer--------------------------------->

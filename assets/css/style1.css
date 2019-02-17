@@ -2,18 +2,43 @@
 
 body {
     font-family: "Roboto", Sans-serif;
-    padding: 0;
-    margin: 0;
 }
 
-background-image {}
+.background-image {
+    background: url(../images/mobile-jungle.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 header {
-    background-color: #f8d605;
+    position: fixed;
+    background-color: #9acef5;
+    top: 0;
+    left: 0;
+    Right: 0;
+    z-index: 1;
+}
+
+.collapsible-menu {
+    display: inline-block;
+}
+
+.collapse.in {
+    display: block;
 }
 
 .menu-button {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+.menu-button .btn-link {
+    font-weight: 600;
     color: #084387;
+    text-decoration: none;
 }
 
 .logo-link {
