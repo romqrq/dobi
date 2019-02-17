@@ -46,26 +46,44 @@ header {
     text-decoration: none;
 }
 
+.logo-box {
+    text-align: center;
+}
+
 .logo-link {
     font-family: Righteous;
     font-weight: 600;
     font-size: 2rem;
     color: #084387;
+    text-align: center;
 }
 
 .social-media-icon {
+    padding: 0 0.2rem 0;
     color: #084387;
     float: right;
-    padding: 0 3px 0;
+    font-size: 1rem;
+}
+
+.carousel {
+    margin-top: 4rem;
+}
+
+.carousel-item {
+    height: 95vw;
+    width: 60vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.label {
+    margin-bottom: 0;
 }
 
 
-.carousel-item {
-  height: 50vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.help-block {
+    font-size: 0.7rem;
 }

@@ -33,25 +33,8 @@
         </div>
         <div class="row align-items-center">
             <div class="col-4"></div>
-
-            <!-- <div class="collapse" id="navbar">
-                <ul class="nav navbar-nav list-inline clearfix" id="test2">
-                    <li class="button btn menu-item">
-                        <a href="index.html" class="hvr-back-pulse"><span>Home</span></a>
-                    </li>
-                    <li class="button btn menu-item">
-                        <a href="services.html" class="hvr-back-pulse"><span>Services</span></a>
-                    </li>
-                    <li class="button btn menu-item">
-                        <a href="support.html" class="hvr-back-pulse"><span>Support</span></a>
-                    </li>
-                    <li class="button btn menu-item">
-                        <a href="aboutus.html" class="hvr-back-pulse"><span>About</span></a>
-                    </li>
-                </ul>
-            </div> -->
             <!--Dobi Logo-->
-            <div class="col-4">
+            <div class="col-4 logo-box">
                 <a class="logo-link" href="index.html">
                    <span class="hvr-bob">Dobi</span>
                </a>
@@ -80,11 +63,10 @@
                 <li data-target="#carousel-index" data-slide-to="2"></li>
                 <li data-target="#carousel-index" data-slide-to="3"></li>
                 <li data-target="#carousel-index" data-slide-to="4"></li>
-                <li data-target="#carousel-index" data-slide-to="5"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../images/bg-main-page-xs.jpg" class="d-block w-100 align-self-center" alt="you have control from a variety of devices from anywhere!">
+                    <img src="../images/different-devices-2.jpg" class="d-block w-100 align-self-center" alt="you have control from a variety of devices from anywhere!">
                 </div>
                 <div class="carousel-item">
                     <img src="../images/tablet-beach.jpg" class="d-block w-100" alt="from your holidays on the beach">
@@ -108,21 +90,105 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <!--callout-->
         <div class="container">
             <div class="row">
-                <div class="col-12">
-
+                <div class="col-6">
+                    <button type="button" class="btn btn-link" data-toggle="modal" data-target="#free-quote-form">
+                          Free Quote
+                    </button>
                 </div>
             </div>
         </div>
-        <!--------------------------/Content--------------------------------->
+        <!--/Content-->
     </main>
-    <!--------------------------Footer--------------------------------->
+    <!--Footer-->
     <footer class="container-fluid">
 
     </footer>
-    <!--------------------------/Footer--------------------------------->
-    <!--------------------------Modals--------------------------------->
+    <!--/Footer-->
+    <!--Modals-->
+    <div class="modal fade" id="free-quote-form" tabindex="-1" role="dialog" aria-labelledby="freeQuoteForm" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Free quote</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Please fill the fields below and we'll be in touch with you on the day and time you picked.</p>
+                    <div class="form-group">
+                        <label for="quote-email">Email address</label>
+                        <input type="quote-email" class="form-control" id="email-address" placeholder="Email">
+                        <p class="help-block">We'll never share your email address</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="quote-phone">Phone Number</label>
+                        <input type="email" class="form-control" id="phone-number" placeholder="Phone Number">
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="quote-monday">
+                                <label class="form-check-label" for="quote-monday">Monday</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="quote-tuesday">
+                                <label class="form-check-label" for="quote-tuesday">Tuesday</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="quote-wednesday">
+                                <label class="form-check-label" for="quote-wednesday">Wednesday</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="quote-thursday">
+                                <label class="form-check-label" for="quote-thursday">Thursday</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="quote-friday">
+                                <label class="form-check-label" for="quote-friday">Friday</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="quote-saturday">
+                                <label class="form-check-label" for="quote-saturday">Saturday</label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <select class="custom-select">
+                              <option selected>Time</option>
+                              <option value="1">8:00h</option>
+                              <option value="2">9:00h</option>
+                              <option value="3">10:00h</option>
+                              <option value="1">11:00h</option>
+                              <option value="2">12:00h</option>
+                              <option value="3">13:00h</option>
+                              <option value="1">14:00h</option>
+                              <option value="2">15:00h</option>
+                              <option value="3">16:00h</option>
+                              <option value="3">17:00h</option>
+                              <option value="3">18:00h</option>
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
     <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -133,14 +199,25 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="SignInEmail">Email address</label>
+                            <label for="quoteEmail">Email address</label>
                             <input type="email" class="form-control" id="SignInEmail" placeholder="Email">
                             <p class="help-block">We'll never share your email address with anyone</p>
                         </div>
+                        <div class="row">
+                            <div class="col-3 form-check">
+                                <input class="form-check-input" type="radio" name="Monday" id="quote-monday" value="option1" checked>
+                                <label class="form-check-label" for="monday">Monday</label>
+                            </div>
+                            <div class="col-3 form-check">
+                                <input class="form-check-input" type="radio" name="Tuesday" id="quote-tuesday" value="option2">
+                                <label class="form-check-label" for="tuesday">Tuesday</label>
+                            </div>
+                        </div>
                         <div class="form-group">
-                            <label for="SignInPassword">Password</label>
+                            <label for="quoteComment">Additional Comments</label>
                             <input type="password" class="form-control" id="SignInPassword" placeholder="Password">
                         </div>
+
                         <button type="submit" class="btn button">Sign in</button>
                     </form>
                 </div>
