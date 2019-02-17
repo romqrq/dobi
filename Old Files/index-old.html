@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Starting page">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Dobi Automation Solutions - Home</title>
+</head>
+
+<body class="container-fluid">
+    <!--------------------------Header--------------------------------->
+    <header class="container-fluid" id="main-header">
+        <div class="row header-box col-xs-12">
+            <!--------------------------Dobi Logo--------------------------------->
+            <div class="heading heading-logo col-xs-1">
+                <a class="logo-link" href="index.html">
+                   <span class="logo-text hvr-bob">Dobi</span>
+               </a>
+            </div>
+            <!--------------------------Header text--------------------------------->
+            <div class="heading-text-and-menu col-xs-4">
+                <div class="heading-text-box">
+                    <h1 class="heading-text col-xs-12">Automation Solutions</h1>
+                    <h4 class="heading-sub-text col-xs-12">Bespoke solutions in automation</h4>
+                </div>
+            </div>
+            <!--------------------------Sign UP button 768px--------------------------------->
+            <div >
+                <a class="btn button hvr-back-pulse signup-button-xs col-xs-1" data-toggle="modal" data-target="#signUpModal">Sign Up!</a>
+            </div>
+            <!--------------------------Navbar +767px --------------------------------->
+            <div class="navbar-bigger" id="navbar-bigger">
+                <ul class="nav navbar-nav list-inline">
+                    <li class="button btn menu-item">
+                        <a href="index.html" class="hvr-back-pulse"><span>Home</span></a>
+                    </li>
+                    <li class="button btn menu-item">
+                        <a href="products.html" class="hvr-back-pulse"><span>Products</span></a>
+                    </li>
+                    <li class="button btn menu-item">
+                        <a href="services.html" class="hvr-back-pulse"><span>Services</span></a>
+                    </li>
+                    <li class="button btn menu-item">
+                        <a href="support.html" class="hvr-back-pulse"><span>Support</span></a>
+                    </li>
+                    <li class="button btn menu-item">
+                        <a href="aboutus.html" class="hvr-back-pulse"><span>About Us</span></a>
+                    </li>
+                    <li class="button btn menu-item">
+                        <a data-toggle="modal" data-target="#signInModal" class="hvr-back-pulse"><span>Sign In</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--------------------------Collapsible button + menu --------------------------------->
+        <!--Code for the collapsible button from the bootstrap lesson in module 3 it was adapted to the context and use on this website -->
+        <div class="row flex-row" id="navigationbar">
+            <div class="collapsed-button">
+                <button type="button" class="btn button hvr-back-pulse navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                    <span>Menu</span>
+                    <!--<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>-->
+                    
+                </button>
+            </div>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-nav list-inline clearfix" id="test2">
+                <li class="button btn menu-item">
+                    <a href="index.html" class="hvr-back-pulse"><span>Home</span></a>
+                </li>
+                <li class="button btn menu-item">
+                    <a href="products.html" class="hvr-back-pulse"><span>Products</span></a>
+                </li>
+                <li class="button btn menu-item">
+                    <a href="services.html" class="hvr-back-pulse"><span>Services</span></a>
+                </li>
+                <li class="button btn menu-item">
+                    <a href="support.html" class="hvr-back-pulse"><span>Support</span></a>
+                </li>
+                <li class="button btn menu-item">
+                    <a href="aboutus.html" class="hvr-back-pulse"><span>About Us</span></a>
+                </li>
+                <li class="button btn menu-item" id="hidden-signin">
+                    <a data-toggle="modal" data-target="#signInModal" class="hvr-back-pulse"><span>Sign In</span></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!--------------------------/Header--------------------------------->
+    <main>
+        <div class="spacetaker-under-header"></div>
+        <!--------------------------Content--------------------------------->
+        <section class="container-fluid promotion-content col-xs-12">
+            <!--------------------------Sale--------------------------------->
+            <div class="col-xs-12 promotion-wrap">
+                <div class="promotion-box jumbotron">
+                    <h2>+1 Friend = 20% LESS on your <a href="#" target="_blank">Dobi Membership!</a></h2>
+                    <a href="#" class="btn btn-invite-friend hvr-fade">Get your 20% discount!</a>
+                    <p>Each friend you refer and becomes our customer, you get 20% off your Dobi Membership for 3 whole months! It is cummulative, so more friends means more discount!</p>
+                </div>
+            </div>
+        </section>
+        <!--------------------------Quotes--------------------------------->
+        <section class="quotes-section">
+            <div class="col-xs-12">
+                <div class="quotes-header">
+                    <p class="quote-recommend">I Recommend Dobi!</p>
+                        <h3 class="quote-text small-devices">Tap on the pictures and find out how we at Dobi improved their lives!</h3>
+                </div>
+            </div>
+            <div class="row quotes-content">
+                <!--------------------------Quote 1--------------------------------->
+                <div class="quotes-box col-xs-12">
+                    <div class="quote-item col-xs-4">
+                        <div class="media">
+                            <div class="picture-modal">
+                                <a data-toggle="modal" data-target="#quote-joejane"><img src="assets/images/family.jpg" class="quote-image img-circle media-object" alt="John, Jane and their three children"></a>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="quote">
+                                    <p>It allowed us to monitor the internet usage by our children. When it comes bed-time, we just flick the switch on the app! That simple! We also feel they are safer as We can always check if they are using safe websites.</p>
+                                    <p><strong>John and Jane Doe</strong></p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <!--------------------------Quote 2--------------------------------->
+                    <div class="quote-item col-xs-4">
+                        <div class="media">
+                            <div class="picture-modal">
+                                <a data-toggle="modal" data-target="#quote-robert"><img src="assets/images/busy-man.jpg" class="quote-image img-circle media-object" alt="Robert Doe's picture"></a>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="quote">
+                                    <p>The convenience is incredible! They come to your house, ask what you need and there you have it! The app has incredible functionality yet it is brilliantly simple! You're literally two or three taps away from whatever
+                                        you need!
+                                    </p>
+                                    <p><strong>Robert Doe</strong></p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <!--------------------------Quote 3--------------------------------->
+                    <div class="quote-item col-xs-4">
+                        <div class="media">
+                            <div class="picture-modal">
+                                <a data-toggle="modal" data-target="#quote-janice"><img src="assets/images/young-woman.jpg" class="quote-image img-circle media-object" alt="Janice Doe's Picture"></a>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="quote">
+                                    <p>We got the guys from Dobi to automate my grannys house so we can take better care of her. Now we can check on her even during work and when we are away! And now she's much more independent and she can even turn on and
+                                        off her appliances from the simplified app. </p>
+                                    <p><strong>Janice Doe</strong></p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------------/Content--------------------------------->
+    </main>
+    <!--------------------------Footer--------------------------------->
+    <footer class="container-fluid">
+        <div class="row" id="footer-details">
+            <div class="about-footer col-sm-8">
+                <h5 class="general-sub">ABOUT</h5>
+                <p class="inline-block">
+                    Automation technology tailored to your needs. From controlling your lights to children's internet, from your tv to your garage gate, we know it all.
+                </p>
+            </div>
+            <div class="follow-us-footer col-sm-3">
+                <h5 class="general-sub">FOLLOW US</h5>
+                <ul class="list-inline social-links" id="social-links-footer">
+                    <li><a target="_blank" href="#"><i class="fa fa-linkedin hvr-fade-social" aria-hidden="true"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fa fa-facebook hvr-fade-social" aria-hidden="true"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fa fa-instagram hvr-fade-social" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--------------------------/Footer--------------------------------->
+    <!--------------------------Modals--------------------------------->
+    <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-signin" id="modal-signin">Welcome back! Please Sign in</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="SignInEmail">Email address</label>
+                            <input type="email" class="form-control" id="SignInEmail" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="SignInPassword">Password</label>
+                            <input type="password" class="form-control" id="SignInPassword" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn button">Sign in</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="modal-signup">Sign in or Sign up!</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="SignUpEmail">Email address</label>
+                            <input type="email" class="form-control" id="SignUpEmail" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="SignUpPassword">Password</label>
+                            <input type="password" class="form-control" id="SignUpPassword" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="SignUpPassword-check">Repeat Password</label>
+                            <input type="password" class="form-control" id="SignUpPassword-check" placeholder="Repeat Your Password">
+                        </div>
+                        <button type="submit" class="btn button">Sign Up!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-box">
+        <div class="modal fade" id="quote-joejane" tabindex="-1" role="dialog" aria-labelledby="quote-joejane">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="Joe-Jane-Doe-Quote">Joe and Jane Doe</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>It allowed us to monitor the internet usage by our children. When it comes bed-time, we just flick the switch on the app! That simple! We also feel they are safer as We can always check if they are using safe websites.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------Quote Robert-->
+        <div class="modal fade" id="quote-robert" tabindex="-1" role="dialog" aria-labelledby="quote-robert">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="Robert-Doe-Quote">Robert Doe</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>The convenience is incredible! They come to your house, ask what you need and there you have it! The app has incredible functionality yet it is brilliantly simple! You're literally two or three taps away from whatever you need!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------Quote janice-->
+        <div class="modal fade" id="quote-janice" tabindex="-1" role="dialog" aria-labelledby="quote-janice">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="Janice-Doe-Quote">Janice Doe</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>We got the guys from Dobi to automate my grannys house so we can take better care of her. Now we can check on her even during work and when we are away! And now she's much more independet and she can eve turn on and off her appliances
+                            from the simplified app. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
