@@ -27,6 +27,11 @@ header {
 
 .collapse.in {
     display: block;
+    margin-top: 0.45rem;
+}
+
+.navbar-collapse {
+    margin-top: 0.45rem;
 }
 
 .menu-button {
@@ -51,5 +56,16 @@ header {
 .social-media-icon {
     color: #084387;
     float: right;
-    padding: 0 2px 0;
+    padding: 0 3px 0;
+}
+
+
+.carousel-item {
+  height: 50vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
