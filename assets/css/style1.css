@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Righteous|Roboto+Condensed:300i,400,700');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,900');
 
 a {
     color: #084387;
@@ -10,6 +11,8 @@ a {
 
 body {
     font-family: "Roboto", Sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .background-image {
@@ -26,7 +29,7 @@ header {
     top: 0;
     left: 0;
     Right: 0;
-    z-index: 1;
+    z-index: 20;
 }
 
 .collapsible-menu {
@@ -63,7 +66,7 @@ header {
 }
 
 .logo-link {
-    font-family: Righteous;
+    font-family: "Righteous";
     font-weight: 600;
     font-size: 2rem;
     color: #084387;
@@ -78,13 +81,36 @@ header {
     font-size: 1rem;
 }
 
-.carousel {
-    margin-top: 4rem;
+/*---- main content ----*/
+
+.carousel-container {
+    padding: 0;
+    margin: 0;
 }
 
+#carousel-main {
+    margin-top: 3.2rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1;
+}
+
+.carousel-control-icon {
+    font-size: 2.5rem;
+    color: #9acef5;
+    text-shadow: 0px 2px 5px black;
+}
+
+.carousel-indicators li {
+    background-color: #9acef5;
+}
+
+
 .carousel-item {
-    height: 95vw;
-    width: 60vh;
+    max-height: 100vw;
+    width: 100vw;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -92,13 +118,73 @@ header {
     background-size: cover;
 }
 
-
-.text-wrap-slide-top {
-    position: absolute;
+.carousel-caption {
     top: 0;
-    left: 0;
+    bottom: 0;
 }
 
+.carousel-caption-top {
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: "Righteous";
+    color: #084387;
+    text-shadow: -1px 1px 0px #9acef5;
+    position: absolute;
+    top: 2rem;
+}
+
+.bottom-text-main {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: right;
+    color: #fff;
+    text-shadow: -1px 1px 0px #084387;
+    position: absolute;
+    bottom: 3rem;
+    right: 0;
+}
+
+.bottom-text-secondary {
+    font-size: 0.8rem;
+    text-align: right;
+    color: #9acef5;
+    text-shadow: 0 2px 4px #084387;
+}
+
+.carousel-item img {
+    opacity: 0.7;
+}
+
+
+/* ---- Callout buttons ----*/
+
+/*.callout-container {
+    margin-left: 0;
+    margin-right: 0;
+}*/
+
+.callout-buttons {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.quote-button {
+    border: 1px solid #084387;
+    border-radius: 2px;
+    background-color: #9acef5;
+    color: #084387;
+    font-weight: 600;
+    text-shadow: -1px 0px 3px #ffffff;
+    box-shadow: inset 0px -12px 19px 2px #08438738;
+    width: 40vw;
+}
+
+.tell-more-button {
+    border: 1px solid #084387;
+    color: #084387;
+    width: 40vw;
+}
 
 /*---- quote form----*/
 
@@ -109,4 +195,102 @@ header {
 
 .help-block {
     font-size: 0.7rem;
+}
+
+/*---- Features cards ----*/
+
+.feature-cards-container {
+    background-color: #9acef5;
+    padding: 2rem 1rem;
+}
+
+.feature-cards {
+    text-align: center;
+    padding: 0;
+    margin: 2.5rem 0;
+}
+
+.feature-cards .card {
+    padding: 2rem 1rem;
+    border: 10px solid #9acef5;
+
+}
+
+.card-icon {
+    font-size: 5rem;
+}
+
+
+
+/*---- Facts Counter ----*/
+
+.counter-quotes {
+    margin: 0;
+    padding: 0;
+}
+
+.counter-left {
+    font-family: "Righteous", sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+    margin: 2rem auto;
+}
+
+p.fact-number {
+    font-size: 3rem;
+    margin-bottom: 0;
+    font-family: "Righteous";
+}
+
+p.fact-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-bottom: 2rem;
+}
+
+/* ---- Quotes ---*/
+
+.customer-quotes {
+    background-color: #9acef5;
+    text-align: center;
+    padding: 2rem 0.5rem;
+}
+
+.counter-quotes .row {
+    padding: 0;
+    margin: 0;
+}
+
+
+.quotes-header p {
+    font-size: 2rem;
+    text-align: center;
+    font-family: roboto;
+    font-weight: 500;
+    margin: 2rem auto;
+}
+
+#carousel-quotes {
+    margin: 3rem auto;
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
+.carousel-inner .carousel-quote {
+    max-width: 100%;
+}
+
+.quote-image {
+    max-width: 40vw;
+    margin-bottom: 2rem;
+}
+
+.carousel-quote p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding: 0 1rem;
 }
