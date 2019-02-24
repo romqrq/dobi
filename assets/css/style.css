@@ -61,6 +61,17 @@ header {
     text-decoration: none;
 }
 
+.mobile-menu-item {
+    padding: 0;
+    line-height: 2.5rem;
+}
+
+.mobile-menu-item a {
+    width: 100%;
+    text-decoration: none;
+    font-weight: 500;
+}
+
 .logo-box {
     text-align: center;
 }
@@ -327,6 +338,7 @@ p.fact-text {
     text-shadow: -1px 0px 3px #ffffff;
     box-shadow: inset 0px -12px 19px 2px #08438738;
     width: 100%;
+    box-sizing: border-box;
 }
 
 
@@ -338,6 +350,7 @@ p.fact-text {
 
 .services-img img {
     opacity: 0.9;
+    width: 100vw;
 }
 
 .services-img p {
@@ -389,6 +402,7 @@ p.fact-text {
 
 .tech-icon-list {
     display: flex;
+    justify-content: space-between;
 }
 
 .tech-icon {
