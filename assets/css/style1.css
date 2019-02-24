@@ -294,3 +294,62 @@ p.fact-text {
     line-height: 1.2rem;
     padding: 0 1rem;
 }
+
+
+/*--- Footer --*/
+
+.footer-details {
+    background-color: #084387;
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 1.5rem 0;
+}
+
+.general-sub {
+    font-size: 1rem;
+}
+
+.about-footer p {
+    margin-bottom: 0;
+}
+
+.free-quote-footer {
+    padding-left: 0;
+}
+
+.quote-button-footer {
+    border: 1px solid #084387;
+    border-radius: 2px;
+    background-color: #9acef5;
+    color: #084387;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-shadow: -1px 0px 3px #ffffff;
+    box-shadow: inset 0px -12px 19px 2px #08438738;
+    width: 100%;
+}
+
+
+/*---- Services ----*/
+
+.services-img {
+    margin-top: 3.4rem;
+}
+
+.services-img img {
+    opacity: 0.9;
+}
+
+.services-img p {
+    position: absolute;
+    right: 0.5rem;
+    margin-top: -10.5rem;
+    font-family: righteous;
+    font-size: 1.4rem;
+    color: #084387;
+    text-shadow: -1px 1px #9acef5;
+}
+
+.services-main-text {
+    font-size: 1rem;
+}

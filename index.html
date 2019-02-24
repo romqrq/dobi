@@ -23,10 +23,10 @@
             </button>
             <div class="navbar-collapse collapse" id="navbar">
                 <ul class="nav navbar-nav">
-                    <li class="btn btn-link"><a class="hvr-back-pulse" href="/">Home</a></li>
-                    <li class="btn btn-link"><a class="hvr-back-pulse" href="/">Services</a></li>
-                    <li class="btn btn-link"><a class="hvr-back-pulse" href="/">Support</a></li>
-                    <li class="btn btn-link"><a class="hvr-back-pulse" href="/">About</a></li>
+                    <li class="btn btn-link"><a class="hvr-back-pulse" href="index.html">Home</a></li>
+                    <li class="btn btn-link"><a class="hvr-back-pulse" href="services.html">Services</a></li>
+                    <li class="btn btn-link"><a class="hvr-back-pulse" href="support.html">Support</a></li>
+                    <li class="btn btn-link"><a class="hvr-back-pulse" href="about.html">About</a></li>
                 </ul>
             </div>
         </div>
@@ -40,11 +40,10 @@
             </div>
             <!--Social Media Buttons-->
             <div class="col-4">
-                <span><a target="_blank" href="#"><i class="fab fa-twitter hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
-                <span><a target="_blank" href="#"><i class="fab fa-facebook-f hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
-                <span><a target="_blank" href="#"><i class="fab fa-instagram hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
-                <span><a target="_blank" href="#"><i class="fab fa-pinterest-p hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
-                </ul>
+                <span><a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
+                <span><a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-f hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
+                <span><a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
+                <span><a target="_blank" href="https://www.pinterest.com"><i class="fab fa-pinterest-p hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </header>
@@ -52,7 +51,7 @@
     <main>
         <!--Carousel-->
         <div class="container-fluid carousel-container">
-            <div id="carousel-main" class="carousel slide carousel-fade" data-ride="carousel">
+            <div id="carousel-main" class="carousel slide carousel-fade" data-interval="7000" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-main" data-slide-to="1"></li>
@@ -206,7 +205,18 @@
     </main>
     <!--Footer-->
     <footer class="container-fluid">
-
+        <div class="row footer-details">
+            <div class="col-8 about-footer">
+                <h5 class="general-sub">ABOUT</h5>
+                <p class="inline-block">
+                    Automation technology tailored to your needs. From controlling your tv to your garage gate, we know it all.
+                </p>
+            </div>
+            <div class="col-4 free-quote-footer">
+                <h5 class="general-sub">Get a Free Quote</h5>
+                <button type="button" class="btn btn-light quote-button-footer" data-toggle="modal" data-target="#free-quote-form">Free Quote</button>
+            </div>
+        </div>
     </footer>
     <!--/Footer-->
     <!--Modals-->
