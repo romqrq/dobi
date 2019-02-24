@@ -343,13 +343,56 @@ p.fact-text {
 .services-img p {
     position: absolute;
     right: 0.5rem;
-    margin-top: -10.5rem;
+    margin-top: 1rem;
     font-family: righteous;
     font-size: 1.4rem;
     color: #084387;
     text-shadow: -1px 1px #9acef5;
+    z-index: 1;
 }
 
-.services-main-text {
+.services-header {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.services-feature-cards-container {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.services-feature-cards {
+    margin: 0;
+    padding: 0;
+}
+
+.services-feature-cards .card {
+    padding: 2rem 1rem;
+    border: solid 10px #ffffff;
+    background-color: #9acef5;
+}
+
+.work-products {
+    background-color: #9acef5;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.work-products .work-products-header {
+    font-size: 2rem;
+}
+
+.work-products-text p {
     font-size: 1rem;
+}
+
+.tech-icon {
+    text-align: center;
+    padding: 0;
+}
+
+.tech-icon i {
+    font-size: 4rem;
+    margin: 1rem;
 }
