@@ -387,6 +387,10 @@ p.fact-text {
     font-size: 1rem;
 }
 
+.tech-icon-list {
+    display: flex;
+}
+
 .tech-icon {
     text-align: center;
     padding: 0;
@@ -395,4 +399,5 @@ p.fact-text {
 .tech-icon i {
     font-size: 4rem;
     margin: 1rem;
+    flex: 1;
 }
