@@ -4,6 +4,7 @@
 a {
     color: #084387;
 }
+
 a:hover {
     text-decoration: none;
 }
@@ -516,6 +517,14 @@ p.fact-text {
     margin: auto;
 }
 
+.faq-header {
+    margin-bottom: 2rem;
+}
+
+.panel-default {
+    margin-bottom: 1rem;
+}
+
 /* Code used from http://www.prepbootstrap.com/bootstrap-template/faq-example to give the functionality to the accordion feature */
 
 .panel-heading [data-toggle="collapse"]:after {
@@ -549,4 +558,79 @@ p.fact-text {
 
 .panel-body {
     background-color: #fff;
+    border-radius: 5px;
+}
+
+.support-form-container {
+    padding: 2rem 0;
+}
+
+.support-form-row {
+    display: flex;
+    margin: auto;
+}
+
+.support-form-header {
+    text-align: center;
+}
+
+.support-form-submit {
+    border: 1px solid #084387;
+    border-radius: 2px;
+    background-color: #9acef5;
+    color: #084387;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-shadow: -1px 0px 3px #ffffff;
+    box-shadow: inset 0px -12px 19px 2px #08438738;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 17rem;
+
+}
+
+
+/*---About---*/
+
+.about-container {
+    margin-top: 3.4rem;
+}
+
+.about-top-image {
+    padding: 0;
+}
+
+.about-top-image img {
+    width: 100%;
+}
+
+.about-top-image h2 {
+    font-family: "Righteous";
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    color: #fff;
+    text-shadow: -2px 2px 2px #084387;
+}
+
+.about-top-image p {
+    font-family: "Righteous";
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    color: #fff;
+    text-shadow: -2px 2px 2px #084387;
+}
+
+
+.about-row {
+    display: flex;
+}
+
+.about-images {
+    flex: 1;
+}
+
+.about-images img {
+    max-width: 100%;
 }
