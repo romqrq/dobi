@@ -39,11 +39,11 @@
                </a>
             </div>
             <!--Social Media Buttons-->
-            <div class="col-4">
-                <span><a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
-                <span><a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-f hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
-                <span><a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
-                <span><a target="_blank" href="https://www.pinterest.com"><i class="fab fa-pinterest-p hvr-fade-social social-media-icon" aria-hidden="true"></i></a></span>
+            <div class="col-4 col-md-2 offset-md-2 social-media">
+                <a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter hvr-fade-social social-media-icon" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-f hvr-fade-social social-media-icon" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram hvr-fade-social social-media-icon" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://www.pinterest.com"><i class="fab fa-pinterest-p hvr-fade-social social-media-icon" aria-hidden="true"></i></a>
             </div>
         </div>
     </header>
@@ -64,6 +64,7 @@
                         <div class="carousel-item active">
                             <img src="assets/images/different-devices-2.jpg" class="d-block w-100" alt="multiple-devices">
                             <div class="carousel-caption">
+                                <h1 class="d-none">Welcome to Dobi!</h1>
                                 <p class="carousel-caption-top">We can give you CONTROL.</p>
                                 <p class="bottom-text-main  align-text-bottom">From your smart watch...<br>...to your desktop.</p>
                             </div>
@@ -113,8 +114,9 @@
             <div class="container callout-container">
                 <div class="row callout-buttons">
                     <div class="col-12">
+                        <h1 class="d-none">Get in touch for a free quote</h1>
                         <button type="button" class="btn btn-light quote-button" data-toggle="modal" data-target="#free-quote-form">Free Quote</button>
-                        <button type="button" class="btn btn-light tell-more-button" href="#">Tell me more</button>
+                        <a href="https://services.html" class="btn btn-light tell-more-button" role="button" aria-pressed="true">Tell me more</a>
                     </div>
                 </div>
             </div>
@@ -178,24 +180,24 @@
                     </div>
                     <div class="col-md-9 customer-quotes">
                         <div class="quotes-header">
-                            <p>What customers say about Dobi</p>
+                            <h2>What customers say about Dobi</h2>
                         </div>
                         <div id="carousel-quotes" class="carousel slide carousel-fade" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active carousel-quote">
-                                    <img src="assets/images/family.jpg" class="rounded quote-image">
+                                    <img src="assets/images/family.jpg" class="rounded quote-image" alt="Jane and John Doe's Family">
                                     <p>It allowed us to monitor the internet usage by our children. When it comes bed-time, we just flick the switch on the app! That simple! We also feel they are safer as We can always check if they are using safe websites.</p>
                                     <p class="text-right"><strong>Jane and John Doe</strong></p>
                                 </div>
                                 <div class="carousel-item carousel-quote">
-                                    <img src="assets/images/busy-man.jpg" class="rounded quote-image"></img>
+                                    <img src="assets/images/busy-man.jpg" class="rounded quote-image" alt="Robert Doe">
                                     <p>The convenience is incredible! They come to your house, ask what you need and there you have it! The app has incredible functionality yet it is brilliantly simple! You're literally two or three taps away from whatever
                                         you need!
                                     </p>
                                     <p class="text-right"><strong>Robert Doe</strong></p>
                                 </div>
                                 <div class="carousel-item carousel-quote">
-                                    <img src="assets/images/young-woman.jpg" class="rounded quote-image"></img>
+                                    <img src="assets/images/young-woman.jpg" class="rounded quote-image" alt="Janice Doe">
                                     <p>We got the guys from Dobi to automate my grannys house so we can take better care of her. Now we can check on her even during work and when we are away! And now she's much more independent and she can even turn on and
                                         off her appliances from the simplified app. </p>
                                     <p class="text-right"><strong>Janice Doe</strong></p>
@@ -228,7 +230,7 @@
     </footer>
     <!--/Footer-->
     <!--Modals-->
-    <div class="modal fade" id="free-quote-form" tabindex="-1" role="dialog" aria-labelledby="freeQuoteForm" aria-hidden="true">
+    <div class="modal fade" id="free-quote-form" tabindex="-1" role="dialog" aria-labelledby="free-quote-form" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -240,13 +242,13 @@
                 <div class="modal-body">
                     <p>Please fill the fields below and we'll be in touch with you on the day and time you picked.</p>
                     <div class="form-group">
-                        <label for="quote-email">Email address</label>
+                        <label for="email-address">Email address</label>
                         <input type="email" class="form-control" id="email-address" placeholder="Email">
                         <p class="help-block">We'll never share your email address</p>
                     </div>
                     <div class="form-group">
-                        <label for="quote-phone">Phone Number</label>
-                        <input type="phone-number" class="form-control" id="phone-number" placeholder="Phone Number">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone-number" placeholder="Phone Number">
                     </div>
                     <div class="row">
                         <div class="col-6">
@@ -301,14 +303,6 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
     <div class="modal-box">
         <div class="modal fade" id="quote-joejane" tabindex="-1" role="dialog" aria-labelledby="quote-joejane">
             <div class="modal-dialog" role="document">
@@ -323,7 +317,7 @@
                 </div>
             </div>
         </div>
-        <!------------------------------------Quote Robert-->
+        <!--Quote Robert-->
         <div class="modal fade" id="quote-robert" tabindex="-1" role="dialog" aria-labelledby="quote-robert">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -337,7 +331,7 @@
                 </div>
             </div>
         </div>
-        <!------------------------------------Quote janice-->
+        <!--Quote janice-->
         <div class="modal fade" id="quote-janice" tabindex="-1" role="dialog" aria-labelledby="quote-janice">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">

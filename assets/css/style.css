@@ -4,6 +4,9 @@
 a {
     color: #084387;
 }
+a:hover {
+    text-decoration: none;
+}
 
 .btn-link {
     color: #084387;
@@ -72,6 +75,14 @@ header {
     font-weight: 500;
 }
 
+.mobile-menu-item a:hover {
+    color: #084387;
+}
+
+.hvr-underline-from-left:before {
+    background: #084387;
+}
+
 .logo-box {
     text-align: center;
 }
@@ -85,11 +96,17 @@ header {
     text-shadow: -1px 2px 2px black;
 }
 
+.social-media {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
 .social-media-icon {
     padding: 0 0.2rem 0;
     color: #084387;
-    float: right;
     font-size: 1rem;
+    flex: 1;
 }
 
 /*---- main content ----*/
@@ -400,18 +417,136 @@ p.fact-text {
     font-size: 1rem;
 }
 
-.tech-icon-list {
-    display: flex;
-    justify-content: space-between;
-}
-
 .tech-icon {
-    text-align: center;
     padding: 0;
 }
 
 .tech-icon i {
     font-size: 4rem;
     margin: 1rem;
+}
+
+.services-video-box {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.services-text-video iframe {
+    margin: 1rem auto;
+    max-width: 100%;
+}
+
+/*--- Support ---*/
+
+.support-header {
+    display: flex;
+}
+
+.support-main-image {
+    padding: 0;
+}
+
+.support-main-image img {
+    max-width: 100%;
+    margin-top: 3.4rem;
+}
+
+.support-main-image h3 {
+    position: absolute;
+    top: 3.5rem;
+    left: 0.6rem;
+    font-family: "Righteous";
+    color: #ffffff;
+    text-shadow: 2px 2px 1px #084387;
+}
+
+.support-main-image p {
+    position: absolute;
+    bottom: 0;
+    right: 0.6rem;
+    font-family: righteous;
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-shadow: 1px -1px 1px #084387;
+}
+
+.support-steps-header {
+    margin-top: 2rem;
+}
+
+.support-steps {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+
+}
+
+.support-step-item {
+    display: flex;
+    align-items: center;
     flex: 1;
+    margin: 1rem auto;
+    justify-content: space-between;
+}
+
+.support-step-item h3 {
+    font-family: "Righteous";
+    background-color: #9acef5;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    text-align: center;
+    margin: auto;
+}
+
+.support-step-item p {
+    font-size: 1rem;
+    padding-left: 1rem;
+    margin: auto;
+}
+
+.faq-container {
+    background-color: #9acef5;
+    display: flex;
+    margin: 2rem auto;
+    padding: 2rem 0;
+}
+
+.faq-row {
+    text-align: center;
+    margin: auto;
+}
+
+/* Code used from http://www.prepbootstrap.com/bootstrap-template/faq-example to give the functionality to the accordion feature */
+
+.panel-heading [data-toggle="collapse"]:after {
+    font-family: 'Roboto';
+    font-weight: 900;
+    content: ">";
+    /* "play" icon */
+    float: right;
+    color: #F58723;
+    font-size: 25px;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+/* Code used from http://www.prepbootstrap.com/bootstrap-template/faq-example to give the functionality to the accordion feature */
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #454444;
+}
+
+.panel-body {
+    background-color: #fff;
 }
