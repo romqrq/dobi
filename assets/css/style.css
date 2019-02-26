@@ -627,34 +627,26 @@ p.fact-text {
     margin-bottom: 1rem;
 }
 
-.about-history-container {
-    padding: 2rem 1rem;
-    background-color: #9acef5;
-    text-align: center;
-}
 
 .carousel-caption-text {
     font-size: 1rem;
     font-weight: 600;
+    line-height: 1.2rem;
     text-align: center;
     color: #fff;
     text-shadow: -2px 1px 7px #084387;
     position: absolute;
-    bottom: 3rem;
+    bottom: 2rem;
     right: 0;
-
 }
 
-.about-history h2 {
-    margin-bottom: 1rem;
-}
 
 .about-why-container {
     padding: 2rem 1rem;
     text-align: center;
 }
 
-.about-why-row{
+.about-why-row {
     align-items: stretch;
 }
 
