@@ -187,11 +187,6 @@ header {
 
 /* ---- Callout buttons ----*/
 
-/*.callout-container {
-    margin-left: 0;
-    margin-right: 0;
-}*/
-
 .callout-buttons {
     text-align: center;
     margin-top: 1rem;
@@ -562,7 +557,7 @@ p.fact-text {
 }
 
 .support-form-container {
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 }
 
 .support-form-row {
@@ -592,45 +587,112 @@ p.fact-text {
 
 /*---About---*/
 
-.about-container {
+.about-main-container {
     margin-top: 3.4rem;
+    text-align: center;
+    padding: 2rem 1rem;
 }
 
-.about-top-image {
+.about-main-image {
     padding: 0;
 }
 
-.about-top-image img {
+.about-main-image img {
     width: 100%;
 }
 
-.about-top-image h2 {
+.about-main-image h2 {
     font-family: "Righteous";
     position: absolute;
     top: 0.5rem;
-    left: 1rem;
+    left: 5rem;
     color: #fff;
     text-shadow: -2px 2px 2px #084387;
 }
 
-.about-top-image p {
+.about-main-image p {
     font-family: "Righteous";
     position: absolute;
     right: 0.5rem;
-    bottom: 0.5rem;
+    bottom: 0;
     color: #fff;
     text-shadow: -2px 2px 2px #084387;
 }
 
+.about-mission-row {
+    margin: 2rem 0;
+}
+
+.about-mission h2 {
+    margin-bottom: 1rem;
+}
+
+.about-history-container {
+    padding: 2rem 1rem;
+    background-color: #9acef5;
+    text-align: center;
+}
+
+.carousel-caption-text {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    text-shadow: -2px 1px 7px #084387;
+    position: absolute;
+    bottom: 3rem;
+    right: 0;
+
+}
+
+.about-history h2 {
+    margin-bottom: 1rem;
+}
+
+.about-why-container {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.about-why-row{
+    align-items: stretch;
+}
+
+.about-team-image img {
+    max-width: 100%;
+}
 
 .about-row {
     display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
 }
 
-.about-images {
+
+.about-images-right {
     flex: 1;
+    order: 3;
+    padding-left: 0;
 }
 
-.about-images img {
+.about-images-right img {
+    max-width: 100%;
+}
+
+.about-images-left {
+    flex: 1;
+    order: 1;
+    padding-right: 0;
+}
+
+.about-images-left img {
+    max-width: 100%;
+}
+
+.about-row-bottom {
+    display: flex;
+}
+
+.about-image-bottom img {
     max-width: 100%;
 }
