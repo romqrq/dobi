@@ -112,6 +112,69 @@ header {
 
 /*---- main content ----*/
 
+.start-button-container {
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+}
+
+.start-button-alert {
+    background-color: #000000db;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-start {
+    margin-top: 5rem;
+    flex: 1;
+    font-family: righteous;
+    font-size: 3rem;
+    text-align: center;
+    color: #9acef5;
+}
+
+.start-button-alert .btn:hover {
+    color: #084387;
+}
+
+.fade {
+    transition: opacity .8s linear;
+}
+
+.start-button {
+    display: flex;
+    flex: 2;
+    margin: 0 auto 5rem;
+    border: none;
+    color: #084387;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Righteous";
+    text-shadow: 0px 1px 17px #fff;
+}
+
+.btn-light:not(:disabled):not(.disabled):active {
+    background-color: transparent;
+    border: none;
+    color: #084387;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: "Righteous";
+    text-shadow: 0px 1px 17px #fff;
+}
+
+.start-button-alert .btn:focus,
+.start-button-alert .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
 .carousel-container {
     padding: 0;
     margin: 0;
@@ -139,7 +202,7 @@ header {
 
 .carousel-item {
     max-height: 100vw;
-    width: 100vw;
+    width: 100%;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -590,7 +653,7 @@ p.fact-text {
 .about-main-container {
     margin-top: 3.4rem;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 0 1rem 2rem;
 }
 
 .about-main-image {
@@ -620,13 +683,16 @@ p.fact-text {
 }
 
 .about-mission-row {
-    margin: 2rem 0;
+    margin: 2rem 0 0;
 }
 
 .about-mission h2 {
     margin-bottom: 1rem;
 }
 
+.about-carousel-container {
+    padding: 0;
+}
 
 .carousel-caption-text {
     font-size: 1rem;
@@ -644,6 +710,7 @@ p.fact-text {
 .about-why-container {
     padding: 2rem 1rem;
     text-align: center;
+    background-color: #9acef5;
 }
 
 .about-why-row {
