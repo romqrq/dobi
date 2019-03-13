@@ -146,6 +146,7 @@ header {
 .fade {
     transition: opacity .8s linear;
 }
+
 /*
 .start-button {
     display: flex;
@@ -175,6 +176,7 @@ header {
     box-shadow: none;
 }
 */
+
 .carousel-container {
     padding: 0;
     margin: 0;
@@ -438,6 +440,21 @@ p.fact-text {
     color: #084387;
     text-shadow: -1px 1px #9acef5;
     z-index: 1;
+}
+
+.services-home-business-container {
+    padding-top: 2rem;
+}
+
+.home-business-card {
+    border: none;
+    padding: 0;
+    text-align: center;
+}
+
+.services-img-card-home-business {
+    height: 40vw;
+    width: 50vw;
 }
 
 .services-header {
