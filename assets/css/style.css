@@ -146,7 +146,7 @@ header {
 .fade {
     transition: opacity .8s linear;
 }
-
+/*
 .start-button {
     display: flex;
     flex: 2;
@@ -174,7 +174,7 @@ header {
     outline: 0;
     box-shadow: none;
 }
-
+*/
 .carousel-container {
     padding: 0;
     margin: 0;
