@@ -452,9 +452,29 @@ p.fact-text {
     text-align: center;
 }
 
+.services-bgimg {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    left: 0;
+}
+
+.services-bgimg i {
+    font-size: 5rem;
+    color: white;
+    opacity: 0.5;
+}
+
 .services-img-card-home-business {
     height: 40vw;
     width: 50vw;
+}
+
+.services-card-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #212528;
 }
 
 .services-header {
@@ -477,6 +497,14 @@ p.fact-text {
     padding: 2rem 1rem;
     border: solid 10px #ffffff;
     background-color: #9acef5;
+}
+
+.services-home-row {
+    text-align: center;
+}
+
+.services-home-text {
+    margin-top: 1rem;
 }
 
 .work-products {
