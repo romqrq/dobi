@@ -275,6 +275,11 @@ header {
     width: 40vw;
 }
 
+.demo-button {
+    margin-top: 1rem;
+    font-weight: 300;
+}
+
 /*---- quote form----*/
 
 .label {
@@ -450,19 +455,29 @@ p.fact-text {
     border: none;
     padding: 0;
     text-align: center;
+    display: flex;
+}
+
+.home-business-icon-home {
+    position: absolute;
+    margin-top: 20vw;
+}
+
+.home-business-icon-business {
+    position: absolute;
+    right: 0;
+    margin-top: 20vw;
 }
 
 .services-bgimg {
-    position: absolute;
-    top: 3rem;
-    right: 0;
-    left: 0;
-}
-
-.services-bgimg i {
     font-size: 5rem;
     color: #9acef5;
     opacity: 0.5;
+    display: flex;
+}
+
+.services-bgimg i {
+    margin: auto;
 }
 
 .services-img-card-home-business {
@@ -504,25 +519,40 @@ p.fact-text {
     padding: 3rem 1rem;
 }
 
-.services-home-row {
+.services-home-row,
+.services-business-row {
     text-align: center;
 }
 
-.services-home-text {
+.services-home-text,
+.services-business-text {
     margin-top: 1rem;
 }
 
-.services-home-text h2{
-    margin: 1rem auto;
+.services-home-text h2,
+.services-business-text h2 {
+    margin: 0.5rem auto 2rem;
 }
-.work-products {
+
+.services-business-container {
+    background-color: white;
+    padding: 3rem 1rem;
+}
+
+.how-it-works-container {
     background-color: #9acef5;
+    padding: 3rem 1rem;
+}
+
+.work-products {
+    background-color: white;
     text-align: center;
     padding: 2rem 1rem;
 }
 
 .work-products .work-products-header {
     font-size: 2rem;
+    margin: 1rem auto 1.5rem;
 }
 
 .work-products-text p {
@@ -538,14 +568,25 @@ p.fact-text {
     margin: 1rem;
 }
 
-.services-video-box {
-    padding: 2rem 0;
+.services-video-row {
+    padding: 1rem 0;
     text-align: center;
+    margin: 0;
+}
+
+.services-text-video {
+    padding: 0;
+}
+
+.services-text-video h2 {
+    margin-bottom: 2rem;
 }
 
 .services-text-video iframe {
     margin: 1rem auto;
-    max-width: 100%;
+    width: 100%;
+    border: none;
+
 }
 
 /*--- Support ---*/
