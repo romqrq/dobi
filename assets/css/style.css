@@ -461,7 +461,7 @@ p.fact-text {
 
 .services-bgimg i {
     font-size: 5rem;
-    color: white;
+    color: #9acef5;
     opacity: 0.5;
 }
 
@@ -471,10 +471,10 @@ p.fact-text {
 }
 
 .services-card-link {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-family: "Righteous", sans-serif;
+    font-weight: 600;
     font-size: 1.2rem;
-    color: #212528;
+    color: #084387;
 }
 
 .services-header {
@@ -499,6 +499,11 @@ p.fact-text {
     background-color: #9acef5;
 }
 
+.services-home-container {
+    background-color: #9acef5;
+    padding: 3rem 1rem;
+}
+
 .services-home-row {
     text-align: center;
 }
@@ -507,6 +512,9 @@ p.fact-text {
     margin-top: 1rem;
 }
 
+.services-home-text h2{
+    margin: 1rem auto;
+}
 .work-products {
     background-color: #9acef5;
     text-align: center;
