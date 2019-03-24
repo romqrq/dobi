@@ -739,12 +739,13 @@ p.fact-text {
 
 /*---About---*/
 
-.about-main-container {
+.about-mission-container {
     margin-top: 3.4rem;
     text-align: center;
     padding: 0 1rem 2rem;
 }
 
+/*
 .about-main-image {
     padding: 0;
 }
@@ -769,6 +770,25 @@ p.fact-text {
     bottom: 0;
     color: #fff;
     text-shadow: -2px 2px 2px #084387;
+}*/
+
+/*--team--*/
+
+.about-team-container {
+    text-align: center;
+    margin: 3.4rem auto;
+}
+
+.about-team-row {
+    display: flex;
+}
+
+.about-team-item {
+    margin: auto;
+}
+
+.about-team-item img {
+    max-width: 100%;
 }
 
 .about-mission-row {
@@ -795,21 +815,31 @@ p.fact-text {
     right: 0;
 }
 
+.about-why-gif {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.about-why-gif img {
+    max-width: 100%;
+    margin-top: 3.25rem
+}
 
 .about-why-container {
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
     text-align: center;
-    background-color: #9acef5;
 }
 
 .about-why-row {
     align-items: stretch;
 }
 
-.about-why-image img{
+/*.about-why-image img{
     max-width: 100%;
     margin-bottom: 1rem;
-}
+}*/
+
 .about-row {
     display: flex;
     align-items: center;
