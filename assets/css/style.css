@@ -319,14 +319,19 @@ header {
 
 /*---- Facts Counter ----*/
 
-.counter-quotes {
-    margin: 0;
+.counter-quotes-container {
     padding: 3rem 0 0;
+}
+
+.counter-quotes-row {
+    display: flex;
+    margin: 0;
 }
 
 .counter-left {
     font-family: "Righteous", sans-serif;
     text-align: center;
+    margin: auto;
 }
 
 p.fact-number {
@@ -585,7 +590,7 @@ p.fact-text {
 /*--- Support ---*/
 
 .support-header-img-container {
-    margin-top: 3.2rem 0 3rem;
+    margin: 3.2rem 0 3rem;
 }
 
 .support-header {
@@ -786,27 +791,20 @@ p.fact-text {
     display: flex;
 }
 
-.about-team-item {
-    margin: auto;
+.about-team-header {
+    margin-bottom: 1rem;
 }
 
 .about-team-item img {
     max-width: 100%;
 }
 
-.about-mission-row {
-    margin: 2rem 0 0;
-}
-
-.about-mission h2 {
-    margin-bottom: 1rem;
-}
-
 /*----our History --*/
 
 .about-our-history-container {
-    background-color: #9acef5;
+    background-color: #fff;
     text-align: center;
+    padding: 3rem 1rem;
 }
 
 .about-carousel-container {
@@ -888,4 +886,37 @@ p.fact-text {
 
 .about-image-bottom img {
     max-width: 100%;
+}
+
+
+/* --- Media --- */
+
+@media (min-width: 767px) {
+    .carousel-caption-top {
+        font-size: 3rem;
+    }
+    .bottom-text-main {
+        font-size: 2rem;
+    }
+    .customer-quotes {
+        background-color: #fff;
+    }
+    .quotes-header {
+        text-align: left;
+    }
+    .support-main-image h3 {
+        top: 1rem;
+        font-size: 3rem;
+        left: 2rem;
+    }
+    .support-main-image p {
+        right: 2rem;
+        font-size: 2rem !important;
+    }
+    .support-steps {
+        flex-direction: row;
+    }
+    .support-form-submit{
+        float: right;
+    }
 }
