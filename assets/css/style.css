@@ -296,18 +296,18 @@ header {
 
 .feature-cards-container {
     background-color: #9acef5;
-    padding: 2rem 1rem;
+    padding: 3rem 0;
 }
 
 .feature-cards {
     text-align: center;
     padding: 0;
-    margin: 2.5rem 0;
+    margin: 0;
 }
 
 .feature-cards .card {
     padding: 2rem 1rem;
-    border: 10px solid #9acef5;
+    border: 1rem solid #9acef5;
 
 }
 
@@ -321,14 +321,12 @@ header {
 
 .counter-quotes {
     margin: 0;
-    padding: 0;
+    padding: 3rem 0 0;
 }
 
 .counter-left {
     font-family: "Righteous", sans-serif;
     text-align: center;
-    margin-top: 1rem;
-    margin: 2rem auto;
 }
 
 p.fact-number {
@@ -428,8 +426,9 @@ p.fact-text {
 
 /*---- Services ----*/
 
-.services-img {
-    margin-top: 3.4rem;
+.services-header-picture {
+    margin: 3.2rem 0 1rem;
+    padding: 0;
 }
 
 .services-img img {
@@ -449,7 +448,7 @@ p.fact-text {
 }
 
 .services-home-business-container {
-    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 .home-business-card {
@@ -489,11 +488,13 @@ p.fact-text {
     font-size: 2rem;
     font-weight: 500;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .services-feature-cards-container {
-    padding: 2rem 1rem;
+    padding: 3rem 0;
     text-align: center;
+    background-color: #9acef5;
 }
 
 .services-feature-cards {
@@ -502,13 +503,13 @@ p.fact-text {
 }
 
 .services-feature-cards .card {
-    padding: 2rem 1rem;
-    border: solid 10px #ffffff;
-    background-color: #9acef5;
+    padding: 2rem 0;
+    border: solid 1rem #9acef5;
+    background-color: #fff;
 }
 
 .services-home-container {
-    background-color: #9acef5;
+    background-color: #fff;
     padding: 3rem 1rem;
 }
 
@@ -528,19 +529,19 @@ p.fact-text {
 }
 
 .services-business-container {
-    background-color: white;
-    padding: 3rem 1rem;
-}
-
-.how-it-works-container {
     background-color: #9acef5;
     padding: 3rem 1rem;
 }
 
+.how-it-works-container {
+    background-color: #fff;
+    padding: 3rem 1rem;
+}
+
 .work-products {
-    background-color: white;
+    background-color: #9acef5;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
 }
 
 .work-products .work-products-header {
@@ -562,7 +563,6 @@ p.fact-text {
 }
 
 .services-video-row {
-    padding: 1rem 0;
     text-align: center;
     margin: 0;
 }
@@ -584,6 +584,10 @@ p.fact-text {
 
 /*--- Support ---*/
 
+.support-header-img-container {
+    margin-top: 3.2rem 0 3rem;
+}
+
 .support-header {
     display: flex;
 }
@@ -594,12 +598,11 @@ p.fact-text {
 
 .support-main-image img {
     max-width: 100%;
-    margin-top: 3.4rem;
 }
 
 .support-main-image h3 {
     position: absolute;
-    top: 3.5rem;
+    top: 0.2rem;
     left: 0.6rem;
     font-family: "Righteous";
     color: #ffffff;
@@ -655,8 +658,7 @@ p.fact-text {
 .faq-container {
     background-color: #9acef5;
     display: flex;
-    margin: 2rem auto;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 .faq-row {
@@ -709,7 +711,7 @@ p.fact-text {
 }
 
 .support-form-container {
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
 }
 
 .support-form-row {
@@ -776,7 +778,8 @@ p.fact-text {
 
 .about-team-container {
     text-align: center;
-    margin: 3.4rem auto;
+    background-color: #9acef5;
+    padding: 3rem 1rem;
 }
 
 .about-team-row {
@@ -797,6 +800,13 @@ p.fact-text {
 
 .about-mission h2 {
     margin-bottom: 1rem;
+}
+
+/*----our History --*/
+
+.about-our-history-container {
+    background-color: #9acef5;
+    text-align: center;
 }
 
 .about-carousel-container {
@@ -827,12 +837,17 @@ p.fact-text {
 }
 
 .about-why-container {
-    padding: 1.5rem 1rem;
+    padding: 2rem 1rem 3rem;
     text-align: center;
 }
 
 .about-why-row {
     align-items: stretch;
+}
+
+.about-why-left,
+.about-why-right {
+    margin-top: 1rem;
 }
 
 /*.about-why-image img{
