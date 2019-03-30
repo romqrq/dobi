@@ -543,6 +543,10 @@ p.fact-text {
     padding: 3rem 1rem;
 }
 
+.services-iframe-demo {
+    height: 300px;
+}
+
 .work-products {
     background-color: #9acef5;
     text-align: center;
@@ -916,7 +920,10 @@ p.fact-text {
     .support-steps {
         flex-direction: row;
     }
-    .support-form-submit{
+    .support-form-submit {
         float: right;
+    }
+    .services-iframe-demo {
+        height: 500px;
     }
 }
