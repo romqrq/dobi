@@ -78,12 +78,22 @@ The accessibility features on the code are still a part that we aren't very conf
 
 ## Deployment
 
-The project was deployed through GitHub Pages and is the same as the development version, where changes are implemented in Cloud9 and then pushed to GitHub. This way we feel it easier to keep a close track of all changes and avoiding different versions of the same file and consequent confusion.
+The project deployment was made using GitHub. 
+1 - Created the cloud9 environment and files (.html, .css and .jpg)
+2 - Created the equivalent repository on GitHub. 
+3 - Pushed the files from cloud9 to the GitHub repository through "bash".
+4 - On GitHub environment, under the tab "Settings", "github Pages" section, I selected "master branch" and saved.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+From this point, all the changes on the pages were made straight from Cloud9 as I pushed the content.
+
+If you wish to run the code locally, it is possible once you have saved the files for the page you wish to run (html, css, images and/or videos).
+1 - Make sure you have a browser installed on your computer.
+2 - Find the saved files
+3 - Right-click (Windows/Linux) or two-finger-click (Mac) on the file and select "Open with" from the action menu.
 
 
 ## Credits
+
 
 ### Content
 - The text for About us that talks about Nikola Tesla is a mix of paragraphs from wikipedia (https://en.wikipedia.org/wiki/Nikola_Tesla) and original text to creat a link between Tesla and Dobi.
