@@ -5,6 +5,10 @@ a {
     color: #084387;
 }
 
+h2 {
+    margin-bottom: 1rem;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -296,7 +300,7 @@ header {
 
 .feature-cards-container {
     background-color: #9acef5;
-    padding: 3rem 0;
+    padding: 3rem 1rem;
 }
 
 .feature-cards {
@@ -497,7 +501,7 @@ p.fact-text {
 }
 
 .services-feature-cards-container {
-    padding: 3rem 0;
+    padding: 3rem 1rem;
     text-align: center;
     background-color: #9acef5;
 }
@@ -515,7 +519,7 @@ p.fact-text {
 
 .services-home-container {
     background-color: #fff;
-    padding: 3rem 1rem;
+    padding: 3rem 2rem;
 }
 
 .services-home-row,
@@ -535,12 +539,12 @@ p.fact-text {
 
 .services-business-container {
     background-color: #9acef5;
-    padding: 3rem 1rem;
+    padding: 3rem 2rem;
 }
 
 .how-it-works-container {
     background-color: #fff;
-    padding: 3rem 1rem;
+    padding: 3rem 2rem;
 }
 
 .services-iframe-demo {
@@ -629,7 +633,7 @@ p.fact-text {
 }
 
 .support-steps-header {
-    margin-top: 2rem;
+    margin: 2rem 0 0;
     text-align: center;
 }
 
@@ -667,7 +671,7 @@ p.fact-text {
 .faq-container {
     background-color: #9acef5;
     display: flex;
-    padding: 3rem 0;
+    padding: 3rem 1rem;
 }
 
 .faq-row {
@@ -788,7 +792,7 @@ p.fact-text {
 .about-team-container {
     text-align: center;
     background-color: #9acef5;
-    padding: 3rem 1rem;
+    padding: 3rem 2rem;
 }
 
 .about-team-row {
@@ -808,7 +812,7 @@ p.fact-text {
 .about-our-history-container {
     background-color: #fff;
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 3rem 2rem;
 }
 
 .about-carousel-container {
@@ -834,12 +838,12 @@ p.fact-text {
 }
 
 .about-why-gif img {
-    max-width: 100%;
+    width: 80vw;
     margin-top: 3.25rem
 }
 
 .about-why-container {
-    padding: 2rem 1rem 3rem;
+    padding: 2rem 2rem 3rem;
     text-align: center;
 }
 
@@ -895,18 +899,33 @@ p.fact-text {
 
 /* --- Media --- */
 
-@media (min-width: 767px) {
+@media (min-width: 676px) {
+    .customer-quotes {
+        background-color: #fff;
+    }
+    .quotes-header {
+        text-align: left;
+    }
+    .services-img p {
+        right: 1rem;
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+    .services-card-link {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1006px) {
     .carousel-caption-top {
         font-size: 3rem;
     }
     .bottom-text-main {
         font-size: 2rem;
     }
-    .customer-quotes {
-        background-color: #fff;
-    }
-    .quotes-header {
-        text-align: left;
+    .services-img-card-home-business {
+        height: 30vw;
+        width: 32vw;
     }
     .support-main-image h3 {
         top: 1rem;
@@ -925,5 +944,26 @@ p.fact-text {
     }
     .services-iframe-demo {
         height: 500px;
+    }
+}
+
+@media (min-width: 1007px) {
+    .carousel-item img {
+        max-width: 60vw;
+        margin: auto;
+    }
+    .carousel-caption-top {
+        font-size: 2rem;
+        max-width: 50vw;
+        left: 5rem;
+    }
+    .bottom-text-main {
+        font-size: 1.5rem;
+        bottom: 4rem;
+        right: 6rem;
+    }
+    .services-img-card-home-business {
+        height: 20vw;
+        width: 22vw;
     }
 }
