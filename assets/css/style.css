@@ -914,11 +914,18 @@ p.fact-text {
     .services-card-link {
         font-size: 2rem;
     }
+    .general-sub {
+        font-size: 1.5rem;
+    }
+    #carousel-main {
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 1006px) {
     .carousel-caption-top {
         font-size: 3rem;
+        top: 5rem;
     }
     .bottom-text-main {
         font-size: 2rem;
@@ -956,6 +963,7 @@ p.fact-text {
         font-size: 2rem;
         max-width: 50vw;
         left: 5rem;
+        top: 5rem;
     }
     .bottom-text-main {
         font-size: 1.5rem;

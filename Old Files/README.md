@@ -9,10 +9,10 @@ This project is for a fictional company that offers automation services and prod
 As the products offered, the website orbitates the practicality and functionality of things and all features are intended to be easily accessible, intuitive and visible for the user. The design is responsive, changing the layout according to the size of the screen. Some buttons are shown or hidden depending on the screen resolution to make sure the user has the main actions always available on screen.
 
 -Four main User Stories were used to structure the website:
-1 - I want to buy the product
-2 - I want to sign up for the service
-3 - I need support
-4 - I need to know more about this before I buy
+1 - I want a quote so I can decide if it's worth it.
+2 - I want to know more how it works.
+3 - I need support so I have my problem sorted.
+4 - I need to find out more about this company. Is it trustworthy?
 
 for these stories we considered both tech savvy and the average internet user that have an interest in automation but aren't sure of what they need.
 
@@ -27,8 +27,8 @@ In this section, you should go over the different parts of your project, and des
 1 - Header - DOBI logo and when the customer clicks on it, it brings the customer to the home page.
 2 - Navigation Bar - screen wider than 768pixels - the bar has all the links to the main sections: Home, Products, Services, Support and About us. 
 2.1 - Navigation  Bar - Screen wider than 767pixels - the bar is collapsed to a single button that is expanded under click/tap.
-3- Footer - Gives access to a short description of the company mission and with the social media buttons its given access to users to the extensions of the company on social media.
-4 - Home - Banner on home screen with promotion and when the user clicks on the button, they can fill in the form with the information of the person they are inviting to join the service.
+3- Footer - Gives access to a short description of the company mission and quote button.
+4 - Home - .
 5 - Home - Quotes - on screens under 767pixels - when the user clicks/taps on the picture, a popup opens with the text of the quote.
 6 - Products - Cards with product description and "add to cart" button that allows the customer to buy the product.
 7 - Services - Demo video that allows customer to see some ways of implementing automation.
@@ -47,21 +47,22 @@ In this section, you should go over the different parts of your project, and des
 
 ## Technologies Used
 
-- Mockflow - https://mockflow.com/ - Used to create initial wireframe for the structure.
-- HTML 5 - https://en.wikipedia.org/wiki/HTML5 - HTML 5 is the latest version of the Hypertext Markup Language and it is  the standard programming language across the internet for structure and content.
-- CSS 3 - https://getbootstrap.com/docs/3.3/ - CSS 3 makes possible to implement responsiveness and style to the HTML document.
-- Font Awesome - https://origin.fontawesome.com/ - It allows the introduction of icons that behave as normal text and are hardwired to users mind across the internet making it more recognizable and requiring minimal effort in understanding.
-- Hover Library - http://ianlunn.github.io/Hover/ - Allows the utilization of pre-made hover effects, accelerating the development and styling process.
-- Google Fonts - https://fonts.google.com/ - Offers a wide variety of font styles.
-- JQuery 3 - https://jquery.com/ - Allowed the creation of animations such as the collapsed button.
-- HTML Validator - https://validator.w3.org - HTML Validator that shows changes necessary for the HTML code to match required standards.
+- [Mockflow](https://mockflow.com/) - Used to create initial wireframe for the structure.
+- [HTML 5](https://en.wikipedia.org/wiki/HTML5) - HTML 5 is the latest version of the Hypertext Markup Language and it is  the standard programming language across the internet for structure and content.
+- [CSS 3](https://getbootstrap.com/docs/3.3/) - CSS 3 makes possible to implement responsiveness and style to the HTML document.
+- [Font Awesome](https://origin.fontawesome.com/) - It allows the introduction of icons that behave as normal text and are hardwired to users mind across the internet making it more recognizable and requiring minimal effort in understanding.
+- [Hover Library](http://ianlunn.github.io/Hover/) - Allows the utilization of pre-made hover effects, accelerating the development and styling process.
+- [Google Fonts](https://fonts.google.com/) - Offers a wide variety of font styles.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Allowed the creation of animations and effects for menus and other features.
+- [JQuery 3](https://jquery.com/) - Allowed the creation of animations such as the collapsed button.
+- [HTML Validator](https://validator.w3.org) - HTML Validator that shows changes necessary for the HTML code to match required standards.
 
 
 ## Testing
 
 During development process, the main tool for tests was the Developer Tools from Google Chrome. 
 The website was deployed on GitHub and tested on different screen resolutions and manufacturers (mobile phones).
-The link was shared through whatsapp and facebook and we asked the users to fill a form with their feedback from January 28th to February 4th. 
+The link was shared through slack, whatsapp and facebook and we asked the users to fill a form with their feedback from January 28th to February 4th. 
 
 We asked the users doing the test to fulfill the four tasks from our User Stories and their feedback was given through the form. During the period we had 4 answers to the form (not allowing me to reach any concrete conclusion). The small number of responses could be due to restrictions of availability to reinforce the request and the fact that the website and the questionaire are on separate links, asking for an extra effort from the user and maybe reducing the full engagement on the experiment. Despite lack of a solid structure for conclusions, the results of the questionaire follows as an attachment on /assets/survey
 
