@@ -13,6 +13,10 @@ a:hover {
     text-decoration: none;
 }
 
+.hvr-fade:hover {
+    background-color: transparent;
+}
+
 .btn-link {
     color: #084387;
 }
@@ -106,6 +110,7 @@ header {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+
 }
 
 .social-media-icon {
@@ -607,6 +612,8 @@ p.fact-text {
 
 .support-main-image {
     padding: 0;
+    display: flex;
+    align-items: start;
 }
 
 .support-main-image img {
@@ -920,6 +927,10 @@ p.fact-text {
     #carousel-main {
         margin-top: 0;
     }
+    .support-main-image img {
+        max-height: 70vh;
+        margin: auto;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 1006px) {
@@ -957,6 +968,7 @@ p.fact-text {
 @media (min-width: 1007px) {
     .carousel-item img {
         max-width: 60vw;
+        max-height: 90vh;
         margin: auto;
     }
     .carousel-caption-top {

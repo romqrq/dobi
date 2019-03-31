@@ -9,10 +9,10 @@ This project is for a fictional company that offers automation services and prod
 As the products offered, the website orbitates the practicality and functionality of things and all features are intended to be easily accessible, intuitive and visible for the user. The design is responsive, changing the layout according to the size of the screen. Some buttons are shown or hidden depending on the screen resolution to make sure the user has the main actions always available on screen.
 
 -Four main User Stories were used to structure the website:
-1 - I want a quote so I can decide if it's worth it.
-2 - I want to know more how it works.
-3 - I need support so I have my problem sorted.
-4 - I need to find out more about this company. Is it trustworthy?
+1. I want a quote so I can decide if it's worth it.
+2. I want to know more how it works.
+3. I need support so I have my problem sorted.
+4. I need to find out more about this company. Is it trustworthy?
 
 for these stories we considered both tech savvy and the average internet user that have an interest in automation but aren't sure of what they need.
 
@@ -24,22 +24,27 @@ In this section, you should go over the different parts of your project, and des
  
 ### Existing Features
 
-1 - Header - DOBI logo and when the customer clicks on it, it brings the customer to the home page.
-2 - Navigation Bar - screen wider than 768pixels - the bar has all the links to the main sections: Home, Products, Services, Support and About us. 
-2.1 - Navigation  Bar - Screen wider than 767pixels - the bar is collapsed to a single button that is expanded under click/tap.
-3- Footer - Gives access to a short description of the company mission and quote button.
-4 - Home - .
-5 - Home - Quotes - on screens under 767pixels - when the user clicks/taps on the picture, a popup opens with the text of the quote.
-6 - Products - Cards with product description and "add to cart" button that allows the customer to buy the product.
-7 - Services - Demo video that allows customer to see some ways of implementing automation.
-8 - Services - Form that, once filled, allows the company to offer a quotation to the user.
-9 - Support - FAQ - Accordion that allows customers to read commonly asked questions and their answers.
-10 - Support - Dismissible alert to encourage customers to look for further support in case their question hasn't been aswered yet.
+1. Header - DOBI logo and when the customer clicks on it, it brings the customer to the home page.
+2. Navigation Bar - Navigation bar fixed at the top of the screen keeping always visible the menu, the company logo and social media links. Menu collapsed through all screen sizes to keep a clean, minimalistic visual. 
+3. Footer - Gives access to a short description of the company mission and quote button.
+4. Home - Carousel with images and text that "talk" to the customer telling what the company does and progressing through different situations where the product can be used and closing saying it is available for "home" or "business".
+5. Home - Callout buttons giving enphasis to "free quote", secondly to "tell me more" and thirdly "watch a demo".
+6. Home - Cards with main points of the product, responsive design that adjustes itself depending on the screen size.
+7. Home - Counter with quotes given, projects finished and projects ongoing.
+8. Home - Carousel with customer quotes.
+9. Services - Image for home automation content. Images with pulse effect to indicate the possibility of interaction.
+10. Services - Image for business automation content. Images with pulse effect to indicate the possibility of interaction.
+11. Services - Cards with product advantages. The order of the cards is responsive to screen size changing shape and position of the cards.
+12. Services - Home automation section showing positive aspects of home automation.
+13. Services - Home automation section showing positive aspects of business automation.
+14. Services - How it works section featuring a video showing an example of how home automation can be used.
+15. Services - Range - Shows known brands of products the company works on its daily basis.
 11 - Support - Form where the customer can fill with their question.
 12 - Sign in/Sign up buttons - Allow new and existent users to either sign in or new users to sign up for the service.
 
 
 ### Features Left to Implement
+- Animated counter (counting from 0)
 - Live chat
 - Shopping cart
 - Interactive animation where buttons can turn on and off appliances on the screen.
@@ -79,17 +84,17 @@ The accessibility features on the code are still a part that we aren't very conf
 ## Deployment
 
 The project deployment was made using GitHub. 
-1 - Created the cloud9 environment and files (.html, .css and .jpg)
-2 - Created the equivalent repository on GitHub. 
-3 - Pushed the files from cloud9 to the GitHub repository through "bash".
-4 - On GitHub environment, under the tab "Settings", "github Pages" section, I selected "master branch" and saved.
+1. Created the cloud9 environment and files (.html, .css and .jpg)
+2. Created the equivalent repository on GitHub. 
+3. Pushed the files from cloud9 to the GitHub repository through "bash".
+4. On GitHub environment, under the tab "Settings", "github Pages" section, I selected "master branch" and saved.
 
 From this point, all the changes on the pages were made straight from Cloud9 as I pushed the content.
 
 If you wish to run the code locally, it is possible once you have saved the files for the page you wish to run (html, css, images and/or videos).
-1 - Make sure you have a browser installed on your computer.
-2 - Find the saved files
-3 - Right-click (Windows/Linux) or two-finger-click (Mac) on the file and select "Open with" from the action menu.
+1. Make sure you have a browser installed on your computer.
+2. Find the saved files
+3. Right-click (Windows/Linux) or two-finger-click (Mac) on the file and select "Open with" from the action menu.
 
 
 ## Credits
