@@ -986,4 +986,14 @@ p.fact-text {
         height: 20vw;
         width: 22vw;
     }
+    .support-main-image h3 {
+        top: 2rem;
+        left: 11rem;
+        font-size: 2rem;
+    }
+    .support-main-image p {
+        right: 11rem;
+        font-size: 1.7rem;
+    }
+
 }
