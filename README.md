@@ -10,7 +10,7 @@ As the products offered, the website orbitates the practicality and functionalit
 
 -Four main User Stories were used to structure the website:
 1. I want a quote so I can decide if it's worth it.
-2. I want to know more how it works.
+2. I want to know where I can use automation and to know more how it works.
 3. I need support so I have my problem sorted.
 4. I need to find out more about this company. Is it trustworthy?
 
@@ -55,11 +55,11 @@ In this section, you should go over the different parts of your project, and des
 - [Mockflow](https://mockflow.com/) - Used to create initial wireframe for the structure.
 - [HTML 5](https://en.wikipedia.org/wiki/HTML5) - HTML 5 is the latest version of the Hypertext Markup Language and it is  the standard programming language across the internet for structure and content.
 - [CSS 3](https://getbootstrap.com/docs/3.3/) - CSS 3 makes possible to implement responsiveness and style to the HTML document.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Allowed the creation of animations and effects for menus and other features.
+- [JQuery 3](https://jquery.com/) - Allowed the creation of animations such as the collapsed button.
 - [Font Awesome](https://origin.fontawesome.com/) - It allows the introduction of icons that behave as normal text and are hardwired to users mind across the internet making it more recognizable and requiring minimal effort in understanding.
 - [Hover Library](http://ianlunn.github.io/Hover/) - Allows the utilization of pre-made hover effects, accelerating the development and styling process.
 - [Google Fonts](https://fonts.google.com/) - Offers a wide variety of font styles.
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Allowed the creation of animations and effects for menus and other features.
-- [JQuery 3](https://jquery.com/) - Allowed the creation of animations such as the collapsed button.
 - [HTML Validator](https://validator.w3.org) - HTML Validator that shows changes necessary for the HTML code to match required standards.
 
 
@@ -102,7 +102,7 @@ If you wish to run the code locally, it is possible once you have saved the file
 
 ### Content
 - The text for About us that talks about Nikola Tesla is a mix of paragraphs from wikipedia (https://en.wikipedia.org/wiki/Nikola_Tesla) and original text to creat a link between Tesla and Dobi.
-
+- 
 
 ### Media
 
@@ -120,4 +120,4 @@ The demo video used in this site was obtained from:
 
 ### Acknowledgements
 
-- I got inspiration from MEO Smart Home (https://www.meo.pt) and SB ITAV (https://www.stevenbrennanit.com/smarthome) and used these two websites as references to what to include or leave out of my project. I used my experience as user on their website to try to find out which features were attractive and useful for me as a user and potential customer and ultimately bring these conclusions as building blocks for my project.
+- I got inspiration from  [Apple](www.apple.com), [MEO Smart Home](https://www.meo.pt) and [SB ITAV](https://www.stevenbrennanit.com/smarthome)  and used these websites as visual references and to help me deciding what to include or leave out of my project. I used my experience as user on their website to try to find out which features were attractive and useful for me as a user and potential customer and ultimately bring these conclusions as building blocks for my project.
