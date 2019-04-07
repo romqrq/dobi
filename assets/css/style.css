@@ -98,12 +98,6 @@ header {
     padding: 0;
 }
 
-.nav-tabs .nav-link {
-    border: none;
-    font-weight: 500;
-    font-size: 1.05rem;
-}
-
 .nav-link {
     padding: .5rem 0.8rem;
 }
@@ -112,13 +106,22 @@ header {
     border-bottom: none;
 }
 
+.nav-tabs .nav-link {
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
 .nav-tabs .nav-link.active {
-    color: #495057;
+    color: #084387;
     background-color: #fff;
-    border-radius: 5px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
+    padding-bottom: 0.7rem;
+    padding-top: 0.4rem;
+    margin-top: 0.5rem;
 }
 
 .logo-box {
@@ -315,7 +318,8 @@ header {
 
 .demo-button {
     margin-top: 1rem;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 1.2rem;
 }
 
 /*---- quote form----*/
@@ -453,6 +457,7 @@ p.fact-text {
 }
 
 .quote-button-footer {
+    max-width: 15rem;
     border: 1px solid #084387;
     border-radius: 2px;
     background-color: #84b3da;
