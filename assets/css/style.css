@@ -246,13 +246,16 @@ header {
 
 
 .carousel-item {
-    max-height: 100vw;
+    display: flex;
+    align-items: center;
+    min-height: 40vh;
+    max-height: 80vh;
     width: 100%;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    opacity: 0.7;
 }
 
 .carousel-caption {
@@ -286,10 +289,6 @@ header {
     text-align: right;
     color: #84b3da;
     text-shadow: 0 2px 4px #084387;
-}
-
-.carousel-item img {
-    opacity: 0.7;
 }
 
 
@@ -493,8 +492,15 @@ p.fact-text {
     padding: 0;
 }
 
+.services-img {
+    max-height: 70vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
 .services-img img {
-    opacity: 0.9;
+    opacity: 0.7;
     width: 100vw;
 }
 
@@ -504,6 +510,7 @@ p.fact-text {
     width: 100vw;
     text-align: center;
     margin-top: 9vw;
+    right: 0px;
 }
 
 .services-img p {
@@ -1090,10 +1097,7 @@ p.fact-text {
     .logo-link {
         padding-left: 2rem;
     }
-    .carousel-item img {
-        max-height: 75vh;
-        margin: auto;
-    }
+
     .carousel-caption-top {
         font-size: 2rem;
         max-width: 50vw;
