@@ -468,6 +468,7 @@ p.fact-text {
 
 .free-quote-footer {
     padding-left: 0;
+    text-align: center;
 }
 
 .quote-button-footer {
@@ -919,14 +920,19 @@ p.fact-text {
 .about-our-history-container {
     background-color: #fff;
     text-align: center;
-    padding: 3rem 2rem;
+    padding: 1rem 0;
+}
+
+.our-history-row {
+    padding: 2rem;
+    margin: 0 0 1rem;
 }
 
 .our-history-text h2 {
     font-family: "Righteous", "Roboto";
 }
 
-.about-carousel-container {
+/*.about-carousel-container {
     padding: 0;
 }
 
@@ -951,7 +957,7 @@ p.fact-text {
 .about-why-gif img {
     width: 80vw;
     margin-top: 3.25rem
-}
+}*/
 
 .about-why-container {
     padding: 2rem 2rem 3rem;
