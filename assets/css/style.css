@@ -647,10 +647,6 @@ p.fact-text {
     font-family: "Righteous", "Roboto";
 }
 
-.work-products-text p {
-    font-size: 1rem;
-}
-
 .tech-icon {
     padding: 0;
 }
@@ -1115,10 +1111,15 @@ p.fact-text {
 }
 
 @media (min-width: 1007px) {
+    .nav-tabs .nav-link.active {
+        font-size: 1.4rem;
+    }
+    .nav-tabs .nav-link {
+        font-size: 1.3rem;
+    }
     .logo-link {
         padding-left: 2rem;
     }
-
     .carousel-caption-top {
         font-size: 2rem;
         max-width: 50vw;
