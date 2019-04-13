@@ -1103,13 +1103,14 @@ p.fact-text {
         width: 32vw;
     }
     .support-main-image h3 {
-        top: 1rem;
-        font-size: 3rem;
+        top: 1.5rem;
+        font-size: 2.5rem;
         left: 2rem;
     }
     .support-main-image p {
         right: 2rem;
-        font-size: 2rem !important;
+        bottom: 1rem;
+        font-size: 2.5rem !important;
     }
 
     .support-form-submit {
@@ -1147,12 +1148,13 @@ p.fact-text {
     }
     .support-main-image h3 {
         top: 2rem;
-        left: 11rem;
-        font-size: 2rem;
+        left: 3rem;
+        font-size: 3rem;
     }
     .support-main-image p {
-        right: 11rem;
-        font-size: 1.7rem;
+        right: 4rem;
+        bottom: 1rem;
+        font-size: 2.5rem;
     }
 
 }
@@ -1160,9 +1162,9 @@ p.fact-text {
 
 
 @media (min-width: 1200px) {
-    /*.container {
-        max-/width: 85vw;
-    }*/
+    .container {
+        max-width: 85vw;
+    }
     .social-media {
         padding: 0 4rem;
     }
