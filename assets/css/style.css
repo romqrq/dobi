@@ -804,7 +804,6 @@ p.fact-text {
     display: flex;
     align-items: center;
     overflow: hidden;
-    margin-bottom: 2rem;
 }
 
 .about-our-history-img img {
@@ -813,7 +812,7 @@ p.fact-text {
 
 
 .our-history-row {
-    padding: 2rem;
+    padding: 1rem;
     margin: 0 0 1rem;
 }
 
@@ -874,6 +873,7 @@ p.fact-text {
 }
 
 */
+
 /* --- Media --- */
 
 @media (max-width: 676px) {
