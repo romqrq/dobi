@@ -27,14 +27,6 @@ body {
     padding: 0 !important;
 }
 
-.background-image {
-    background: url(../images/mobile-jungle.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 header {
     position: fixed;
     background-color: #84b3da;
@@ -42,15 +34,6 @@ header {
     left: 0;
     Right: 0;
     z-index: 20;
-}
-
-.collapsible-menu {
-    display: inline-block;
-}
-
-.collapse.in {
-    display: block;
-    margin-top: 0.45rem;
 }
 
 .navbar-collapse {
@@ -159,7 +142,7 @@ header {
 
 /*---- main content ----*/
 
-.start-button-container {
+/*.start-button-container {
     position: absolute;
     z-index: 9999;
     top: 0;
@@ -188,41 +171,11 @@ header {
 
 .start-button-alert .btn:hover {
     color: #084387;
-}
+}*/
 
 .fade {
     transition: opacity .8s linear;
 }
-
-/*
-.start-button {
-    display: flex;
-    flex: 2;
-    margin: 0 auto 5rem;
-    border: none;
-    color: #084387;
-    font-size: 4rem;
-    font-weight: 600;
-    font-family: "Righteous";
-    text-shadow: 0px 1px 17px #fff;
-}
-
-.btn-light:not(:disabled):not(.disabled):active {
-    background-color: transparent;
-    border: none;
-    color: #084387;
-    font-size: 3rem;
-    font-weight: 600;
-    font-family: "Righteous";
-    text-shadow: 0px 1px 17px #fff;
-}
-
-.start-button-alert .btn:focus,
-.start-button-alert .btn:focus {
-    outline: 0;
-    box-shadow: none;
-}
-*/
 
 .carousel-container {
     padding: 0;
@@ -267,10 +220,6 @@ header {
     width: 100%;
     overflow: hidden;
 }
-
-/*.carousel-item img {
-    opacity: 0.7;
-}*/
 
 .carousel-caption {
     top: 0;
@@ -431,13 +380,14 @@ p.fact-text {
     font-family: "Righteous", "Roboto";
 }
 
+/*
 .quotes-header p {
     font-size: 2rem;
     text-align: center;
-    font-family: roboto;
+    font-family: "Roboto";
     font-weight: 500;
     margin: 2rem auto;
-}
+}*/
 
 #carousel-quotes {
     margin: 3rem auto;
@@ -530,9 +480,6 @@ p.fact-text {
     text-align: center;
     top: 16vh;
     right: 0px;
-}
-
-.services-img p {
     font-family: righteous;
     font-size: 1.8rem;
     color: #084387;
@@ -562,33 +509,6 @@ p.fact-text {
     float: none !important;
     background-color: #fff !important;
 }
-
-/*.services-img-card-home-business {
-    height: 40vw;
-    width: 50vw;
-    animation-name: opacity;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-}
-
-@keyframes opacity {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0.7;
-    }
-}
-
-.services-card-link {
-    font-family: "Righteous", sans-serif;
-    font-weight: 600;
-    font-size: 1.2rem;
-    color: #084387;
-}
-*/
 
 .services-header {
     font-size: 2rem;
@@ -874,64 +794,6 @@ p.fact-text {
 
 /*---About---*/
 
-/*.about-mission-container {
-    margin-top: 3.4rem;
-    text-align: center;
-    padding: 0 1rem 2rem;
-}
-
-.about-main-image {
-    padding: 0;
-}
-
-.about-main-image img {
-    width: 100%;
-}
-
-.about-main-image h2 {
-    font-family: "Righteous";
-    position: absolute;
-    top: 0.5rem;
-    left: 5rem;
-    color: #fff;
-    text-shadow: -2px 2px 2px #084387;
-}
-
-.about-main-image p {
-    font-family: "Righteous";
-    position: absolute;
-    right: 0.5rem;
-    bottom: 0;
-    color: #fff;
-    text-shadow: -2px 2px 2px #084387;
-}*/
-
-/*--team--*/
-
-.about-team-container {
-    text-align: center;
-    background-color: #84b3da;
-    padding: 3rem 2rem;
-}
-
-.about-team-row {
-    display: flex;
-}
-
-.about-team-header {
-    margin-bottom: 1rem;
-}
-
-.about-team-header h2 {
-    font-family: "Righteous", "Roboto";
-}
-
-.about-team-item img {
-    max-width: 100%;
-}
-
-/*----our History --*/
-
 .about-our-history-container {
     text-align: center;
     padding: 1rem 0;
@@ -942,6 +804,7 @@ p.fact-text {
     display: flex;
     align-items: center;
     overflow: hidden;
+    margin-bottom: 2rem;
 }
 
 .about-our-history-img img {
@@ -958,51 +821,23 @@ p.fact-text {
     font-family: "Righteous", "Roboto";
 }
 
-/*.about-carousel-container {
-    padding: 0;
-}
-
-.carousel-caption-text {
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.2rem;
+.about-team-container {
     text-align: center;
-    color: #fff;
-    text-shadow: -2px 1px 7px #084387;
-    position: absolute;
-    bottom: 2rem;
-    right: 0;
+    background-color: #84b3da;
+    padding: 3rem 2rem;
 }
 
-.about-why-gif {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.about-why-gif img {
-    width: 80vw;
-    margin-top: 3.25rem
-}*/
-
-.about-why-container {
-    padding: 2rem 2rem 3rem;
-    text-align: center;
-}
-
-.about-why-row {
-    align-items: stretch;
-}
-
-.about-why-left,
-.about-why-right {
-    margin-top: 1rem;
-}
-
-/*.about-why-image img{
-    max-width: 100%;
+.about-team-header {
     margin-bottom: 1rem;
-}*/
+}
+
+.about-team-header h2 {
+    font-family: "Righteous", "Roboto";
+}
+
+.about-team-item img {
+    max-width: 100%;
+}
 
 .about-row {
     display: flex;
@@ -1010,7 +845,7 @@ p.fact-text {
     margin: 0.5rem 0;
 }
 
-
+/*
 .about-images-right {
     flex: 1;
     order: 3;
@@ -1030,7 +865,6 @@ p.fact-text {
 .about-images-left img {
     max-width: 100%;
 }
-
 .about-row-bottom {
     display: flex;
 }
@@ -1039,7 +873,7 @@ p.fact-text {
     max-width: 100%;
 }
 
-
+*/
 /* --- Media --- */
 
 @media (max-width: 676px) {
@@ -1087,28 +921,18 @@ p.fact-text {
     .social-media-icon {
         font-size: 1.5rem;
     }
-    /*
-    .support-main-image img {
-        max-height: 70vh;
-        margin: auto;
-    }*/
 }
 
 @media (min-width: 767px) and (max-width: 1006px) {
     .logo-link {
         padding-left: 1rem;
     }
-
     .carousel-caption-top {
         font-size: 3rem;
         top: 5rem;
     }
     .bottom-text-main {
         font-size: 2rem;
-    }
-    .services-img-card-home-business {
-        height: 30vw;
-        width: 32vw;
     }
     .support-main-image h3 {
         top: 1.5rem;
@@ -1164,10 +988,7 @@ p.fact-text {
         bottom: 1rem;
         font-size: 2.5rem;
     }
-
 }
-
-
 
 @media (min-width: 1200px) {
     .container {
