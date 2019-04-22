@@ -1,7 +1,5 @@
 # Dobi - Automation Solutions
 
-All the sections and functionalities are easily accessible from the navigation bar and most of them won't take more than 3 clicks/taps from the home page to the end of the process. 
-
 ## UX
 
 This project is for a fictional company that offers automation services and products for house and business. The main products are the service packages and secondarily automation hardware kits and individual products such as cameras, sensors and more.
@@ -16,31 +14,33 @@ As the products offered, the website orbitates the practicality and functionalit
 
 for these stories we considered both tech savvy and the average internet user that have an interest in automation but aren't sure of what they need.
 
+All the sections and functionalities are easily accessible from the navigation bar and most of them won't take more than 3 clicks/taps from the home page to the end of the process. 
+
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
  
 ### Existing Features
 
 1. Header - DOBI logo and when the customer clicks on it, it brings the customer to the home page.
-2. Navigation Bar - Navigation bar fixed at the top of the screen keeping always visible the menu, the company logo and social media links. Menu collapsed through all screen sizes to keep a clean, minimalistic visual. 
+2. Navigation Bar - Navigation bar fixed at the top of the screen keeping always visible the menu, the company logo and social media links. Menu collapsed on small screen sizes and expanded from 676px and up. 
 3. Footer - Gives access to a short description of the company mission and quote button.
 4. Home - Carousel with images and text that "talk" to the customer telling what the company does and progressing through different situations where the product can be used and closing saying it is available for "home" or "business".
 5. Home - Callout buttons giving enphasis to "free quote", secondly to "tell me more" and thirdly "watch a demo".
 6. Home - Cards with main points of the product, responsive design that adjustes itself depending on the screen size.
 7. Home - Counter with quotes given, projects finished and projects ongoing.
 8. Home - Carousel with customer quotes.
-9. Services - Image for home automation content. Images with pulse effect to indicate the possibility of interaction.
-10. Services - Image for business automation content. Images with pulse effect to indicate the possibility of interaction.
+9. Services - Card linked to section with home automation content.
+10. Services - Card linked to section with business automation content.
 11. Services - Cards with product advantages. The order of the cards is responsive to screen size changing shape and position of the cards.
 12. Services - Home automation section showing positive aspects of home automation.
 13. Services - Home automation section showing positive aspects of business automation.
 14. Services - How it works section featuring a video showing an example of how home automation can be used.
 15. Services - Range - Shows known brands of products the company works on its daily basis.
-11 - Support - Form where the customer can fill with their question.
-12 - Sign in/Sign up buttons - Allow new and existent users to either sign in or new users to sign up for the service.
+16. Support - 3 numbered steps to guide customers in case of queries.
+17. Support - FAQ section with accordion to show/hide answers.
+18. Support - Form where the customer can fill with their question or quote request. Elements position is responsive.
+19. About - Company history
+20. About - Cards with team pictures and individual roles within the company.
 
 
 ### Features Left to Implement
