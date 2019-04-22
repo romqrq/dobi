@@ -107,6 +107,10 @@ header {
     border-bottom: none;
 }
 
+.nav-tabs .nav-item {
+    margin-bottom: 0;
+}
+
 .nav-tabs .nav-link {
     border: none;
     font-weight: 500;
@@ -1123,10 +1127,10 @@ p.fact-text {
 
 @media (min-width: 1007px) {
     .nav-tabs .nav-link.active {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     .nav-tabs .nav-link {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .logo-link {
         padding-left: 2rem;
