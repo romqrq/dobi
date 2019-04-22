@@ -119,9 +119,9 @@ The photos used in this site were obtained from:
 - [Demo video](https://www.youtube.com/embed/hYMpMt0lwUY)
 - [Girl bubbles](https://pxhere.com/en/photo/817215)
 - [Team meeting room](https://pxhere.com/en/photo/1557943)
-- [Nikola Tesla](https://it.wikipedia.org/wiki/File:Tesla_Sarony.jpg)
 - [Charles Dawrin](https://pixabay.com/photos/charles-robert-darwin-scientists-62911/)
 - [Leonardo da Vinci](https://en.wikipedia.org/wiki/File:Leonardo_da_Vinci_LUCAN_self-portrait_PORTRAIT.jpg)
+- [Nikola Tesla](https://it.wikipedia.org/wiki/File:Tesla_Sarony.jpg)
 
 
 ### Acknowledgements
