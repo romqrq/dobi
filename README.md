@@ -105,18 +105,18 @@ If you wish to run the code locally, it is possible once you have saved the file
 The photos used in this site were obtained from:
 
 - Carousel images : 
+-   [Different devices](https://www.pexels.com/photo/accessories-business-computer-desk-511425/)
 -   [Tablet on the beach](https://www.publicdomainpictures.net/en/view-image.php?image=261344&picture=tablet-internetbeach-vacation)
--   [Man in the mountains](https://www.goodfreephotos.com/other-landscapes/man-taking-photo-of-mountain-landscape-with-cellphone.jpg.php)
 -   [Man in the jungle](https://pixabay.com/photos/forest-mobile-phone-camera-vacation-2347079/)
+-   [Man in the mountains](https://www.goodfreephotos.com/other-landscapes/man-taking-photo-of-mountain-landscape-with-cellphone.jpg.php)
 -   [Woman sitting on the couch](https://www.pexels.com/photo/woman-sitting-on-sofa-while-looking-at-phone-with-laptop-on-lap-920382/)
 -   [Work environment](https://pxhere.com/en/photo/1547057)
--   
 - [Logos and icons](https://fontawesome.com/icons?d=gallery&m=free)
-- 
 - [Robert Doe](https://pxhere.com/en/photo/1457989)
 - [Doe Family](https://pxhere.com/en/photo/1060077)
 - [Janice Doe](https://pxhere.com/en/photo/1565903)
 - [Family on the beach](https://allaboutplaya.com/record-number-of-tourists-visited-mexico-in-first-quarter/)
+- [Demo video](https://www.youtube.com/embed/hYMpMt0lwUY)
 - [Girl bubbles](https://pxhere.com/en/photo/817215)
 - [Team meeting room](https://pxhere.com/en/photo/1557943)
 - [Nikola Tesla](https://it.wikipedia.org/wiki/File:Tesla_Sarony.jpg)
@@ -124,11 +124,9 @@ The photos used in this site were obtained from:
 - [Leonardo da Vinci](https://en.wikipedia.org/wiki/File:Leonardo_da_Vinci_LUCAN_self-portrait_PORTRAIT.jpg)
 
 
-The demo video used in this site was obtained from:
-
-- Youtube - https://www.youtube.com/embed/hYMpMt0lwUY
-
 ### Acknowledgements
+
+- Special thanks to Simen Daehlin, my mentor and resposible for turning this project 180º. Thank you for pushing and not holding back on what needed to be done to be among the best.
 
 - I got inspiration from  [Apple](www.apple.com), [MEO Smart Home](https://www.meo.pt) and [SB ITAV](https://www.stevenbrennanit.com/smarthome)  and used these websites as visual and content references and to help me deciding what to include or leave out of my project. I used my experience as user on their website to try to find out which features were attractive and useful for me as a user and potential customer and ultimately bring these conclusions as building blocks for my project.
 
