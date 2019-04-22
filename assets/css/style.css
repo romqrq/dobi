@@ -449,6 +449,8 @@ p.fact-text {
 
 .carousel-inner .carousel-quote {
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-image {
