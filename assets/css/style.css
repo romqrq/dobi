@@ -268,9 +268,9 @@ header {
     overflow: hidden;
 }
 
-.carousel-item img {
+/*.carousel-item img {
     opacity: 0.7;
-}
+}*/
 
 .carousel-caption {
     top: 0;
@@ -456,6 +456,7 @@ p.fact-text {
 .quote-image {
     max-width: 40vw;
     margin-bottom: 2rem;
+    opacity: 0.7;
 }
 
 .carousel-quote p {
