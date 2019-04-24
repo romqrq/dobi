@@ -6,7 +6,7 @@ This project is for a fictional company that offers automation services and prod
 
 As the products offered, the website orbitates the practicality and functionality of things and all features are intended to be easily accessible, intuitive and visible for the user. The design is responsive, changing the layout according to the size of the screen. Some buttons are shown or hidden depending on the screen resolution to make sure the user has the main actions always available on screen.
 
--Four main User Stories were used to structure the website:
+Four main User Stories were used to structure the website:
 1. I want a quote so I can decide if it's worth it.
 2. I want to know where I can use automation and to know more how it works.
 3. I need support so I have my problem sorted.
@@ -89,8 +89,10 @@ The project deployment was made using GitHub.
 1. Created the cloud9 environment and files.
 2. Created the equivalent repository on GitHub. 
 3. Pushed the files from cloud9 to the GitHub repository.
-4. On GitHub environment, under the tab "Settings", "github Pages" section, I selected "master branch" and saved.
-5. After a few seconds the page was published.
+4. On GitHub environment, opened the tab "Settings"
+5. Accessed the "github Pages" section
+6. Selected "master branch" and saved.
+7. After a few seconds the page was published.
 
 From this point, all the changes on the pages were made straight from Cloud9 as I pushed the content.
 
