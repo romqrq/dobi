@@ -146,37 +146,6 @@ header {
 
 /*---- main content ----*/
 
-/*.start-button-container {
-    position: absolute;
-    z-index: 9999;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 0;
-}
-
-.start-button-alert {
-    background-color: #000000db;
-    height: 100vh;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.header-start {
-    margin-top: 5rem;
-    flex: 1;
-    font-family: righteous;
-    font-size: 3rem;
-    text-align: center;
-    color: #84b3da;
-}
-
-.start-button-alert .btn:hover {
-    color: #084387;
-}*/
-
 .fade {
     transition: opacity .8s linear;
 }
@@ -384,15 +353,6 @@ p.fact-text {
     font-family: "Righteous", "Roboto";
 }
 
-/*
-.quotes-header p {
-    font-size: 2rem;
-    text-align: center;
-    font-family: "Roboto";
-    font-weight: 500;
-    margin: 2rem auto;
-}*/
-
 #carousel-quotes {
     margin: 3rem auto;
 }
@@ -473,7 +433,6 @@ p.fact-text {
 }
 
 .services-img img {
-    /*opacity: 0.7;*/
     width: 100vw;
 }
 
@@ -848,35 +807,6 @@ p.fact-text {
     margin: 0.5rem 0;
 }
 
-/*
-.about-images-right {
-    flex: 1;
-    order: 3;
-    padding-left: 0;
-}
-
-.about-images-right img {
-    max-width: 100%;
-}
-
-.about-images-left {
-    flex: 1;
-    order: 1;
-    padding-right: 0;
-}
-
-.about-images-left img {
-    max-width: 100%;
-}
-.about-row-bottom {
-    display: flex;
-}
-
-.about-image-bottom img {
-    max-width: 100%;
-}
-
-*/
 
 /* --- Media --- */
 
@@ -885,8 +815,6 @@ p.fact-text {
         display: none;
     }
 }
-
-
 
 @media (min-width: 676px) {
     p {

@@ -81,8 +81,7 @@ After the tests, we are satisfied with the way the website works on different de
 
 The accessibility features on the code are still a part that we aren't very confident that is implemented correctly but is one of the main priorities on the improvements list as people who have sensorial impairments would be an important part of the potential customer base for the company. 
 
-The [W3C Validator](https://validator.w3.org/) was used to check the HTML code.
-
+The [W3C Validator](https://validator.w3.org/) was used to check the HTML code. To validate the CSS code it was used the [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/).
 ## Deployment
 
 The project deployment was made using GitHub. 
