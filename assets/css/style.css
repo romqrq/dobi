@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,900');
 
+/*-- General --*/
+
 html {
     scroll-behavior: smooth;
 }
@@ -77,14 +79,20 @@ header {
     color: #084387;
 }
 
+/*-- Underline effect on dropdown menu --*/
+
 .hvr-underline-from-left:before {
     background: #084387;
 }
+
+/*-- menu-expanded = menu bar over 767px widt --*/
 
 .menu-expanded {
     margin: 0;
     padding: 0;
 }
+
+/*-- nav classes to adjust tabs on menu-expanded --*/
 
 .nav-link {
     padding: .5rem 0.8rem;
@@ -117,6 +125,8 @@ header {
     margin-left: 0.3rem;
 }
 
+/* -- Logo --*/
+
 .logo-box {
     text-align: center;
 }
@@ -129,6 +139,8 @@ header {
     text-align: center;
     text-shadow: -1px 2px 2px black;
 }
+
+/*-- Social media icons on navbar --*/
 
 .social-media {
     display: flex;
@@ -146,9 +158,13 @@ header {
 
 /*---- main content ----*/
 
+/*-- Fading effect for modals in/out --*/
+
 .fade {
-    transition: opacity .8s linear;
+    transition: opacity .2s linear;
 }
+
+/*-- main carousel on index --*/
 
 .carousel-container {
     padding: 0;
@@ -270,9 +286,9 @@ header {
     font-size: 1.2rem;
 }
 
-/*---- quote form----*/
+/*---- quote form modal----*/
 
-.label {
+label {
     margin-bottom: 0;
 }
 
@@ -297,14 +313,11 @@ header {
 .feature-cards .card {
     padding: 2rem 1rem;
     border: 1rem solid #84b3da;
-
 }
 
 .card-icon {
     font-size: 5rem;
 }
-
-
 
 /*---- Facts Counter ----*/
 
@@ -322,6 +335,8 @@ header {
     text-align: center;
     margin: auto;
 }
+
+/*-- Had to use p+class to get priority instead of using !important --*/
 
 p.fact-number {
     font-size: 3rem;
@@ -449,6 +464,8 @@ p.fact-text {
     text-shadow: -2px 1px 6px #84b3da;
 }
 
+/*-- Home and business cards/links --*/
+
 .services-home-business-container {
     padding: 0 1rem 3rem;
 }
@@ -472,6 +489,8 @@ p.fact-text {
     float: none !important;
     background-color: #fff !important;
 }
+
+/*-- Main services cards section --*/
 
 .services-header {
     font-size: 2rem;
@@ -501,6 +520,8 @@ p.fact-text {
     background-color: #fff;
 }
 
+/*-- services - home/business section --*/
+
 .services-home-container {
     background-color: #fff;
     padding: 3rem 2rem;
@@ -527,6 +548,8 @@ p.fact-text {
     padding: 3rem 2rem;
 }
 
+/*-- Demo video section --*/
+
 .how-it-works-container {
     background-color: #fff;
     padding: 3rem 2rem;
@@ -534,27 +557,6 @@ p.fact-text {
 
 .services-iframe-demo {
     height: 300px;
-}
-
-.work-products {
-    background-color: #84b3da;
-    text-align: center;
-    padding: 3rem 1rem;
-}
-
-.work-products-header {
-    font-size: 2rem;
-    margin: 1rem auto 1.5rem;
-    font-family: "Righteous", "Roboto";
-}
-
-.tech-icon {
-    padding: 0;
-}
-
-.tech-icon i {
-    font-size: 4rem;
-    margin: 1rem;
 }
 
 .services-video-row {
@@ -576,6 +578,30 @@ p.fact-text {
     width: 100%;
     border: none;
     min-height: 60vw;
+}
+
+
+/*-- Products/brands section --*/
+
+.work-products {
+    background-color: #84b3da;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.work-products-header {
+    font-size: 2rem;
+    margin: 1rem auto 1.5rem;
+    font-family: "Righteous", "Roboto";
+}
+
+.tech-icon {
+    padding: 0;
+}
+
+.tech-icon i {
+    font-size: 4rem;
+    margin: 1rem;
 }
 
 /*--- Support ---*/
@@ -619,6 +645,8 @@ p.fact-text {
     text-shadow: 1px -1px 1px #084387;
 }
 
+/*-- Steps customer support --*/
+
 .support-steps-header {
     margin: 2rem 0 0;
     text-align: center;
@@ -655,6 +683,8 @@ p.fact-text {
     font-size: 1rem;
     padding-left: 1rem;
 }
+
+/*-- FAQ Section --*/
 
 .faq-container {
     background-color: #84b3da;
@@ -722,6 +752,8 @@ p.fact-text {
     width: 90vw;
 }
 
+/*-- Contact form - support --*/
+
 .support-form-container {
     padding: 3rem 1rem;
 }
@@ -783,6 +815,8 @@ p.fact-text {
     font-family: "Righteous", "Roboto";
 }
 
+/*-- About team --*/
+
 .about-team-container {
     text-align: center;
     background-color: #84b3da;
@@ -810,13 +844,17 @@ p.fact-text {
 
 /* --- Media --- */
 
-@media (max-width: 676px) {
+/*-- for screens under 767px wide --*/
+
+@media (max-width: 767px) {
     .menu-expanded {
         display: none;
     }
 }
 
-@media (min-width: 676px) {
+/*-- for screens over 767px wide --*/
+
+@media (min-width: 767px) {
     p {
         font-size: 1.2rem;
     }
@@ -855,6 +893,8 @@ p.fact-text {
     }
 }
 
+/*-- for screen width between 767px and 1006px --*/
+
 @media (min-width: 767px) and (max-width: 1006px) {
     .logo-link {
         padding-left: 1rem;
@@ -884,6 +924,8 @@ p.fact-text {
         height: 500px;
     }
 }
+
+/*-- for screens over 1007px wide --*/
 
 @media (min-width: 1007px) {
     .nav-tabs .nav-link.active {
@@ -922,6 +964,8 @@ p.fact-text {
     }
 }
 
+/*-- for screens over 1200px wide --*/
+
 @media (min-width: 1200px) {
     .container {
         max-width: 85vw;
@@ -930,6 +974,8 @@ p.fact-text {
         padding: 0 4rem;
     }
 }
+
+/*-- for screens over 1200px wide --*/
 
 @media (min-width: 1800px) {
 
