@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,900');
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     color: #084387;
 }

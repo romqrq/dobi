@@ -60,7 +60,7 @@ All the sections and functionalities are easily accessible from the navigation b
 - [Font Awesome](https://origin.fontawesome.com/) - It allows the introduction of icons that behave as normal text and are hardwired to users mind across the internet making it more recognizable and requiring minimal effort in understanding.
 - [Hover Library](http://ianlunn.github.io/Hover/) - Allows the utilization of pre-made hover effects, accelerating the development and styling process.
 - [Google Fonts](https://fonts.google.com/) - Offers a wide variety of font styles.
-- [HTML Validator](https://validator.w3.org) - HTML Validator that shows changes necessary for the HTML code to match required standards.
+- [Favicon generator](https://realfavicongenerator.net) - Website used to generate a custom favicon.
 
 
 ## Testing
