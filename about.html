@@ -63,10 +63,10 @@
             </div>
             <!--Social Media Buttons-->
             <div class="col-4 col-md-3 social-media">
-                <a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter hvr-fade social-media-icon" aria-hidden="true"></i></a>
-                <a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-f hvr-fade social-media-icon" aria-hidden="true"></i></a>
-                <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram hvr-fade social-media-icon" aria-hidden="true"></i></a>
-                <a target="_blank" href="https://www.pinterest.com"><i class="fab fa-pinterest-p hvr-fade social-media-icon" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://www.twitter.com" aria-label="Follow us on Twitter" rel="noopner"><i class="fab fa-twitter hvr-fade social-media-icon" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://www.facebook.com" aria-label="Follow us on Facebook" rel="noopner"><i class="fab fa-facebook-f hvr-fade social-media-icon" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://www.instagram.com" aria-label="Follow us on Instagram" rel="noopner"><i class="fab fa-instagram hvr-fade social-media-icon" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://www.pinterest.com" aria-label="Follow us on Pinterest" rel="noopner"><i class="fab fa-pinterest-p hvr-fade social-media-icon" aria-hidden="true"></i></a>
             </div>
         </div>
     </header>
@@ -141,52 +141,53 @@
     <div class="modal fade" id="free-quote-form" tabindex="-1" role="dialog" aria-labelledby="free-quote-form" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Free quote</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <form>
+                    <div class="modal-header">
+                        <h5 class="modal-title">Free quote</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
-                </div>
-                <div class="modal-body">
-                    <p>Please fill the fields below and we'll be in touch with you on the day and time you picked.</p>
-                    <div class="form-group">
-                        <label for="quote-email">Email address</label>
-                        <input type="email" class="form-control" id="quote-email" placeholder="Email">
-                        <p class="help-block">We'll never share your email address</p>
                     </div>
-                    <div class="form-group">
-                        <label for="quote-phone">Phone Number</label>
-                        <input type="number" class="form-control" id="quote-phone" placeholder="Phone Number">
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="quote-monday">
-                                <label class="form-check-label" for="quote-monday">Monday</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="quote-tuesday">
-                                <label class="form-check-label" for="quote-tuesday">Tuesday</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="quote-wednesday">
-                                <label class="form-check-label" for="quote-wednesday">Wednesday</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="quote-thursday">
-                                <label class="form-check-label" for="quote-thursday">Thursday</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="quote-friday">
-                                <label class="form-check-label" for="quote-friday">Friday</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="quote-saturday">
-                                <label class="form-check-label" for="quote-saturday">Saturday</label>
-                            </div>
+                    <div class="modal-body">
+                        <p>Please fill the fields below and we'll be in touch with you on the day and time you picked.</p>
+                        <div class="form-group">
+                            <label for="quote-email">Email address</label>
+                            <input type="email" class="form-control" id="quote-email" placeholder="Email">
+                            <p class="help-block">We'll never share your email address</p>
                         </div>
-                        <div class="col-6">
-                            <select class="custom-select">
+                        <div class="form-group">
+                            <label for="quote-phone">Phone Number</label>
+                            <input type="number" class="form-control" id="quote-phone" placeholder="Phone Number">
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="quote-monday">
+                                    <label class="form-check-label" for="quote-monday">Monday</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="quote-tuesday">
+                                    <label class="form-check-label" for="quote-tuesday">Tuesday</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="quote-wednesday">
+                                    <label class="form-check-label" for="quote-wednesday">Wednesday</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="quote-thursday">
+                                    <label class="form-check-label" for="quote-thursday">Thursday</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="quote-friday">
+                                    <label class="form-check-label" for="quote-friday">Friday</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="quote-saturday">
+                                    <label class="form-check-label" for="quote-saturday">Saturday</label>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <select class="custom-select">
                               <option selected>Time</option>
                               <option value="1">8:00h</option>
                               <option value="2">9:00h</option>
@@ -200,13 +201,14 @@
                               <option value="3">17:00h</option>
                               <option value="3">18:00h</option>
                             </select>
-                        </div>
+                            </div>
 
+                        </div>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Send</button>
-                </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn quote-button">Send</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

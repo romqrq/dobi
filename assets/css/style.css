@@ -1002,3 +1002,14 @@ p.fact-text {
         padding: 0 4rem;
     }
 }
+
+@media (min-width: 1800px) {
+
+    #tablet-beach {
+        margin-bottom: 25rem;
+    }
+
+    #couch-home {
+        margin-top: 25rem;
+    }
+}
